@@ -1,0 +1,14 @@
+# Snapshot "SolarDay.depressionSearch" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	16	9435acdd3f056786	1eb2f1dcc63482ab
+member	depressionAfterSunset	8	3a0aa321093a1eda	4c11ed53db4fa07a
+member	depressionBeforeSunrise	8	5a2b09bc35cb48ac	d2a10488eae4e231
+group	Jerusalem ALMANAC	2	2f0d770517941b8d	56e1924194ed00f3
+group	Jerusalem NOAA	2	eb9c3b5689de68df	a41464c98a373c60
+group	Lakewood NJ ALMANAC	2	a1937c9d64bc507c	4fa817ed88d81df8
+group	Lakewood NJ NOAA	2	8885cfb1d668774a	ab0e3628359ad7f7
+group	Sydney ALMANAC	2	979221636a33b989	216f1b0e905cc252
+group	Sydney NOAA	2	8835deaf972078f6	d7ece38df726a442
+group	Tromso ALMANAC	2	a7ad61a3745f7532	a7ad61a3745f7532
+group	Tromso NOAA	2	87fd4c7becba73a3	87fd4c7becba73a3

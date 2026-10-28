@@ -1,0 +1,59 @@
+# Luach, a Kotlin Multiplatform library for the Hebrew calendar and zmanim.
+# Copyright (C) 2026 Esko Tech Inc.
+#
+# This program is free software: you can redistribute it and/or modify it
+# under the terms of the GNU General Public License version 3 as published
+# by the Free Software Foundation.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+# You should have received a copy of the GNU General Public License along
+# with this program. If not, see <https://www.gnu.org/licenses/>.
+#
+# Additional permission under GNU GPL version 3 section 7: this program may
+# be conveyed through Apple's application distribution services as set out
+# in ADDITIONAL-PERMISSIONS.md at the root of the repository.
+
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    name: Publish to Maven Central
+    runs-on: macos-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - uses: actions/cache@v4
+        with:
+          path: ~/.konan
+          key: konan-${{ runner.os }}-${{ runner.arch }}-${{ hashFiles('gradle/libs.versions.toml') }}
+
+      - run: ./gradlew allTests --console=plain --stacktrace
+
+      - run: ./gradlew publishAndReleaseToMavenCentral --no-configuration-cache --console=plain --stacktrace
+        env:
+          ORG_GRADLE_PROJECT_mavenCentralUsername: ${{ secrets.MAVEN_CENTRAL_USERNAME }}
+          ORG_GRADLE_PROJECT_mavenCentralPassword: ${{ secrets.MAVEN_CENTRAL_PASSWORD }}
+          ORG_GRADLE_PROJECT_signingInMemoryKey: ${{ secrets.SIGNING_KEY }}
+          ORG_GRADLE_PROJECT_signingInMemoryKeyId: ${{ secrets.SIGNING_KEY_ID }}
+          ORG_GRADLE_PROJECT_signingInMemoryKeyPassword: ${{ secrets.SIGNING_KEY_PASSWORD }}

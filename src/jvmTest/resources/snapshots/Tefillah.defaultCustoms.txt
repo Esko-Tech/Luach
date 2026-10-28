@@ -1,0 +1,17 @@
+# Snapshot "Tefillah.defaultCustoms" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	12	e1d0a94347f2bf97	e1d0a94347f2bf97
+member	getOmit13SivanOutsideIsrael	1	2c7b15fa6cda9cbf	2c7b15fa6cda9cbf
+member	getOmit15IyarOutsideIsrael	1	e77347e25bc9e222	e77347e25bc9e222
+member	getOmitAfterSukkos	1	bfe305e4ca346ae6	bfe305e4ca346ae6
+member	getOmitFridays	1	efe8fee4049301bb	efe8fee4049301bb
+member	getOmitMincha	1	ff9851bf0a1feea1	ff9851bf0a1feea1
+member	getOmitMinchaErevLagBaomer	1	7cf9a411924d6f57	7cf9a411924d6f57
+member	getOmitPesachSheni	1	aaac5a3bb03e0c2c	aaac5a3bb03e0c2c
+member	getOmitShivasYemeiHamiluim	1	8e1216301e1a58ec	8e1216301e1a58ec
+member	getOmitSundays	1	c08527e354df535f	c08527e354df535f
+member	getOmitWeekAfterShavuos	1	45d04eb3e379a7e5	45d04eb3e379a7e5
+member	getOmitWeekOfHod	1	c34a2f9ee369cace	c34a2f9ee369cace
+member	getOmitWeekOfPurim	1	9f263a2b29fe4af3	9f263a2b29fe4af3
+group	all	12	e1d0a94347f2bf97	e1d0a94347f2bf97

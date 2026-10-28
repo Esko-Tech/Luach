@@ -1,0 +1,31 @@
+# Snapshot "Tefillah.allRulesEveryDay1990To2060" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	18879224	d15374d03a240daf	d15374d03a240daf
+member	alHanissim	1348516	b315a93d4e12ad90	b315a93d4e12ad90
+member	all	1348516	5f1345d996db5381	5f1345d996db5381
+member	hallel	1348516	735a2e8c71cc7d5e	735a2e8c71cc7d5e
+member	isMashivHaruachEnd	1348516	55e4ea57ddc0faf3	55e4ea57ddc0faf3
+member	isMashivHaruachStart	1348516	ce3430c8f9851d39	ce3430c8f9851d39
+member	isVeseinTalUmatarStart	1348516	99c97c7e44adb357	99c97c7e44adb357
+member	mashivHaruach	1348516	67bafb4ae0f42db1	67bafb4ae0f42db1
+member	moridHatal	1348516	51bc9e3035584746	51bc9e3035584746
+member	tachanunAtMincha	1348516	4892ee2ccca87889	4892ee2ccca87889
+member	tachanunAtShacharis	1348516	f4bc206d66573f4c	f4bc206d66573f4c
+member	veseinBerachah	1348516	a38e06039531afff	a38e06039531afff
+member	veseinTalUmatar	1348516	e95b2e2a70c5ade5	e95b2e2a70c5ade5
+member	veseinTalUmatarStartsTonight	1348516	9688cf7537de6940	9688cf7537de6940
+member	yaalehVeyavo	1348516	73b513d54053cfcd	73b513d54053cfcd
+group	default customs	1452248	cf0532be339bf18f	cf0532be339bf18f
+group	omit13SivanOutsideIsrael flipped	1452248	3bd9ee41c7f53f62	3bd9ee41c7f53f62
+group	omit15IyarOutsideIsrael flipped	1452248	16622bb8c91ebdda	16622bb8c91ebdda
+group	omitAfterSukkos flipped	1452248	6e0a507ccb5a2382	6e0a507ccb5a2382
+group	omitFridays flipped	1452248	ce70a935f098c8f9	ce70a935f098c8f9
+group	omitMincha flipped	1452248	32c3f2cb5472b22b	32c3f2cb5472b22b
+group	omitMinchaErevLagBaomer flipped	1452248	f2a7fc183361ff7a	f2a7fc183361ff7a
+group	omitPesachSheni flipped	1452248	0561e2663c00ece1	0561e2663c00ece1
+group	omitShivasYemeiHamiluim flipped	1452248	aa4de9d556412ef8	aa4de9d556412ef8
+group	omitSundays flipped	1452248	fcddd5ec6e37e54c	fcddd5ec6e37e54c
+group	omitWeekAfterShavuos flipped	1452248	f31ee613ee943191	f31ee613ee943191
+group	omitWeekOfHod flipped	1452248	d3f3b42a645e3d3d	d3f3b42a645e3d3d
+group	omitWeekOfPurim flipped	1452248	da8b031ade4010d1	da8b031ade4010d1

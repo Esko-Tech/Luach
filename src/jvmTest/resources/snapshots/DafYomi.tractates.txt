@@ -1,0 +1,8 @@
+# Snapshot "DafYomi.tractates" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	3	fe87fc9829b22208	fe87fc9829b22208
+member	bavli	1	c7c7101c55d21e64	c7c7101c55d21e64
+member	cycle starts	1	c42a9c3a3a2f4a1a	c42a9c3a3a2f4a1a
+member	yerushalmi	1	7296504199b0b98a	7296504199b0b98a
+group	all	3	fe87fc9829b22208	fe87fc9829b22208

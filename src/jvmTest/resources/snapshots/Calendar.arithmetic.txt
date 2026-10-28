@@ -1,0 +1,33 @@
+# Snapshot "Calendar.arithmetic" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	63644	a3d048031b1dc856	a3d048031b1dc856
+member	minusDays(1)	7300	76ab4ac1b9e7d828	76ab4ac1b9e7d828
+member	of(year, month, 30)	416	316d81400ba443c0	316d81400ba443c0
+member	plusDays(-1)	29	e1e8153b8207897d	e1e8153b8207897d
+member	plusDays(-13)	29	a7a42f25fa46f127	a7a42f25fa46f127
+member	plusDays(1)	55029	a1b37679e84e953a	a1b37679e84e953a
+member	plusDays(100)	29	106e162d45392908	106e162d45392908
+member	plusDays(13)	29	7e192b9586620bdd	7e192b9586620bdd
+member	plusDays(2)	29	5d7efbf84fc8e7fe	5d7efbf84fc8e7fe
+member	plusDays(30)	29	e516ddca6bde94d6	e516ddca6bde94d6
+member	plusDays(7)	29	cbbab78b70c53fad	cbbab78b70c53fad
+member	plusMonths(-1)	29	d433bebd3f9eb91d	d433bebd3f9eb91d
+member	plusMonths(-13)	29	6ddd5f11331c21ba	6ddd5f11331c21ba
+member	plusMonths(1)	29	cadae9159ba11791	cadae9159ba11791
+member	plusMonths(100)	29	0725edbc6c473739	0725edbc6c473739
+member	plusMonths(13)	29	d38ca2f083d3780c	d38ca2f083d3780c
+member	plusMonths(2)	29	f2265136938b49a4	f2265136938b49a4
+member	plusMonths(30)	29	c48152fb460f2eca	c48152fb460f2eca
+member	plusMonths(7)	29	640fd9b0dfed3bb2	640fd9b0dfed3bb2
+member	plusYears(-1)	29	2a89310d4159ef63	2a89310d4159ef63
+member	plusYears(-13)	29	6ff32922912909d6	6ff32922912909d6
+member	plusYears(1)	29	04a6cca4ce633249	04a6cca4ce633249
+member	plusYears(100)	29	122c7c07068b73b4	122c7c07068b73b4
+member	plusYears(13)	29	29d478ecf88063eb	29d478ecf88063eb
+member	plusYears(2)	29	09a36ac090c5637e	09a36ac090c5637e
+member	plusYears(30)	29	8d0c0eec24a6a2ac	8d0c0eec24a6a2ac
+member	plusYears(7)	29	923ecce2a2f456bd	923ecce2a2f456bd
+member	withDay(29)	232	2d377649489bf555	2d377649489bf555
+group	day by day	62300	bdb14f3254e01240	bdb14f3254e01240
+group	steps	1344	e61ef8d0c63db616	e61ef8d0c63db616

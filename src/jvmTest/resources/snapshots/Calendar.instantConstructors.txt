@@ -1,0 +1,12 @@
+# Snapshot "Calendar.instantConstructors" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	36960	4643926697ae495d	4643926697ae495d
+member	HebrewDate.from(instant, zone)	18480	fa497b98973f2993	fa497b98973f2993
+member	HebrewDay(instant, zone)	18480	4bfa16ce006f1fca	4bfa16ce006f1fca
+group	America/New_York	6160	705875d1f30c177a	705875d1f30c177a
+group	America/Santiago	6160	76ab211a45323fef	76ab211a45323fef
+group	Asia/Jerusalem	6160	b306658be6c50520	b306658be6c50520
+group	Pacific/Apia	6160	f5bc8ea0a7bf90a0	f5bc8ea0a7bf90a0
+group	Pacific/Kiritimati	6160	8b7db634ae96e5e8	8b7db634ae96e5e8
+group	UTC	6160	2aff51192254764c	2aff51192254764c

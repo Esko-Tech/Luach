@@ -1,0 +1,12 @@
+# Snapshot "Location.constructionAndValidation" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	282	1098b28e5c71c070	351fd36d3035e1bb
+member	constructor	11	edce2fd9037e1c8e	1cc229203f6f0f8e
+member	coordinate	162	989205959a809af7	fb112fb4565c0f86
+member	copy	11	43aa8634f03872bc	d6be83adcc302c78
+member	equals	49	a34fa9dafe4b44a9	a34fa9dafe4b44a9
+member	hashCode equal	49	a33e4d0fcfef5186	a33e4d0fcfef5186
+group	decimal degrees	22	3178b60df3b68f4a	f380acce0b9f3c06
+group	degrees, minutes, seconds	162	989205959a809af7	fb112fb4565c0f86
+group	equality	98	468df6eace3a962f	468df6eace3a962f

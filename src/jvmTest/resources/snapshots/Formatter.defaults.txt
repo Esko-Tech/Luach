@@ -1,0 +1,28 @@
+# Snapshot "Formatter.defaults" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	103	c79603a72faff9de	c79603a72faff9de
+member	abbreviatedWeekdays	1	a93ea49dc0a7edc9	a93ea49dc0a7edc9
+member	adarInLeapYear	1	ef73d0ee0409f4ea	ef73d0ee0409f4ea
+member	amPmNames	1	0ccef35af854565c	0ccef35af854565c
+member	bavliNames	1	b91d7a7c54fbe0da	b91d7a7c54fbe0da
+member	finalLetters	1	b3095b24941ab4a3	b3095b24941ab4a3
+member	formatMonth	26	45676c50bbf96b3b	45676c50bbf96b3b
+member	formatMonth hebrew	26	ec888fbb490b0065	ec888fbb490b0065
+member	formatZman	16	962b8a34d661c23c	962b8a34d661c23c
+member	formatZman hebrew	16	df9a81adbb3d48c9	df9a81adbb3d48c9
+member	hebrew	1	d6ad10a906d92f56	d6ad10a906d92f56
+member	holidayNames	1	a5c7833eb6db1845	a5c7833eb6db1845
+member	monthNames	1	44f23168efcec320	44f23168efcec320
+member	noDafName	1	39586e866f9bc1dd	39586e866f9bc1dd
+member	omerFormat	1	09eea665d8b1aac0	09eea665d8b1aac0
+member	omerPrefix	1	3e447ec4ed1e38b3	3e447ec4ed1e38b3
+member	parshaNames	1	e521a8101bf1c0c6	e521a8101bf1c0c6
+member	quoteMarks	1	ad5ead2fc9f67b64	ad5ead2fc9f67b64
+member	roshChodeshName	1	931492e9cb64af86	931492e9cb64af86
+member	thousands	1	5d509ac06d0c180d	5d509ac06d0c180d
+member	twelveHourClock	1	6e1b97964d88502d	6e1b97964d88502d
+member	weekdayNames	1	f0ddf16d8722ba43	f0ddf16d8722ba43
+member	yerushalmiNames	1	92e25086d6bd7e60	92e25086d6bd7e60
+member	zmanNames	1	568407ba463f7815	568407ba463f7815
+group	all	103	c79603a72faff9de	c79603a72faff9de

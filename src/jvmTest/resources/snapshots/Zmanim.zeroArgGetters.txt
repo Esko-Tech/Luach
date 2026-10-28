@@ -1,0 +1,94 @@
+# Snapshot "Zmanim.zeroArgGetters" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	91880	2c8f99b084418351	f9a4f7c46daa9171
+member	getAlos	9188	33c1564cce7f8eb5	e343b3cef6c4d621
+member	getChatzos	9188	3e6e46268a80f524	dbb1a16725b29ad8
+member	getChatzosHalaylah	9188	c38c0a5f1d9e55b4	15ff606cc00d3334
+member	getFixedLocalChatzos	9188	da8908f603e985c6	3024a77eda0710b8
+member	getHadlakasNeiros	9188	64d8fd475782f404	03959c2f4ed1bb17
+member	getHanetz	9188	e28dc177eb860f7e	f19bd4319f3f44b8
+member	getHebrewDay	9188	1d97d4ed89b1dd55	1d97d4ed89b1dd55
+member	getMolad	9188	36227c0b86c23379	f242627572a0aceb
+member	getShkiah	9188	6727ad76f9129be7	b4fbf4f407e267a6
+member	getTzais	9188	1a022cb8bd2973c7	3a83fdeac4d8ead7
+group	Anadyr ALMANAC useElevation=false hadlakasNeiros=18.0	980	0dc41e2c22aee61b	dd6fe3339036dd74
+group	Anadyr ALMANAC useElevation=true hadlakasNeiros=18.0	980	5128438bd2b70bb0	217a8946ab774774
+group	Anadyr NOAA useElevation=false hadlakasNeiros=18.0	980	98d28cf4fd78c400	f2442dc634a02184
+group	Anadyr NOAA useElevation=true hadlakasNeiros=18.0	980	e8e356c285c80c4a	37670fe17063b343
+group	Anchorage ALMANAC useElevation=false hadlakasNeiros=18.0	390	220f12e498a5a36e	05a4c633b6993e34
+group	Anchorage ALMANAC useElevation=true hadlakasNeiros=18.0	390	3e39b822505b593c	c4f8423683b61310
+group	Anchorage NOAA useElevation=false hadlakasNeiros=18.0	390	0dc16f83d555596d	6449f0de30df753b
+group	Anchorage NOAA useElevation=true hadlakasNeiros=18.0	390	af9377943d5fe09d	ae295be1515c605f
+group	Apia Samoa ALMANAC useElevation=false hadlakasNeiros=18.0	3880	05367fb76948193a	aeadbe0e9bc2e4ec
+group	Apia Samoa ALMANAC useElevation=true hadlakasNeiros=18.0	3880	03952945a544cedd	94c484293fe1fd49
+group	Apia Samoa NOAA useElevation=false hadlakasNeiros=18.0	3880	3d359d9062ebf5d0	42747308dd5073ba
+group	Apia Samoa NOAA useElevation=true hadlakasNeiros=18.0	3880	7afc277fd0561479	fb8dd79f160ee4ae
+group	Baker Island ALMANAC useElevation=false hadlakasNeiros=18.0	390	c84427a0bcd45259	0c55f4e996e45803
+group	Baker Island ALMANAC useElevation=true hadlakasNeiros=18.0	390	4485aa4cd90c8860	767b37e117a799bd
+group	Baker Island NOAA useElevation=false hadlakasNeiros=18.0	390	00080bd316b81a5c	a8192f3a8128b575
+group	Baker Island NOAA useElevation=true hadlakasNeiros=18.0	390	1208ab4d62c8e945	ea6d6ded2086fc34
+group	Chatham Islands ALMANAC useElevation=false hadlakasNeiros=18.0	390	710b55328d82e4c6	c09a9c5cd14ca50d
+group	Chatham Islands ALMANAC useElevation=true hadlakasNeiros=18.0	390	68410fd1c8e6ac9a	cef72d31f1fa2a08
+group	Chatham Islands NOAA useElevation=false hadlakasNeiros=18.0	390	a2cef2f0cd7b20bb	559d6bd1f9dcbc70
+group	Chatham Islands NOAA useElevation=true hadlakasNeiros=18.0	390	eeea719bc6c23f71	07037eb61f7efba1
+group	Denver ALMANAC useElevation=false hadlakasNeiros=18.0	390	a403ccb4229c9039	606ef0180d3f6c40
+group	Denver ALMANAC useElevation=true hadlakasNeiros=18.0	390	02162d563bbcfd38	20e3fca49e7eb6f8
+group	Denver NOAA useElevation=false hadlakasNeiros=18.0	390	d81d729f97a29222	5f56f21799bfec24
+group	Denver NOAA useElevation=true hadlakasNeiros=18.0	390	fe42e97f92d0b80f	0bd8ecdab0dd1ac3
+group	Honolulu ALMANAC useElevation=false hadlakasNeiros=18.0	390	2d1f03798bf064b3	32be497c7fb16025
+group	Honolulu ALMANAC useElevation=true hadlakasNeiros=18.0	390	85d22dec78f4ccb4	ec47d40f19fa0814
+group	Honolulu NOAA useElevation=false hadlakasNeiros=18.0	390	e00f4d7c3306a1dc	d6b07ec4e5224c1d
+group	Honolulu NOAA useElevation=true hadlakasNeiros=18.0	390	7ac59f203c8eedca	63c36854052e1f51
+group	Jerusalem ALMANAC useElevation=false hadlakasNeiros=18.0	3880	a0e0f341d09b6b04	4eac925684748c84
+group	Jerusalem ALMANAC useElevation=true hadlakasNeiros=18.0	3880	018441a5dd8da132	170f96ed558ffc5c
+group	Jerusalem NOAA useElevation=false hadlakasNeiros=18.0	3880	fa0e0ef1c3637225	4700c293bcfa8880
+group	Jerusalem NOAA useElevation=true hadlakasNeiros=18.0	3880	d75c1cfd4928058f	0a3f613b281d018b
+group	Kathmandu ALMANAC useElevation=false hadlakasNeiros=18.0	390	46b93eff970891a7	cf36b91cbb06e9eb
+group	Kathmandu ALMANAC useElevation=true hadlakasNeiros=18.0	390	a58135562a7de0b7	25f05899b090a9fa
+group	Kathmandu NOAA useElevation=false hadlakasNeiros=18.0	390	cd1fa8b480562e0a	3953983fcf595b95
+group	Kathmandu NOAA useElevation=true hadlakasNeiros=18.0	390	ae492e76e4021fd0	59a7d921686d9688
+group	Kiritimati ALMANAC useElevation=false hadlakasNeiros=18.0	390	22788e4a8c641289	07e4dcb16fa5e029
+group	Kiritimati ALMANAC useElevation=true hadlakasNeiros=18.0	390	ddc02f84e279a689	a3eb2fa5070a29a9
+group	Kiritimati NOAA useElevation=false hadlakasNeiros=18.0	390	9510977dbadb271f	6eaf827312fa0990
+group	Kiritimati NOAA useElevation=true hadlakasNeiros=18.0	390	805618fdfb6c3f60	7d00069f84647e8c
+group	Kolkata ALMANAC useElevation=false hadlakasNeiros=18.0	390	1d9e5743ffc06437	89557cbf701d9931
+group	Kolkata ALMANAC useElevation=true hadlakasNeiros=18.0	390	225951cd7df1e19f	f3deb8f6f4307726
+group	Kolkata NOAA useElevation=false hadlakasNeiros=18.0	390	9e36383bdfb3f15d	05233e2b3d9083f1
+group	Kolkata NOAA useElevation=true hadlakasNeiros=18.0	390	f0710e408006333c	238fb07110fac26e
+group	Lakewood NJ ALMANAC useElevation=false hadlakasNeiros=18.0	3880	e85208a4123e007e	aac2b5a22655ff81
+group	Lakewood NJ ALMANAC useElevation=true hadlakasNeiros=18.0	3880	0efdddc8a0099c1a	29c877e9624bceef
+group	Lakewood NJ NOAA useElevation=false hadlakasNeiros=18.0	3880	386e6951c850d1d1	ad09380be90e840f
+group	Lakewood NJ NOAA useElevation=true hadlakasNeiros=18.0	3880	7e0d39de822ddef2	0bf346da6e6a2226
+group	Lord Howe Island ALMANAC useElevation=false hadlakasNeiros=18.0	390	40bc64c9ad79dd2e	2f385c46ad6e7802
+group	Lord Howe Island ALMANAC useElevation=true hadlakasNeiros=18.0	390	5bb956245668676a	4ab699f7a432f748
+group	Lord Howe Island NOAA useElevation=false hadlakasNeiros=18.0	390	6d393326c5d29d2b	e6fd28de681e2a0c
+group	Lord Howe Island NOAA useElevation=true hadlakasNeiros=18.0	390	ba6a60c141e9bfbf	4b586de3a530841e
+group	Los Angeles (GMT zone) ALMANAC useElevation=false hadlakasNeiros=18.0	390	81a4fdc4cf158deb	4e94f8c9718827f1
+group	Los Angeles (GMT zone) ALMANAC useElevation=true hadlakasNeiros=18.0	390	60de41808abb85cf	1369dd76d0079815
+group	Los Angeles (GMT zone) NOAA useElevation=false hadlakasNeiros=18.0	390	46e5276499e330d7	7b213606c6ff09aa
+group	Los Angeles (GMT zone) NOAA useElevation=true hadlakasNeiros=18.0	390	9effb2f693090d41	0fb4c1efc0bdd9c6
+group	McMurdo Station ALMANAC useElevation=false hadlakasNeiros=18.0	390	ed5f575789b68ccb	e2b28d417752aa8f
+group	McMurdo Station ALMANAC useElevation=true hadlakasNeiros=18.0	390	a5b1b3a12911da42	7a384635d2a9e78e
+group	McMurdo Station NOAA useElevation=false hadlakasNeiros=18.0	390	37f4f9dee189521d	14ea768ca4164f06
+group	McMurdo Station NOAA useElevation=true hadlakasNeiros=18.0	390	01e3c72ce8045005	d4a13ac12fe3d4ef
+group	Rapa Iti ALMANAC useElevation=false hadlakasNeiros=18.0	1010	8c7e6f9c89044240	adf43ff6eaaeefa4
+group	Rapa Iti ALMANAC useElevation=true hadlakasNeiros=18.0	1010	cb2c83b8bf3db733	e3b1a3f8e5a3c573
+group	Rapa Iti NOAA useElevation=false hadlakasNeiros=18.0	1010	ac60e24ec4f887db	931d886dcb4a42d4
+group	Rapa Iti NOAA useElevation=true hadlakasNeiros=18.0	1010	43554c2ac3b07eca	63f6289691f393a4
+group	Santiago ALMANAC useElevation=false hadlakasNeiros=18.0	390	d16374049bf541f2	a2270c55b9e85005
+group	Santiago ALMANAC useElevation=true hadlakasNeiros=18.0	390	a03a009fb4ab50a8	dc1c8b806f344484
+group	Santiago NOAA useElevation=false hadlakasNeiros=18.0	390	5a11380ae339691a	2383423afaa2c447
+group	Santiago NOAA useElevation=true hadlakasNeiros=18.0	390	57db453b2655d204	44ab08f4bac543e4
+group	St. John's ALMANAC useElevation=false hadlakasNeiros=18.0	390	19a1530488a01e8a	2d3cc55ec826e6c3
+group	St. John's ALMANAC useElevation=true hadlakasNeiros=18.0	390	badf2866ae3fd82a	fbfa678d97f6c376
+group	St. John's NOAA useElevation=false hadlakasNeiros=18.0	390	bdd7d9f379ed74bb	33f433cf3d5c22a5
+group	St. John's NOAA useElevation=true hadlakasNeiros=18.0	390	6f663bd420b8c6f7	0faa3a756cac42f2
+group	Sydney ALMANAC useElevation=false hadlakasNeiros=18.0	390	6396ed64e0ff6248	34df2b0699396e72
+group	Sydney ALMANAC useElevation=true hadlakasNeiros=18.0	390	17268c550eb890d4	b50a6757067a42b6
+group	Sydney NOAA useElevation=false hadlakasNeiros=18.0	390	9f86cc8a62d20dca	f880bbc2c9ab55f7
+group	Sydney NOAA useElevation=true hadlakasNeiros=18.0	390	cd23fd5fa5e39730	fa6d290ecd8a24b6
+group	Tromso ALMANAC useElevation=false hadlakasNeiros=18.0	3880	60ab2f3b7499e44f	afd8124ed6b9f9d9
+group	Tromso ALMANAC useElevation=true hadlakasNeiros=18.0	3880	6d4b46db86818313	b8fcbe2b4ddfc981
+group	Tromso NOAA useElevation=false hadlakasNeiros=18.0	3880	e72afad97bcf94b1	cdf8d923161bb2ae
+group	Tromso NOAA useElevation=true hadlakasNeiros=18.0	3880	89164b807c2e8334	51bfd2f088a9c6d0

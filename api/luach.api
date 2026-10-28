@@ -1,0 +1,1074 @@
+public final class com/eskotech/luach/Luach {
+	public static final field INSTANCE Lcom/eskotech/luach/Luach;
+	public static final field VERSION Ljava/lang/String;
+}
+
+public final class com/eskotech/luach/calendar/BavliDaf {
+	public fun <init> (Lcom/eskotech/luach/calendar/BavliTractate;I)V
+	public final fun component1 ()Lcom/eskotech/luach/calendar/BavliTractate;
+	public final fun component2 ()I
+	public final fun copy (Lcom/eskotech/luach/calendar/BavliTractate;I)Lcom/eskotech/luach/calendar/BavliDaf;
+	public static synthetic fun copy$default (Lcom/eskotech/luach/calendar/BavliDaf;Lcom/eskotech/luach/calendar/BavliTractate;IILjava/lang/Object;)Lcom/eskotech/luach/calendar/BavliDaf;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getPage ()I
+	public final fun getTractate ()Lcom/eskotech/luach/calendar/BavliTractate;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/eskotech/luach/calendar/BavliTractate : java/lang/Enum {
+	public static final field ARACHIN Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field AVODAH_ZARAH Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field BAVA_BASRA Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field BAVA_KAMMA Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field BAVA_METZIA Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field BECHOROS Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field BEITZAH Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field BERACHOS Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field CHAGIGAH Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field CHULLIN Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field ERUVIN Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field GITTIN Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field HORAYOS Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field KEREISOS Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field KESUBOS Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field KIDDUSHIN Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field KINNIM Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field MAKKOS Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field MEGILLAH Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field MEILAH Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field MENACHOS Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field MIDDOS Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field MOED_KATAN Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field NAZIR Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field NEDARIM Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field NIDDAH Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field PESACHIM Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field ROSH_HASHANAH Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field SANHEDRIN Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field SHABBOS Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field SHEKALIM Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field SHEVUOS Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field SOTAH Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field SUKKAH Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field TAANIS Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field TAMID Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field TEMURAH Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field YEVAMOS Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field YOMA Lcom/eskotech/luach/calendar/BavliTractate;
+	public static final field ZEVACHIM Lcom/eskotech/luach/calendar/BavliTractate;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public final fun getFirstPage ()I
+	public final fun getHebrewName ()Ljava/lang/String;
+	public final fun getLastPage ()I
+	public final fun getPages ()I
+	public static fun valueOf (Ljava/lang/String;)Lcom/eskotech/luach/calendar/BavliTractate;
+	public static fun values ()[Lcom/eskotech/luach/calendar/BavliTractate;
+}
+
+public final class com/eskotech/luach/calendar/DafYomi {
+	public static final field INSTANCE Lcom/eskotech/luach/calendar/DafYomi;
+	public final fun bavli (Lcom/eskotech/luach/calendar/HebrewDay;)Lcom/eskotech/luach/calendar/BavliDaf;
+	public final fun bavli (Lkotlinx/datetime/LocalDate;)Lcom/eskotech/luach/calendar/BavliDaf;
+	public final fun getBAVLI_EIGHTH_CYCLE ()Lkotlinx/datetime/LocalDate;
+	public final fun getBAVLI_FIRST_CYCLE ()Lkotlinx/datetime/LocalDate;
+	public final fun getYERUSHALMI_FIRST_CYCLE ()Lkotlinx/datetime/LocalDate;
+	public final fun yerushalmi (Lcom/eskotech/luach/calendar/HebrewDay;)Lcom/eskotech/luach/calendar/YerushalmiDaf;
+	public final fun yerushalmi (Lkotlinx/datetime/LocalDate;)Lcom/eskotech/luach/calendar/YerushalmiDaf;
+}
+
+public final class com/eskotech/luach/calendar/Hallel : java/lang/Enum {
+	public static final field FULL Lcom/eskotech/luach/calendar/Hallel;
+	public static final field NONE Lcom/eskotech/luach/calendar/Hallel;
+	public static final field PARTIAL Lcom/eskotech/luach/calendar/Hallel;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lcom/eskotech/luach/calendar/Hallel;
+	public static fun values ()[Lcom/eskotech/luach/calendar/Hallel;
+}
+
+public final class com/eskotech/luach/calendar/HebrewDate : java/lang/Comparable {
+	public static final field Companion Lcom/eskotech/luach/calendar/HebrewDate$Companion;
+	public synthetic fun <init> (JILcom/eskotech/luach/calendar/HebrewMonth;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public fun compareTo (Lcom/eskotech/luach/calendar/HebrewDate;)I
+	public synthetic fun compareTo (Ljava/lang/Object;)I
+	public final fun daysUntil (Lcom/eskotech/luach/calendar/HebrewDate;)J
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getDay ()I
+	public final fun getDayOfWeek ()Lkotlinx/datetime/DayOfWeek;
+	public final fun getDayOfYear ()I
+	public final fun getEpochDay ()J
+	public final fun getLocalDate ()Lkotlinx/datetime/LocalDate;
+	public final fun getMolad ()Lcom/eskotech/luach/calendar/Molad;
+	public final fun getMonth ()Lcom/eskotech/luach/calendar/HebrewMonth;
+	public final fun getMonthLength ()I
+	public final fun getMonthsInYear ()Ljava/util/List;
+	public final fun getYear ()I
+	public final fun getYearLength ()I
+	public final fun getYearType ()Lcom/eskotech/luach/calendar/YearType;
+	public fun hashCode ()I
+	public final fun isMeuberes ()Z
+	public final fun minusDays (I)Lcom/eskotech/luach/calendar/HebrewDate;
+	public final fun minusDays (J)Lcom/eskotech/luach/calendar/HebrewDate;
+	public final fun minusMonths (I)Lcom/eskotech/luach/calendar/HebrewDate;
+	public final fun minusYears (I)Lcom/eskotech/luach/calendar/HebrewDate;
+	public final fun plusDays (I)Lcom/eskotech/luach/calendar/HebrewDate;
+	public final fun plusDays (J)Lcom/eskotech/luach/calendar/HebrewDate;
+	public final fun plusMonths (I)Lcom/eskotech/luach/calendar/HebrewDate;
+	public final fun plusYears (I)Lcom/eskotech/luach/calendar/HebrewDate;
+	public fun toString ()Ljava/lang/String;
+	public final fun withDay (I)Lcom/eskotech/luach/calendar/HebrewDate;
+	public final fun withMonth (Lcom/eskotech/luach/calendar/HebrewMonth;)Lcom/eskotech/luach/calendar/HebrewDate;
+	public final fun withYear (I)Lcom/eskotech/luach/calendar/HebrewDate;
+}
+
+public final class com/eskotech/luach/calendar/HebrewDate$Companion {
+	public final fun from (Lkotlin/time/Instant;Lkotlinx/datetime/TimeZone;)Lcom/eskotech/luach/calendar/HebrewDate;
+	public final fun from (Lkotlinx/datetime/LocalDate;)Lcom/eskotech/luach/calendar/HebrewDate;
+	public final fun isMeuberes (I)Z
+	public final fun molad (ILcom/eskotech/luach/calendar/HebrewMonth;)Lcom/eskotech/luach/calendar/Molad;
+	public final fun monthLength (ILcom/eskotech/luach/calendar/HebrewMonth;)I
+	public final fun of (III)Lcom/eskotech/luach/calendar/HebrewDate;
+	public final fun of (ILcom/eskotech/luach/calendar/HebrewMonth;I)Lcom/eskotech/luach/calendar/HebrewDate;
+	public final fun ofEpochDay (J)Lcom/eskotech/luach/calendar/HebrewDate;
+	public final fun roshHashanah (I)Lcom/eskotech/luach/calendar/HebrewDate;
+	public final fun today (Lkotlinx/datetime/TimeZone;)Lcom/eskotech/luach/calendar/HebrewDate;
+	public static synthetic fun today$default (Lcom/eskotech/luach/calendar/HebrewDate$Companion;Lkotlinx/datetime/TimeZone;ILjava/lang/Object;)Lcom/eskotech/luach/calendar/HebrewDate;
+	public final fun yearLength (I)I
+	public final fun yearType (I)Lcom/eskotech/luach/calendar/YearType;
+}
+
+public final class com/eskotech/luach/calendar/HebrewDay {
+	public static final field Companion Lcom/eskotech/luach/calendar/HebrewDay$Companion;
+	public fun <init> (Lcom/eskotech/luach/calendar/HebrewDate;ZZ)V
+	public synthetic fun <init> (Lcom/eskotech/luach/calendar/HebrewDate;ZZILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public fun <init> (Lkotlin/time/Instant;Lkotlinx/datetime/TimeZone;ZZ)V
+	public synthetic fun <init> (Lkotlin/time/Instant;Lkotlinx/datetime/TimeZone;ZZILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public fun <init> (Lkotlinx/datetime/LocalDate;ZZ)V
+	public synthetic fun <init> (Lkotlinx/datetime/LocalDate;ZZILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Lcom/eskotech/luach/calendar/HebrewDate;
+	public final fun component2 ()Z
+	public final fun component3 ()Z
+	public final fun copy (Lcom/eskotech/luach/calendar/HebrewDate;ZZ)Lcom/eskotech/luach/calendar/HebrewDay;
+	public static synthetic fun copy$default (Lcom/eskotech/luach/calendar/HebrewDay;Lcom/eskotech/luach/calendar/HebrewDate;ZZILjava/lang/Object;)Lcom/eskotech/luach/calendar/HebrewDay;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getBavliDaf ()Lcom/eskotech/luach/calendar/BavliDaf;
+	public final fun getDate ()Lcom/eskotech/luach/calendar/HebrewDate;
+	public final fun getDayOfChanukah ()Ljava/lang/Integer;
+	public final fun getDayOfMonth ()I
+	public final fun getDayOfWeek ()Lkotlinx/datetime/DayOfWeek;
+	public final fun getDaysFromTekufasTishrei ()I
+	public final fun getHasHadlakasNeiros ()Z
+	public final fun getHoliday ()Lcom/eskotech/luach/calendar/Holiday;
+	public final fun getInIsrael ()Z
+	public final fun getLocalDate ()Lkotlinx/datetime/LocalDate;
+	public final fun getMolad ()Lcom/eskotech/luach/calendar/Molad;
+	public final fun getMonth ()Lcom/eskotech/luach/calendar/HebrewMonth;
+	public final fun getMukefChoma ()Z
+	public final fun getParsha ()Lcom/eskotech/luach/calendar/Parsha;
+	public final fun getSefirasHaomer ()Ljava/lang/Integer;
+	public final fun getSpecialShabbos ()Lcom/eskotech/luach/calendar/Parsha;
+	public final fun getUpcomingParsha ()Lcom/eskotech/luach/calendar/Parsha;
+	public final fun getYear ()I
+	public final fun getYerushalmiDaf ()Lcom/eskotech/luach/calendar/YerushalmiDaf;
+	public fun hashCode ()I
+	public final fun isAseresYemeiTeshuvah ()Z
+	public final fun isAsurBemelacha ()Z
+	public final fun isBehab ()Z
+	public final fun isBirkasHachamah ()Z
+	public final fun isChanukah ()Z
+	public final fun isCholHamoed ()Z
+	public final fun isCholHamoedPesach ()Z
+	public final fun isCholHamoedSukkos ()Z
+	public final fun isErevRoshChodesh ()Z
+	public final fun isErevYomTov ()Z
+	public final fun isErevYomTovSheni ()Z
+	public final fun isHoshanaRabbah ()Z
+	public final fun isIsruChag ()Z
+	public final fun isMacharChodesh ()Z
+	public final fun isPesach ()Z
+	public final fun isPurim ()Z
+	public final fun isRoshChodesh ()Z
+	public final fun isRoshHashanah ()Z
+	public final fun isShabbosMevorchim ()Z
+	public final fun isShavuos ()Z
+	public final fun isShminiAtzeres ()Z
+	public final fun isSimchasTorah ()Z
+	public final fun isSukkos ()Z
+	public final fun isTaanis ()Z
+	public final fun isTaanisBechoros ()Z
+	public final fun isTishaBeav ()Z
+	public final fun isYomKippur ()Z
+	public final fun isYomKippurKatan ()Z
+	public final fun isYomTov ()Z
+	public final fun isYomTovAsurBemelacha ()Z
+	public final fun plusDays (I)Lcom/eskotech/luach/calendar/HebrewDay;
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/eskotech/luach/calendar/HebrewDay$Companion {
+	public final fun today (Lkotlinx/datetime/TimeZone;ZZ)Lcom/eskotech/luach/calendar/HebrewDay;
+	public static synthetic fun today$default (Lcom/eskotech/luach/calendar/HebrewDay$Companion;Lkotlinx/datetime/TimeZone;ZZILjava/lang/Object;)Lcom/eskotech/luach/calendar/HebrewDay;
+}
+
+public final class com/eskotech/luach/calendar/HebrewMonth : java/lang/Enum {
+	public static final field ADAR Lcom/eskotech/luach/calendar/HebrewMonth;
+	public static final field ADAR_II Lcom/eskotech/luach/calendar/HebrewMonth;
+	public static final field AV Lcom/eskotech/luach/calendar/HebrewMonth;
+	public static final field CHESHVAN Lcom/eskotech/luach/calendar/HebrewMonth;
+	public static final field Companion Lcom/eskotech/luach/calendar/HebrewMonth$Companion;
+	public static final field ELUL Lcom/eskotech/luach/calendar/HebrewMonth;
+	public static final field IYAR Lcom/eskotech/luach/calendar/HebrewMonth;
+	public static final field KISLEV Lcom/eskotech/luach/calendar/HebrewMonth;
+	public static final field NISAN Lcom/eskotech/luach/calendar/HebrewMonth;
+	public static final field SHEVAT Lcom/eskotech/luach/calendar/HebrewMonth;
+	public static final field SIVAN Lcom/eskotech/luach/calendar/HebrewMonth;
+	public static final field TAMMUZ Lcom/eskotech/luach/calendar/HebrewMonth;
+	public static final field TEVET Lcom/eskotech/luach/calendar/HebrewMonth;
+	public static final field TISHREI Lcom/eskotech/luach/calendar/HebrewMonth;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public final fun getNumber ()I
+	public static fun valueOf (Ljava/lang/String;)Lcom/eskotech/luach/calendar/HebrewMonth;
+	public static fun values ()[Lcom/eskotech/luach/calendar/HebrewMonth;
+}
+
+public final class com/eskotech/luach/calendar/HebrewMonth$Companion {
+	public final fun inYearOrder (Z)Ljava/util/List;
+	public final fun of (I)Lcom/eskotech/luach/calendar/HebrewMonth;
+}
+
+public final class com/eskotech/luach/calendar/Holiday : java/lang/Enum {
+	public static final field ASARAH_BETEVES Lcom/eskotech/luach/calendar/Holiday;
+	public static final field CHANUKAH Lcom/eskotech/luach/calendar/Holiday;
+	public static final field CHOL_HAMOED_PESACH Lcom/eskotech/luach/calendar/Holiday;
+	public static final field CHOL_HAMOED_SUKKOS Lcom/eskotech/luach/calendar/Holiday;
+	public static final field EREV_PESACH Lcom/eskotech/luach/calendar/Holiday;
+	public static final field EREV_ROSH_HASHANAH Lcom/eskotech/luach/calendar/Holiday;
+	public static final field EREV_SHAVUOS Lcom/eskotech/luach/calendar/Holiday;
+	public static final field EREV_SUKKOS Lcom/eskotech/luach/calendar/Holiday;
+	public static final field EREV_YOM_KIPPUR Lcom/eskotech/luach/calendar/Holiday;
+	public static final field HOSHANA_RABBAH Lcom/eskotech/luach/calendar/Holiday;
+	public static final field ISRU_CHAG Lcom/eskotech/luach/calendar/Holiday;
+	public static final field LAG_BAOMER Lcom/eskotech/luach/calendar/Holiday;
+	public static final field PESACH Lcom/eskotech/luach/calendar/Holiday;
+	public static final field PESACH_SHENI Lcom/eskotech/luach/calendar/Holiday;
+	public static final field PURIM Lcom/eskotech/luach/calendar/Holiday;
+	public static final field PURIM_KATAN Lcom/eskotech/luach/calendar/Holiday;
+	public static final field ROSH_HASHANAH Lcom/eskotech/luach/calendar/Holiday;
+	public static final field SHAVUOS Lcom/eskotech/luach/calendar/Holiday;
+	public static final field SHEMINI_ATZERES Lcom/eskotech/luach/calendar/Holiday;
+	public static final field SHIVA_ASAR_BETAMMUZ Lcom/eskotech/luach/calendar/Holiday;
+	public static final field SHUSHAN_PURIM Lcom/eskotech/luach/calendar/Holiday;
+	public static final field SHUSHAN_PURIM_KATAN Lcom/eskotech/luach/calendar/Holiday;
+	public static final field SIMCHAS_TORAH Lcom/eskotech/luach/calendar/Holiday;
+	public static final field SUKKOS Lcom/eskotech/luach/calendar/Holiday;
+	public static final field TAANIS_ESTHER Lcom/eskotech/luach/calendar/Holiday;
+	public static final field TISHA_BEAV Lcom/eskotech/luach/calendar/Holiday;
+	public static final field TU_BEAV Lcom/eskotech/luach/calendar/Holiday;
+	public static final field TU_BISHVAT Lcom/eskotech/luach/calendar/Holiday;
+	public static final field TZOM_GEDALIAH Lcom/eskotech/luach/calendar/Holiday;
+	public static final field YOM_KIPPUR Lcom/eskotech/luach/calendar/Holiday;
+	public final fun getAsurBemelacha ()Z
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public final fun isErev ()Z
+	public final fun isTaanis ()Z
+	public static fun valueOf (Ljava/lang/String;)Lcom/eskotech/luach/calendar/Holiday;
+	public static fun values ()[Lcom/eskotech/luach/calendar/Holiday;
+}
+
+public final class com/eskotech/luach/calendar/Molad : java/lang/Comparable {
+	public static final field Companion Lcom/eskotech/luach/calendar/Molad$Companion;
+	public static final field LUNATION_PARTS J
+	public static final field PARTS_PER_DAY J
+	public static final field PARTS_PER_HOUR J
+	public static final field PARTS_PER_MINUTE J
+	public fun compareTo (Lcom/eskotech/luach/calendar/Molad;)I
+	public synthetic fun compareTo (Ljava/lang/Object;)I
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getClockHour ()I
+	public final fun getDate ()Lcom/eskotech/luach/calendar/HebrewDate;
+	public final fun getDayOfWeek ()Lkotlinx/datetime/DayOfWeek;
+	public final fun getEarliestKiddushLevana3Days ()Lkotlin/time/Instant;
+	public final fun getEarliestKiddushLevana7Days ()Lkotlin/time/Instant;
+	public final fun getHour ()I
+	public final fun getInstant ()Lkotlin/time/Instant;
+	public final fun getLatestKiddushLevana15Days ()Lkotlin/time/Instant;
+	public final fun getLatestKiddushLevanaHalfMonth ()Lkotlin/time/Instant;
+	public final fun getMinute ()I
+	public final fun getParts ()I
+	public final fun getPartsOfDay ()I
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/eskotech/luach/calendar/Molad$Companion {
+}
+
+public final class com/eskotech/luach/calendar/Parsha : java/lang/Enum {
+	public static final field ACHAREI_MOT Lcom/eskotech/luach/calendar/Parsha;
+	public static final field ACHAREI_MOT_KEDOSHIM Lcom/eskotech/luach/calendar/Parsha;
+	public static final field BALAK Lcom/eskotech/luach/calendar/Parsha;
+	public static final field BAMIDBAR Lcom/eskotech/luach/calendar/Parsha;
+	public static final field BECHUKOTAI Lcom/eskotech/luach/calendar/Parsha;
+	public static final field BEHAALOTCHA Lcom/eskotech/luach/calendar/Parsha;
+	public static final field BEHAR Lcom/eskotech/luach/calendar/Parsha;
+	public static final field BEHAR_BECHUKOTAI Lcom/eskotech/luach/calendar/Parsha;
+	public static final field BERESHIT Lcom/eskotech/luach/calendar/Parsha;
+	public static final field BESHALACH Lcom/eskotech/luach/calendar/Parsha;
+	public static final field BO Lcom/eskotech/luach/calendar/Parsha;
+	public static final field CHAYEI_SARAH Lcom/eskotech/luach/calendar/Parsha;
+	public static final field CHAZON Lcom/eskotech/luach/calendar/Parsha;
+	public static final field CHUKAT Lcom/eskotech/luach/calendar/Parsha;
+	public static final field CHUKAT_BALAK Lcom/eskotech/luach/calendar/Parsha;
+	public static final field Companion Lcom/eskotech/luach/calendar/Parsha$Companion;
+	public static final field DEVARIM Lcom/eskotech/luach/calendar/Parsha;
+	public static final field EKEV Lcom/eskotech/luach/calendar/Parsha;
+	public static final field EMOR Lcom/eskotech/luach/calendar/Parsha;
+	public static final field HAAZINU Lcom/eskotech/luach/calendar/Parsha;
+	public static final field HACHODESH Lcom/eskotech/luach/calendar/Parsha;
+	public static final field HAGADOL Lcom/eskotech/luach/calendar/Parsha;
+	public static final field KEDOSHIM Lcom/eskotech/luach/calendar/Parsha;
+	public static final field KI_TAVO Lcom/eskotech/luach/calendar/Parsha;
+	public static final field KI_TETZE Lcom/eskotech/luach/calendar/Parsha;
+	public static final field KI_TISA Lcom/eskotech/luach/calendar/Parsha;
+	public static final field KORACH Lcom/eskotech/luach/calendar/Parsha;
+	public static final field LECH_LECHA Lcom/eskotech/luach/calendar/Parsha;
+	public static final field MASEI Lcom/eskotech/luach/calendar/Parsha;
+	public static final field MATOT Lcom/eskotech/luach/calendar/Parsha;
+	public static final field MATOT_MASEI Lcom/eskotech/luach/calendar/Parsha;
+	public static final field METZORA Lcom/eskotech/luach/calendar/Parsha;
+	public static final field MIKETZ Lcom/eskotech/luach/calendar/Parsha;
+	public static final field MISHPATIM Lcom/eskotech/luach/calendar/Parsha;
+	public static final field NACHAMU Lcom/eskotech/luach/calendar/Parsha;
+	public static final field NASO Lcom/eskotech/luach/calendar/Parsha;
+	public static final field NITZAVIM Lcom/eskotech/luach/calendar/Parsha;
+	public static final field NITZAVIM_VAYELECH Lcom/eskotech/luach/calendar/Parsha;
+	public static final field NOACH Lcom/eskotech/luach/calendar/Parsha;
+	public static final field PARAH Lcom/eskotech/luach/calendar/Parsha;
+	public static final field PEKUDEI Lcom/eskotech/luach/calendar/Parsha;
+	public static final field PINCHAS Lcom/eskotech/luach/calendar/Parsha;
+	public static final field REEH Lcom/eskotech/luach/calendar/Parsha;
+	public static final field SHEKALIM Lcom/eskotech/luach/calendar/Parsha;
+	public static final field SHELACH Lcom/eskotech/luach/calendar/Parsha;
+	public static final field SHEMINI Lcom/eskotech/luach/calendar/Parsha;
+	public static final field SHEMOT Lcom/eskotech/luach/calendar/Parsha;
+	public static final field SHIRAH Lcom/eskotech/luach/calendar/Parsha;
+	public static final field SHOFTIM Lcom/eskotech/luach/calendar/Parsha;
+	public static final field SHUVAH Lcom/eskotech/luach/calendar/Parsha;
+	public static final field TAZRIA Lcom/eskotech/luach/calendar/Parsha;
+	public static final field TAZRIA_METZORA Lcom/eskotech/luach/calendar/Parsha;
+	public static final field TERUMAH Lcom/eskotech/luach/calendar/Parsha;
+	public static final field TETZAVEH Lcom/eskotech/luach/calendar/Parsha;
+	public static final field TOLDOT Lcom/eskotech/luach/calendar/Parsha;
+	public static final field TZAV Lcom/eskotech/luach/calendar/Parsha;
+	public static final field VAERA Lcom/eskotech/luach/calendar/Parsha;
+	public static final field VAETCHANAN Lcom/eskotech/luach/calendar/Parsha;
+	public static final field VAYAKHEL Lcom/eskotech/luach/calendar/Parsha;
+	public static final field VAYAKHEL_PEKUDEI Lcom/eskotech/luach/calendar/Parsha;
+	public static final field VAYECHI Lcom/eskotech/luach/calendar/Parsha;
+	public static final field VAYELECH Lcom/eskotech/luach/calendar/Parsha;
+	public static final field VAYERA Lcom/eskotech/luach/calendar/Parsha;
+	public static final field VAYESHEV Lcom/eskotech/luach/calendar/Parsha;
+	public static final field VAYETZE Lcom/eskotech/luach/calendar/Parsha;
+	public static final field VAYIGASH Lcom/eskotech/luach/calendar/Parsha;
+	public static final field VAYIKRA Lcom/eskotech/luach/calendar/Parsha;
+	public static final field VAYISHLACH Lcom/eskotech/luach/calendar/Parsha;
+	public static final field VEZOT_HABERACHAH Lcom/eskotech/luach/calendar/Parsha;
+	public static final field YITRO Lcom/eskotech/luach/calendar/Parsha;
+	public static final field ZACHOR Lcom/eskotech/luach/calendar/Parsha;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public final fun getFirst ()Lcom/eskotech/luach/calendar/Parsha;
+	public final fun getSecond ()Lcom/eskotech/luach/calendar/Parsha;
+	public final fun isDouble ()Z
+	public final fun isSpecialShabbos ()Z
+	public static fun valueOf (Ljava/lang/String;)Lcom/eskotech/luach/calendar/Parsha;
+	public static fun values ()[Lcom/eskotech/luach/calendar/Parsha;
+}
+
+public final class com/eskotech/luach/calendar/Parsha$Companion {
+	public final fun getDOUBLES ()Ljava/util/List;
+	public final fun getSPECIAL_SHABBOSOS ()Ljava/util/List;
+	public final fun getWEEKLY ()Ljava/util/List;
+}
+
+public final class com/eskotech/luach/calendar/TachanunCustoms {
+	public fun <init> ()V
+	public fun <init> (ZZZZZZZZZZZZ)V
+	public synthetic fun <init> (ZZZZZZZZZZZZILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Z
+	public final fun component10 ()Z
+	public final fun component11 ()Z
+	public final fun component12 ()Z
+	public final fun component2 ()Z
+	public final fun component3 ()Z
+	public final fun component4 ()Z
+	public final fun component5 ()Z
+	public final fun component6 ()Z
+	public final fun component7 ()Z
+	public final fun component8 ()Z
+	public final fun component9 ()Z
+	public final fun copy (ZZZZZZZZZZZZ)Lcom/eskotech/luach/calendar/TachanunCustoms;
+	public static synthetic fun copy$default (Lcom/eskotech/luach/calendar/TachanunCustoms;ZZZZZZZZZZZZILjava/lang/Object;)Lcom/eskotech/luach/calendar/TachanunCustoms;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getOmit13SivanOutsideIsrael ()Z
+	public final fun getOmit15IyarOutsideIsrael ()Z
+	public final fun getOmitAfterSukkos ()Z
+	public final fun getOmitFridays ()Z
+	public final fun getOmitMincha ()Z
+	public final fun getOmitMinchaErevLagBaomer ()Z
+	public final fun getOmitPesachSheni ()Z
+	public final fun getOmitShivasYemeiHamiluim ()Z
+	public final fun getOmitSundays ()Z
+	public final fun getOmitWeekAfterShavuos ()Z
+	public final fun getOmitWeekOfHod ()Z
+	public final fun getOmitWeekOfPurim ()Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/eskotech/luach/calendar/TefillahRules {
+	public fun <init> ()V
+	public fun <init> (Lcom/eskotech/luach/calendar/TachanunCustoms;)V
+	public synthetic fun <init> (Lcom/eskotech/luach/calendar/TachanunCustoms;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun alHanissim (Lcom/eskotech/luach/calendar/HebrewDay;)Z
+	public final fun all (Lcom/eskotech/luach/calendar/HebrewDay;)Lcom/eskotech/luach/calendar/TefillahSummary;
+	public final fun getCustoms ()Lcom/eskotech/luach/calendar/TachanunCustoms;
+	public final fun hallel (Lcom/eskotech/luach/calendar/HebrewDay;)Lcom/eskotech/luach/calendar/Hallel;
+	public final fun isMashivHaruachEnd (Lcom/eskotech/luach/calendar/HebrewDay;)Z
+	public final fun isMashivHaruachStart (Lcom/eskotech/luach/calendar/HebrewDay;)Z
+	public final fun isVeseinTalUmatarStart (Lcom/eskotech/luach/calendar/HebrewDay;)Z
+	public final fun mashivHaruach (Lcom/eskotech/luach/calendar/HebrewDay;)Z
+	public final fun moridHatal (Lcom/eskotech/luach/calendar/HebrewDay;)Z
+	public final fun tachanunAtMincha (Lcom/eskotech/luach/calendar/HebrewDay;)Z
+	public final fun tachanunAtShacharis (Lcom/eskotech/luach/calendar/HebrewDay;)Z
+	public final fun veseinBerachah (Lcom/eskotech/luach/calendar/HebrewDay;)Z
+	public final fun veseinTalUmatar (Lcom/eskotech/luach/calendar/HebrewDay;)Z
+	public final fun veseinTalUmatarStartsTonight (Lcom/eskotech/luach/calendar/HebrewDay;)Z
+	public final fun yaalehVeyavo (Lcom/eskotech/luach/calendar/HebrewDay;)Z
+}
+
+public final class com/eskotech/luach/calendar/TefillahSummary {
+	public fun <init> (ZZZZZZZZZZLcom/eskotech/luach/calendar/Hallel;ZZ)V
+	public final fun component1 ()Z
+	public final fun component10 ()Z
+	public final fun component11 ()Lcom/eskotech/luach/calendar/Hallel;
+	public final fun component12 ()Z
+	public final fun component13 ()Z
+	public final fun component2 ()Z
+	public final fun component3 ()Z
+	public final fun component4 ()Z
+	public final fun component5 ()Z
+	public final fun component6 ()Z
+	public final fun component7 ()Z
+	public final fun component8 ()Z
+	public final fun component9 ()Z
+	public final fun copy (ZZZZZZZZZZLcom/eskotech/luach/calendar/Hallel;ZZ)Lcom/eskotech/luach/calendar/TefillahSummary;
+	public static synthetic fun copy$default (Lcom/eskotech/luach/calendar/TefillahSummary;ZZZZZZZZZZLcom/eskotech/luach/calendar/Hallel;ZZILjava/lang/Object;)Lcom/eskotech/luach/calendar/TefillahSummary;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getAlHanissim ()Z
+	public final fun getHallel ()Lcom/eskotech/luach/calendar/Hallel;
+	public final fun getMashivHaruach ()Z
+	public final fun getMoridHatal ()Z
+	public final fun getTachanunAtMincha ()Z
+	public final fun getTachanunAtShacharis ()Z
+	public final fun getVeseinBerachah ()Z
+	public final fun getVeseinTalUmatar ()Z
+	public final fun getVeseinTalUmatarStartsTonight ()Z
+	public final fun getYaalehVeyavo ()Z
+	public fun hashCode ()I
+	public final fun isMashivHaruachEnd ()Z
+	public final fun isMashivHaruachStart ()Z
+	public final fun isVeseinTalUmatarStart ()Z
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/eskotech/luach/calendar/YearType : java/lang/Enum {
+	public static final field COMPLETE Lcom/eskotech/luach/calendar/YearType;
+	public static final field DEFICIENT Lcom/eskotech/luach/calendar/YearType;
+	public static final field REGULAR Lcom/eskotech/luach/calendar/YearType;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lcom/eskotech/luach/calendar/YearType;
+	public static fun values ()[Lcom/eskotech/luach/calendar/YearType;
+}
+
+public final class com/eskotech/luach/calendar/YerushalmiDaf {
+	public fun <init> (Lcom/eskotech/luach/calendar/YerushalmiTractate;I)V
+	public final fun component1 ()Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public final fun component2 ()I
+	public final fun copy (Lcom/eskotech/luach/calendar/YerushalmiTractate;I)Lcom/eskotech/luach/calendar/YerushalmiDaf;
+	public static synthetic fun copy$default (Lcom/eskotech/luach/calendar/YerushalmiDaf;Lcom/eskotech/luach/calendar/YerushalmiTractate;IILjava/lang/Object;)Lcom/eskotech/luach/calendar/YerushalmiDaf;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getPage ()I
+	public final fun getTractate ()Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/eskotech/luach/calendar/YerushalmiTractate : java/lang/Enum {
+	public static final field AVODAH_ZARAH Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field BAVA_BASRA Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field BAVA_KAMMA Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field BAVA_METZIA Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field BEITZAH Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field BERACHOS Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field BIKKURIM Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field CHAGIGAH Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field CHALLAH Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field Companion Lcom/eskotech/luach/calendar/YerushalmiTractate$Companion;
+	public static final field DEMAI Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field ERUVIN Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field GITTIN Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field HORAYOS Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field KESUBOS Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field KIDDUSHIN Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field KILAYIM Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field MAASER_SHENI Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field MAASROS Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field MAKKOS Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field MEGILLAH Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field MOED_KATAN Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field NAZIR Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field NEDARIM Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field NIDDAH Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field ORLAH Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field PEAH Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field PESACHIM Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field ROSH_HASHANAH Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field SANHEDRIN Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field SHABBOS Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field SHEKALIM Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field SHEVIIS Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field SHEVUOS Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field SOTAH Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field SUKKAH Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field TAANIS Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field TERUMOS Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field YEVAMOS Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static final field YOMA Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public final fun getHebrewName ()Ljava/lang/String;
+	public final fun getPages ()I
+	public static fun valueOf (Ljava/lang/String;)Lcom/eskotech/luach/calendar/YerushalmiTractate;
+	public static fun values ()[Lcom/eskotech/luach/calendar/YerushalmiTractate;
+}
+
+public final class com/eskotech/luach/calendar/YerushalmiTractate$Companion {
+	public final fun getPAGES_PER_CYCLE ()I
+}
+
+public final class com/eskotech/luach/format/LuachFormatter {
+	public static final field DOUBLE_MARK Ljava/lang/String;
+	public static final field SINGLE_MARK Ljava/lang/String;
+	public fun <init> ()V
+	public fun <init> (ZZZZZLjava/util/Map;Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/lang/String;Ljava/util/Map;ZLkotlin/Pair;)V
+	public synthetic fun <init> (ZZZZZLjava/util/Map;Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/lang/String;Ljava/util/Map;ZLkotlin/Pair;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Z
+	public final fun component10 ()Ljava/lang/String;
+	public final fun component11 ()Ljava/lang/String;
+	public final fun component12 ()Ljava/lang/String;
+	public final fun component13 ()Ljava/util/Map;
+	public final fun component14 ()Ljava/util/Map;
+	public final fun component15 ()Ljava/util/Map;
+	public final fun component16 ()Ljava/lang/String;
+	public final fun component17 ()Ljava/util/Map;
+	public final fun component18 ()Z
+	public final fun component19 ()Lkotlin/Pair;
+	public final fun component2 ()Z
+	public final fun component3 ()Z
+	public final fun component4 ()Z
+	public final fun component5 ()Z
+	public final fun component6 ()Ljava/util/Map;
+	public final fun component7 ()Ljava/lang/String;
+	public final fun component8 ()Ljava/util/Map;
+	public final fun component9 ()Ljava/util/Map;
+	public final fun copy (ZZZZZLjava/util/Map;Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/lang/String;Ljava/util/Map;ZLkotlin/Pair;)Lcom/eskotech/luach/format/LuachFormatter;
+	public static synthetic fun copy$default (Lcom/eskotech/luach/format/LuachFormatter;ZZZZZLjava/util/Map;Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/lang/String;Ljava/util/Map;ZLkotlin/Pair;ILjava/lang/Object;)Lcom/eskotech/luach/format/LuachFormatter;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun formatDaf (Lcom/eskotech/luach/calendar/BavliDaf;)Ljava/lang/String;
+	public final fun formatDaf (Lcom/eskotech/luach/calendar/YerushalmiDaf;)Ljava/lang/String;
+	public final fun formatDate (Lcom/eskotech/luach/calendar/HebrewDate;)Ljava/lang/String;
+	public final fun formatHoliday (Lcom/eskotech/luach/calendar/HebrewDay;)Ljava/lang/String;
+	public final fun formatMonth (Lcom/eskotech/luach/calendar/HebrewDate;)Ljava/lang/String;
+	public final fun formatMonth (Lcom/eskotech/luach/calendar/HebrewMonth;Z)Ljava/lang/String;
+	public final fun formatNumber (I)Ljava/lang/String;
+	public final fun formatOmer (Lcom/eskotech/luach/calendar/HebrewDay;)Ljava/lang/String;
+	public final fun formatParsha (Lcom/eskotech/luach/calendar/HebrewDay;)Ljava/lang/String;
+	public final fun formatParsha (Lcom/eskotech/luach/calendar/Parsha;)Ljava/lang/String;
+	public final fun formatRoshChodesh (Lcom/eskotech/luach/calendar/HebrewDay;)Ljava/lang/String;
+	public final fun formatSpecialShabbos (Lcom/eskotech/luach/calendar/HebrewDay;)Ljava/lang/String;
+	public final fun formatTime (Lkotlin/time/Instant;Lcom/eskotech/luach/geo/Location;Z)Ljava/lang/String;
+	public final fun formatTime (Lkotlin/time/Instant;Lkotlinx/datetime/TimeZone;Z)Ljava/lang/String;
+	public static synthetic fun formatTime$default (Lcom/eskotech/luach/format/LuachFormatter;Lkotlin/time/Instant;Lcom/eskotech/luach/geo/Location;ZILjava/lang/Object;)Ljava/lang/String;
+	public static synthetic fun formatTime$default (Lcom/eskotech/luach/format/LuachFormatter;Lkotlin/time/Instant;Lkotlinx/datetime/TimeZone;ZILjava/lang/Object;)Ljava/lang/String;
+	public final fun formatWeekday (Lcom/eskotech/luach/calendar/HebrewDate;)Ljava/lang/String;
+	public final fun formatWeekday (Lkotlinx/datetime/DayOfWeek;)Ljava/lang/String;
+	public final fun formatYearSignature (I)Ljava/lang/String;
+	public final fun formatZman (Lcom/eskotech/luach/zmanim/Zman;)Ljava/lang/String;
+	public final fun getAbbreviatedWeekdays ()Z
+	public final fun getAdarInLeapYear ()Ljava/lang/String;
+	public final fun getAmPmNames ()Lkotlin/Pair;
+	public final fun getBavliNames ()Ljava/util/Map;
+	public final fun getFinalLetters ()Z
+	public final fun getHebrew ()Z
+	public final fun getHolidayNames ()Ljava/util/Map;
+	public final fun getMonthNames ()Ljava/util/Map;
+	public final fun getNoDafName ()Ljava/lang/String;
+	public final fun getOmerFormat ()Ljava/lang/String;
+	public final fun getOmerPrefix ()Ljava/lang/String;
+	public final fun getParshaNames ()Ljava/util/Map;
+	public final fun getQuoteMarks ()Z
+	public final fun getRoshChodeshName ()Ljava/lang/String;
+	public final fun getThousands ()Z
+	public final fun getTwelveHourClock ()Z
+	public final fun getWeekdayNames ()Ljava/util/Map;
+	public final fun getYerushalmiNames ()Ljava/util/Map;
+	public final fun getZmanNames ()Ljava/util/Map;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/eskotech/luach/format/Transliterations {
+	public static final field INSTANCE Lcom/eskotech/luach/format/Transliterations;
+	public final fun getBAVLI ()Ljava/util/Map;
+	public final fun getHOLIDAYS ()Ljava/util/Map;
+	public final fun getMONTHS ()Ljava/util/Map;
+	public final fun getPARSHIOS ()Ljava/util/Map;
+	public final fun getWEEKDAYS ()Ljava/util/Map;
+	public final fun getYERUSHALMI ()Ljava/util/Map;
+	public final fun getZMANIM ()Ljava/util/Map;
+}
+
+public final class com/eskotech/luach/geo/Geodesic {
+	public static final field Companion Lcom/eskotech/luach/geo/Geodesic$Companion;
+	public fun <init> (DDD)V
+	public final fun component1 ()D
+	public final fun component2 ()D
+	public final fun component3 ()D
+	public final fun copy (DDD)Lcom/eskotech/luach/geo/Geodesic;
+	public static synthetic fun copy$default (Lcom/eskotech/luach/geo/Geodesic;DDDILjava/lang/Object;)Lcom/eskotech/luach/geo/Geodesic;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getDistance ()D
+	public final fun getFinalBearing ()D
+	public final fun getInitialBearing ()D
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/eskotech/luach/geo/Geodesic$Companion {
+	public final fun between (Lcom/eskotech/luach/geo/Location;Lcom/eskotech/luach/geo/Location;)Lcom/eskotech/luach/geo/Geodesic;
+}
+
+public final class com/eskotech/luach/geo/Location {
+	public static final field Companion Lcom/eskotech/luach/geo/Location$Companion;
+	public fun <init> (DDLkotlinx/datetime/TimeZone;DLjava/lang/String;ZZ)V
+	public synthetic fun <init> (DDLkotlinx/datetime/TimeZone;DLjava/lang/String;ZZILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()D
+	public final fun component2 ()D
+	public final fun component3 ()Lkotlinx/datetime/TimeZone;
+	public final fun component4 ()D
+	public final fun component5 ()Ljava/lang/String;
+	public final fun component6 ()Z
+	public final fun component7 ()Z
+	public final fun copy (DDLkotlinx/datetime/TimeZone;DLjava/lang/String;ZZ)Lcom/eskotech/luach/geo/Location;
+	public static synthetic fun copy$default (Lcom/eskotech/luach/geo/Location;DDLkotlinx/datetime/TimeZone;DLjava/lang/String;ZZILjava/lang/Object;)Lcom/eskotech/luach/geo/Location;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun geodesicTo (Lcom/eskotech/luach/geo/Location;)Lcom/eskotech/luach/geo/Geodesic;
+	public final fun getElevation ()D
+	public final fun getInIsrael ()Z
+	public final fun getLatitude ()D
+	public final fun getLongitude ()D
+	public final fun getMukefChoma ()Z
+	public final fun getName ()Ljava/lang/String;
+	public final fun getTimeZone ()Lkotlinx/datetime/TimeZone;
+	public fun hashCode ()I
+	public final fun rhumbLineTo (Lcom/eskotech/luach/geo/Location;)Lcom/eskotech/luach/geo/RhumbLine;
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/eskotech/luach/geo/Location$Companion {
+	public final fun coordinate (IIDC)D
+}
+
+public final class com/eskotech/luach/geo/RhumbLine {
+	public static final field Companion Lcom/eskotech/luach/geo/RhumbLine$Companion;
+	public fun <init> (DD)V
+	public final fun component1 ()D
+	public final fun component2 ()D
+	public final fun copy (DD)Lcom/eskotech/luach/geo/RhumbLine;
+	public static synthetic fun copy$default (Lcom/eskotech/luach/geo/RhumbLine;DDILjava/lang/Object;)Lcom/eskotech/luach/geo/RhumbLine;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getBearing ()D
+	public final fun getDistance ()D
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/eskotech/luach/geo/RhumbLine$Companion {
+	public final fun between (Lcom/eskotech/luach/geo/Location;Lcom/eskotech/luach/geo/Location;)Lcom/eskotech/luach/geo/RhumbLine;
+}
+
+public final class com/eskotech/luach/solar/AlmanacSolarModel : com/eskotech/luach/solar/SolarModel {
+	public static final field INSTANCE Lcom/eskotech/luach/solar/AlmanacSolarModel;
+	public fun getName ()Ljava/lang/String;
+	public fun solarNoon (Lkotlinx/datetime/LocalDate;DD)Ljava/lang/Double;
+	public fun sunrise (Lkotlinx/datetime/LocalDate;DDD)Ljava/lang/Double;
+	public fun sunset (Lkotlinx/datetime/LocalDate;DDD)Ljava/lang/Double;
+}
+
+public final class com/eskotech/luach/solar/ApparentHorizon {
+	public static final field Companion Lcom/eskotech/luach/solar/ApparentHorizon$Companion;
+	public static final field GEOMETRIC_HORIZON D
+	public fun <init> ()V
+	public fun <init> (DDD)V
+	public synthetic fun <init> (DDDILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()D
+	public final fun component2 ()D
+	public final fun component3 ()D
+	public final fun copy (DDD)Lcom/eskotech/luach/solar/ApparentHorizon;
+	public static synthetic fun copy$default (Lcom/eskotech/luach/solar/ApparentHorizon;DDDILjava/lang/Object;)Lcom/eskotech/luach/solar/ApparentHorizon;
+	public final fun dip (D)D
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getEarthRadius ()D
+	public final fun getRefraction ()D
+	public final fun getSolarRadius ()D
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+	public final fun zenith (D)D
+}
+
+public final class com/eskotech/luach/solar/ApparentHorizon$Companion {
+}
+
+public final class com/eskotech/luach/solar/NoaaSolarModel : com/eskotech/luach/solar/SolarModel {
+	public static final field INSTANCE Lcom/eskotech/luach/solar/NoaaSolarModel;
+	public final fun azimuth (Lkotlinx/datetime/LocalDateTime;DD)D
+	public final fun elevation (Lkotlinx/datetime/LocalDateTime;DD)D
+	public fun getName ()Ljava/lang/String;
+	public fun solarNoon (Lkotlinx/datetime/LocalDate;DD)Ljava/lang/Double;
+	public fun sunrise (Lkotlinx/datetime/LocalDate;DDD)Ljava/lang/Double;
+	public fun sunset (Lkotlinx/datetime/LocalDate;DDD)Ljava/lang/Double;
+}
+
+public final class com/eskotech/luach/solar/SolarDay {
+	public static final field ASTRONOMICAL_TWILIGHT D
+	public static final field CIVIL_TWILIGHT D
+	public static final field Companion Lcom/eskotech/luach/solar/SolarDay$Companion;
+	public static final field NAUTICAL_TWILIGHT D
+	public fun <init> (Lcom/eskotech/luach/geo/Location;Lkotlinx/datetime/LocalDate;Lcom/eskotech/luach/solar/SolarModel;Lcom/eskotech/luach/solar/ApparentHorizon;)V
+	public synthetic fun <init> (Lcom/eskotech/luach/geo/Location;Lkotlinx/datetime/LocalDate;Lcom/eskotech/luach/solar/SolarModel;Lcom/eskotech/luach/solar/ApparentHorizon;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Lcom/eskotech/luach/geo/Location;
+	public final fun component2 ()Lkotlinx/datetime/LocalDate;
+	public final fun component3 ()Lcom/eskotech/luach/solar/SolarModel;
+	public final fun component4 ()Lcom/eskotech/luach/solar/ApparentHorizon;
+	public final fun copy (Lcom/eskotech/luach/geo/Location;Lkotlinx/datetime/LocalDate;Lcom/eskotech/luach/solar/SolarModel;Lcom/eskotech/luach/solar/ApparentHorizon;)Lcom/eskotech/luach/solar/SolarDay;
+	public static synthetic fun copy$default (Lcom/eskotech/luach/solar/SolarDay;Lcom/eskotech/luach/geo/Location;Lkotlinx/datetime/LocalDate;Lcom/eskotech/luach/solar/SolarModel;Lcom/eskotech/luach/solar/ApparentHorizon;ILjava/lang/Object;)Lcom/eskotech/luach/solar/SolarDay;
+	public final fun depressionAfterSunset (D)Ljava/lang/Double;
+	public final fun depressionBeforeSunrise (D)Ljava/lang/Double;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getAstronomicalDawn ()Lkotlin/time/Instant;
+	public final fun getAstronomicalDusk ()Lkotlin/time/Instant;
+	public final fun getCivilDawn ()Lkotlin/time/Instant;
+	public final fun getCivilDusk ()Lkotlin/time/Instant;
+	public final fun getDate ()Lkotlinx/datetime/LocalDate;
+	public final fun getHorizon ()Lcom/eskotech/luach/solar/ApparentHorizon;
+	public final fun getLocalNoon ()Lkotlin/time/Instant;
+	public final fun getLocation ()Lcom/eskotech/luach/geo/Location;
+	public final fun getMeanSolarNoon ()Lkotlin/time/Instant;
+	public final fun getModel ()Lcom/eskotech/luach/solar/SolarModel;
+	public final fun getNauticalDawn ()Lkotlin/time/Instant;
+	public final fun getNauticalDusk ()Lkotlin/time/Instant;
+	public final fun getSeaLevelSunrise ()Lkotlin/time/Instant;
+	public final fun getSeaLevelSunset ()Lkotlin/time/Instant;
+	public final fun getSolarMidnight ()Lkotlin/time/Instant;
+	public final fun getSolarNoon ()Lkotlin/time/Instant;
+	public final fun getSunrise ()Lkotlin/time/Instant;
+	public final fun getSunset ()Lkotlin/time/Instant;
+	public final fun getTemporalHour-FghU774 ()Lkotlin/time/Duration;
+	public fun hashCode ()I
+	public final fun sunriseAt (DZ)Lkotlin/time/Instant;
+	public static synthetic fun sunriseAt$default (Lcom/eskotech/luach/solar/SolarDay;DZILjava/lang/Object;)Lkotlin/time/Instant;
+	public final fun sunsetAt (DZ)Lkotlin/time/Instant;
+	public static synthetic fun sunsetAt$default (Lcom/eskotech/luach/solar/SolarDay;DZILjava/lang/Object;)Lkotlin/time/Instant;
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/eskotech/luach/solar/SolarDay$Companion {
+	public final fun temporalHour-3UGz1UU (Lkotlin/time/Instant;Lkotlin/time/Instant;)Lkotlin/time/Duration;
+}
+
+public abstract interface class com/eskotech/luach/solar/SolarModel {
+	public abstract fun getName ()Ljava/lang/String;
+	public abstract fun solarNoon (Lkotlinx/datetime/LocalDate;DD)Ljava/lang/Double;
+	public abstract fun sunrise (Lkotlinx/datetime/LocalDate;DDD)Ljava/lang/Double;
+	public abstract fun sunset (Lkotlinx/datetime/LocalDate;DDD)Ljava/lang/Double;
+}
+
+public abstract interface class com/eskotech/luach/zmanim/DayEdge {
+	public static final field Companion Lcom/eskotech/luach/zmanim/DayEdge$Companion;
+}
+
+public final class com/eskotech/luach/zmanim/DayEdge$Companion {
+	public final fun getALOS_120 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getALOS_16_1 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getALOS_18 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getALOS_19_8 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getALOS_26 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getALOS_72 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getALOS_72_ZMANIYOS ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getALOS_90 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getALOS_BAAL_HATANYA ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getMISHEYAKIR_10_2 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getMISHEYAKIR_11 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getMISHEYAKIR_11_5 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getMISHEYAKIR_7_65 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getMISHEYAKIR_9_5 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getTZAIS_120 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getTZAIS_16_1 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getTZAIS_18 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getTZAIS_19_8 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getTZAIS_26 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getTZAIS_72 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getTZAIS_72_ZMANIYOS ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getTZAIS_90 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getTZAIS_96 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getTZAIS_BAAL_HATANYA ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getTZAIS_GEONIM_3_7 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getTZAIS_GEONIM_3_8 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getTZAIS_GEONIM_5_95 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getTZAIS_GEONIM_7_083 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getTZAIS_GEONIM_8_5 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getTZAIS_RABBEINU_TAM_13_24 ()Lcom/eskotech/luach/zmanim/DayEdge;
+}
+
+public final class com/eskotech/luach/zmanim/DayEdge$DawnInterval : com/eskotech/luach/zmanim/DayEdge {
+	public fun <init> (Lcom/eskotech/luach/zmanim/DayEdge;D)V
+	public final fun component1 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun component2 ()D
+	public final fun copy (Lcom/eskotech/luach/zmanim/DayEdge;D)Lcom/eskotech/luach/zmanim/DayEdge$DawnInterval;
+	public static synthetic fun copy$default (Lcom/eskotech/luach/zmanim/DayEdge$DawnInterval;Lcom/eskotech/luach/zmanim/DayEdge;DILjava/lang/Object;)Lcom/eskotech/luach/zmanim/DayEdge$DawnInterval;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getDawn ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getFactor ()D
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/eskotech/luach/zmanim/DayEdge$Depression : com/eskotech/luach/zmanim/DayEdge {
+	public fun <init> (D)V
+	public final fun component1 ()D
+	public final fun copy (D)Lcom/eskotech/luach/zmanim/DayEdge$Depression;
+	public static synthetic fun copy$default (Lcom/eskotech/luach/zmanim/DayEdge$Depression;DILjava/lang/Object;)Lcom/eskotech/luach/zmanim/DayEdge$Depression;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getDegrees ()D
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/eskotech/luach/zmanim/DayEdge$Horizon : com/eskotech/luach/zmanim/DayEdge {
+	public static final field INSTANCE Lcom/eskotech/luach/zmanim/DayEdge$Horizon;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/eskotech/luach/zmanim/DayEdge$Minutes : com/eskotech/luach/zmanim/DayEdge {
+	public fun <init> (D)V
+	public final fun component1 ()D
+	public final fun copy (D)Lcom/eskotech/luach/zmanim/DayEdge$Minutes;
+	public static synthetic fun copy$default (Lcom/eskotech/luach/zmanim/DayEdge$Minutes;DILjava/lang/Object;)Lcom/eskotech/luach/zmanim/DayEdge$Minutes;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getMinutes ()D
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/eskotech/luach/zmanim/DayEdge$ProportionalMinutes : com/eskotech/luach/zmanim/DayEdge {
+	public fun <init> (D)V
+	public final fun component1 ()D
+	public final fun copy (D)Lcom/eskotech/luach/zmanim/DayEdge$ProportionalMinutes;
+	public static synthetic fun copy$default (Lcom/eskotech/luach/zmanim/DayEdge$ProportionalMinutes;DILjava/lang/Object;)Lcom/eskotech/luach/zmanim/DayEdge$ProportionalMinutes;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getMinutes ()D
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/eskotech/luach/zmanim/DayEdge$Shifted : com/eskotech/luach/zmanim/DayEdge {
+	public fun <init> (Lcom/eskotech/luach/zmanim/DayEdge;D)V
+	public final fun component1 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun component2 ()D
+	public final fun copy (Lcom/eskotech/luach/zmanim/DayEdge;D)Lcom/eskotech/luach/zmanim/DayEdge$Shifted;
+	public static synthetic fun copy$default (Lcom/eskotech/luach/zmanim/DayEdge$Shifted;Lcom/eskotech/luach/zmanim/DayEdge;DILjava/lang/Object;)Lcom/eskotech/luach/zmanim/DayEdge$Shifted;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getEdge ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getMinutes ()D
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/eskotech/luach/zmanim/HalachicDay {
+	public static final field Companion Lcom/eskotech/luach/zmanim/HalachicDay$Companion;
+	public fun <init> (Lcom/eskotech/luach/zmanim/DayEdge;Lcom/eskotech/luach/zmanim/DayEdge;)V
+	public final fun component1 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun component2 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun copy (Lcom/eskotech/luach/zmanim/DayEdge;Lcom/eskotech/luach/zmanim/DayEdge;)Lcom/eskotech/luach/zmanim/HalachicDay;
+	public static synthetic fun copy$default (Lcom/eskotech/luach/zmanim/HalachicDay;Lcom/eskotech/luach/zmanim/DayEdge;Lcom/eskotech/luach/zmanim/DayEdge;ILjava/lang/Object;)Lcom/eskotech/luach/zmanim/HalachicDay;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getAlos ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getTzais ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/eskotech/luach/zmanim/HalachicDay$Companion {
+	public final fun degrees (D)Lcom/eskotech/luach/zmanim/HalachicDay;
+	public final fun degrees (DD)Lcom/eskotech/luach/zmanim/HalachicDay;
+	public final fun getATERET_TORAH ()Lcom/eskotech/luach/zmanim/HalachicDay;
+	public final fun getBAAL_HATANYA ()Lcom/eskotech/luach/zmanim/HalachicDay;
+	public final fun getGRA ()Lcom/eskotech/luach/zmanim/HalachicDay;
+	public final fun getMAGEN_AVRAHAM_120 ()Lcom/eskotech/luach/zmanim/HalachicDay;
+	public final fun getMAGEN_AVRAHAM_16_1 ()Lcom/eskotech/luach/zmanim/HalachicDay;
+	public final fun getMAGEN_AVRAHAM_18 ()Lcom/eskotech/luach/zmanim/HalachicDay;
+	public final fun getMAGEN_AVRAHAM_19_8 ()Lcom/eskotech/luach/zmanim/HalachicDay;
+	public final fun getMAGEN_AVRAHAM_26 ()Lcom/eskotech/luach/zmanim/HalachicDay;
+	public final fun getMAGEN_AVRAHAM_72 ()Lcom/eskotech/luach/zmanim/HalachicDay;
+	public final fun getMAGEN_AVRAHAM_72_ZMANIYOS ()Lcom/eskotech/luach/zmanim/HalachicDay;
+	public final fun getMAGEN_AVRAHAM_90 ()Lcom/eskotech/luach/zmanim/HalachicDay;
+	public final fun minutes (D)Lcom/eskotech/luach/zmanim/HalachicDay;
+	public final fun proportionalMinutes (D)Lcom/eskotech/luach/zmanim/HalachicDay;
+}
+
+public final class com/eskotech/luach/zmanim/KiddushLevanaEnd : java/lang/Enum {
+	public static final field FIFTEEN_DAYS Lcom/eskotech/luach/zmanim/KiddushLevanaEnd;
+	public static final field HALF_MONTH Lcom/eskotech/luach/zmanim/KiddushLevanaEnd;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lcom/eskotech/luach/zmanim/KiddushLevanaEnd;
+	public static fun values ()[Lcom/eskotech/luach/zmanim/KiddushLevanaEnd;
+}
+
+public final class com/eskotech/luach/zmanim/KiddushLevanaStart : java/lang/Enum {
+	public static final field SEVEN_DAYS Lcom/eskotech/luach/zmanim/KiddushLevanaStart;
+	public static final field THREE_DAYS Lcom/eskotech/luach/zmanim/KiddushLevanaStart;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lcom/eskotech/luach/zmanim/KiddushLevanaStart;
+	public static fun values ()[Lcom/eskotech/luach/zmanim/KiddushLevanaStart;
+}
+
+public final class com/eskotech/luach/zmanim/Shitos {
+	public static final field Companion Lcom/eskotech/luach/zmanim/Shitos$Companion;
+	public fun <init> ()V
+	public fun <init> (Lcom/eskotech/luach/zmanim/DayEdge;Lcom/eskotech/luach/zmanim/DayEdge;Lcom/eskotech/luach/zmanim/HalachicDay;Lcom/eskotech/luach/zmanim/DayEdge;)V
+	public synthetic fun <init> (Lcom/eskotech/luach/zmanim/DayEdge;Lcom/eskotech/luach/zmanim/DayEdge;Lcom/eskotech/luach/zmanim/HalachicDay;Lcom/eskotech/luach/zmanim/DayEdge;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun component2 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun component3 ()Lcom/eskotech/luach/zmanim/HalachicDay;
+	public final fun component4 ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun copy (Lcom/eskotech/luach/zmanim/DayEdge;Lcom/eskotech/luach/zmanim/DayEdge;Lcom/eskotech/luach/zmanim/HalachicDay;Lcom/eskotech/luach/zmanim/DayEdge;)Lcom/eskotech/luach/zmanim/Shitos;
+	public static synthetic fun copy$default (Lcom/eskotech/luach/zmanim/Shitos;Lcom/eskotech/luach/zmanim/DayEdge;Lcom/eskotech/luach/zmanim/DayEdge;Lcom/eskotech/luach/zmanim/HalachicDay;Lcom/eskotech/luach/zmanim/DayEdge;ILjava/lang/Object;)Lcom/eskotech/luach/zmanim/Shitos;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getAlos ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getDay ()Lcom/eskotech/luach/zmanim/HalachicDay;
+	public final fun getMisheyakir ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public final fun getTzais ()Lcom/eskotech/luach/zmanim/DayEdge;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/eskotech/luach/zmanim/Shitos$Companion {
+	public final fun getGRA ()Lcom/eskotech/luach/zmanim/Shitos;
+	public final fun getMAGEN_AVRAHAM ()Lcom/eskotech/luach/zmanim/Shitos;
+}
+
+public final class com/eskotech/luach/zmanim/Zman : java/lang/Enum {
+	public static final field ALOS Lcom/eskotech/luach/zmanim/Zman;
+	public static final field CHATZOS Lcom/eskotech/luach/zmanim/Zman;
+	public static final field CHATZOS_HALAYLAH Lcom/eskotech/luach/zmanim/Zman;
+	public static final field HADLAKAS_NEIROS Lcom/eskotech/luach/zmanim/Zman;
+	public static final field HANETZ Lcom/eskotech/luach/zmanim/Zman;
+	public static final field MINCHA_GEDOLA Lcom/eskotech/luach/zmanim/Zman;
+	public static final field MINCHA_KETANA Lcom/eskotech/luach/zmanim/Zman;
+	public static final field MISHEYAKIR Lcom/eskotech/luach/zmanim/Zman;
+	public static final field PLAG_HAMINCHA Lcom/eskotech/luach/zmanim/Zman;
+	public static final field SAMUCH_LEMINCHA_KETANA Lcom/eskotech/luach/zmanim/Zman;
+	public static final field SHKIAH Lcom/eskotech/luach/zmanim/Zman;
+	public static final field SOF_ZMAN_ACHILAS_CHAMETZ Lcom/eskotech/luach/zmanim/Zman;
+	public static final field SOF_ZMAN_BIUR_CHAMETZ Lcom/eskotech/luach/zmanim/Zman;
+	public static final field SOF_ZMAN_SHEMA Lcom/eskotech/luach/zmanim/Zman;
+	public static final field SOF_ZMAN_TEFILLAH Lcom/eskotech/luach/zmanim/Zman;
+	public static final field TZAIS Lcom/eskotech/luach/zmanim/Zman;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lcom/eskotech/luach/zmanim/Zman;
+	public static fun values ()[Lcom/eskotech/luach/zmanim/Zman;
+}
+
+public final class com/eskotech/luach/zmanim/Zmanim {
+	public static final field Companion Lcom/eskotech/luach/zmanim/Zmanim$Companion;
+	public fun <init> (Lcom/eskotech/luach/geo/Location;Lkotlinx/datetime/LocalDate;Lcom/eskotech/luach/solar/SolarModel;Lcom/eskotech/luach/solar/ApparentHorizon;ZD)V
+	public synthetic fun <init> (Lcom/eskotech/luach/geo/Location;Lkotlinx/datetime/LocalDate;Lcom/eskotech/luach/solar/SolarModel;Lcom/eskotech/luach/solar/ApparentHorizon;ZDILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun all (Lcom/eskotech/luach/zmanim/Shitos;)Ljava/util/Map;
+	public static synthetic fun all$default (Lcom/eskotech/luach/zmanim/Zmanim;Lcom/eskotech/luach/zmanim/Shitos;ILjava/lang/Object;)Ljava/util/Map;
+	public final fun alos (Lcom/eskotech/luach/zmanim/DayEdge;)Lkotlin/time/Instant;
+	public final fun component1 ()Lcom/eskotech/luach/geo/Location;
+	public final fun component2 ()Lkotlinx/datetime/LocalDate;
+	public final fun component3 ()Lcom/eskotech/luach/solar/SolarModel;
+	public final fun component4 ()Lcom/eskotech/luach/solar/ApparentHorizon;
+	public final fun component5 ()Z
+	public final fun component6 ()D
+	public final fun copy (Lcom/eskotech/luach/geo/Location;Lkotlinx/datetime/LocalDate;Lcom/eskotech/luach/solar/SolarModel;Lcom/eskotech/luach/solar/ApparentHorizon;ZD)Lcom/eskotech/luach/zmanim/Zmanim;
+	public static synthetic fun copy$default (Lcom/eskotech/luach/zmanim/Zmanim;Lcom/eskotech/luach/geo/Location;Lkotlinx/datetime/LocalDate;Lcom/eskotech/luach/solar/SolarModel;Lcom/eskotech/luach/solar/ApparentHorizon;ZDILjava/lang/Object;)Lcom/eskotech/luach/zmanim/Zmanim;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getAlos ()Lkotlin/time/Instant;
+	public final fun getChatzos ()Lkotlin/time/Instant;
+	public final fun getChatzosHalaylah ()Lkotlin/time/Instant;
+	public final fun getDate ()Lkotlinx/datetime/LocalDate;
+	public final fun getFixedLocalChatzos ()Lkotlin/time/Instant;
+	public final fun getHadlakasNeiros ()Lkotlin/time/Instant;
+	public final fun getHadlakasNeirosMinutes ()D
+	public final fun getHanetz ()Lkotlin/time/Instant;
+	public final fun getHebrewDay ()Lcom/eskotech/luach/calendar/HebrewDay;
+	public final fun getHorizon ()Lcom/eskotech/luach/solar/ApparentHorizon;
+	public final fun getLocation ()Lcom/eskotech/luach/geo/Location;
+	public final fun getModel ()Lcom/eskotech/luach/solar/SolarModel;
+	public final fun getMolad ()Lkotlin/time/Instant;
+	public final fun getShkiah ()Lkotlin/time/Instant;
+	public final fun getSolar ()Lcom/eskotech/luach/solar/SolarDay;
+	public final fun getTzais ()Lkotlin/time/Instant;
+	public final fun getUseElevation ()Z
+	public final fun halfDayHour (DLkotlin/time/Instant;Lkotlin/time/Instant;)Lkotlin/time/Instant;
+	public fun hashCode ()I
+	public final fun hourOfDay (DLcom/eskotech/luach/zmanim/HalachicDay;)Lkotlin/time/Instant;
+	public static synthetic fun hourOfDay$default (Lcom/eskotech/luach/zmanim/Zmanim;DLcom/eskotech/luach/zmanim/HalachicDay;ILjava/lang/Object;)Lkotlin/time/Instant;
+	public final fun isAsurBemelacha (Lkotlin/time/Instant;Lkotlin/time/Instant;)Z
+	public final fun kiddushLevanaEnd (Lcom/eskotech/luach/zmanim/KiddushLevanaEnd;Lkotlin/time/Instant;Lkotlin/time/Instant;)Lkotlin/time/Instant;
+	public static synthetic fun kiddushLevanaEnd$default (Lcom/eskotech/luach/zmanim/Zmanim;Lcom/eskotech/luach/zmanim/KiddushLevanaEnd;Lkotlin/time/Instant;Lkotlin/time/Instant;ILjava/lang/Object;)Lkotlin/time/Instant;
+	public final fun kiddushLevanaStart (Lcom/eskotech/luach/zmanim/KiddushLevanaStart;Lkotlin/time/Instant;Lkotlin/time/Instant;)Lkotlin/time/Instant;
+	public static synthetic fun kiddushLevanaStart$default (Lcom/eskotech/luach/zmanim/Zmanim;Lcom/eskotech/luach/zmanim/KiddushLevanaStart;Lkotlin/time/Instant;Lkotlin/time/Instant;ILjava/lang/Object;)Lkotlin/time/Instant;
+	public final fun minchaGedola (Lcom/eskotech/luach/zmanim/HalachicDay;Z)Lkotlin/time/Instant;
+	public static synthetic fun minchaGedola$default (Lcom/eskotech/luach/zmanim/Zmanim;Lcom/eskotech/luach/zmanim/HalachicDay;ZILjava/lang/Object;)Lkotlin/time/Instant;
+	public final fun minchaGedolaFromChatzos (Lcom/eskotech/luach/zmanim/HalachicDay;)Lkotlin/time/Instant;
+	public final fun minchaKetana (Lcom/eskotech/luach/zmanim/HalachicDay;)Lkotlin/time/Instant;
+	public static synthetic fun minchaKetana$default (Lcom/eskotech/luach/zmanim/Zmanim;Lcom/eskotech/luach/zmanim/HalachicDay;ILjava/lang/Object;)Lkotlin/time/Instant;
+	public final fun plagHamincha (Lcom/eskotech/luach/zmanim/HalachicDay;)Lkotlin/time/Instant;
+	public static synthetic fun plagHamincha$default (Lcom/eskotech/luach/zmanim/Zmanim;Lcom/eskotech/luach/zmanim/HalachicDay;ILjava/lang/Object;)Lkotlin/time/Instant;
+	public final fun samuchLeMinchaKetana (Lcom/eskotech/luach/zmanim/HalachicDay;)Lkotlin/time/Instant;
+	public static synthetic fun samuchLeMinchaKetana$default (Lcom/eskotech/luach/zmanim/Zmanim;Lcom/eskotech/luach/zmanim/HalachicDay;ILjava/lang/Object;)Lkotlin/time/Instant;
+	public final fun shaahZmanis-LV8wdWc (Lcom/eskotech/luach/zmanim/HalachicDay;)Lkotlin/time/Duration;
+	public static synthetic fun shaahZmanis-LV8wdWc$default (Lcom/eskotech/luach/zmanim/Zmanim;Lcom/eskotech/luach/zmanim/HalachicDay;ILjava/lang/Object;)Lkotlin/time/Duration;
+	public final fun sofZmanAchilasChametz (Lcom/eskotech/luach/zmanim/HalachicDay;)Lkotlin/time/Instant;
+	public static synthetic fun sofZmanAchilasChametz$default (Lcom/eskotech/luach/zmanim/Zmanim;Lcom/eskotech/luach/zmanim/HalachicDay;ILjava/lang/Object;)Lkotlin/time/Instant;
+	public final fun sofZmanBiurChametz (Lcom/eskotech/luach/zmanim/HalachicDay;)Lkotlin/time/Instant;
+	public static synthetic fun sofZmanBiurChametz$default (Lcom/eskotech/luach/zmanim/Zmanim;Lcom/eskotech/luach/zmanim/HalachicDay;ILjava/lang/Object;)Lkotlin/time/Instant;
+	public final fun sofZmanShema (Lcom/eskotech/luach/zmanim/HalachicDay;)Lkotlin/time/Instant;
+	public static synthetic fun sofZmanShema$default (Lcom/eskotech/luach/zmanim/Zmanim;Lcom/eskotech/luach/zmanim/HalachicDay;ILjava/lang/Object;)Lkotlin/time/Instant;
+	public final fun sofZmanTefillah (Lcom/eskotech/luach/zmanim/HalachicDay;)Lkotlin/time/Instant;
+	public static synthetic fun sofZmanTefillah$default (Lcom/eskotech/luach/zmanim/Zmanim;Lcom/eskotech/luach/zmanim/HalachicDay;ILjava/lang/Object;)Lkotlin/time/Instant;
+	public fun toString ()Ljava/lang/String;
+	public final fun tzais (Lcom/eskotech/luach/zmanim/DayEdge;)Lkotlin/time/Instant;
+	public final fun zman (Lcom/eskotech/luach/zmanim/Zman;Lcom/eskotech/luach/zmanim/Shitos;)Lkotlin/time/Instant;
+	public static synthetic fun zman$default (Lcom/eskotech/luach/zmanim/Zmanim;Lcom/eskotech/luach/zmanim/Zman;Lcom/eskotech/luach/zmanim/Shitos;ILjava/lang/Object;)Lkotlin/time/Instant;
+}
+
+public final class com/eskotech/luach/zmanim/Zmanim$Companion {
+	public final fun today (Lcom/eskotech/luach/geo/Location;Lcom/eskotech/luach/solar/SolarModel;Lcom/eskotech/luach/solar/ApparentHorizon;ZD)Lcom/eskotech/luach/zmanim/Zmanim;
+	public static synthetic fun today$default (Lcom/eskotech/luach/zmanim/Zmanim$Companion;Lcom/eskotech/luach/geo/Location;Lcom/eskotech/luach/solar/SolarModel;Lcom/eskotech/luach/solar/ApparentHorizon;ZDILjava/lang/Object;)Lcom/eskotech/luach/zmanim/Zmanim;
+}
+

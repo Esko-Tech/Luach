@@ -1,0 +1,404 @@
+# Snapshot "Zmanim.edgesAndDays" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	2940160	01273086a0a50158	784ba6ba816ebe97
+member	dawn 13.5 minutes before 7.083	9188	bf740662fea70649	98a9568b1dbeb7b6
+member	dawn 72 minutes shifted 10	9188	160bebed04ddc0cc	b84dba05d3fe91d3
+member	dawn dawn interval 19.8 x 5/18	9188	71687ef98a326833	3de91717893200dd
+member	dawn depression -2.1	9188	e2eceff97da220e6	c1ba732cde803ef9
+member	dawn depression -2.8	9188	df338d7da3ac8e7d	403ae8deb647865b
+member	dawn depression -3.05	9188	f850d1bf87175ec9	ecdde9802e8b6c13
+member	dawn depression 0.0	9188	aa229d0e26ce91d8	c0936cf726595005
+member	dawn depression 1.583	9188	5c242321265b2494	00a194654ef6b3c0
+member	dawn depression 10.2	9188	498ae3702040508e	f6c1a254fb8fab11
+member	dawn depression 11.0	9188	8b0f6e2a72c3b48e	ffb961c79049376f
+member	dawn depression 11.5	9188	10586c3bcc4ac235	9cecef56933b7860
+member	dawn depression 13.24	9188	bc53b86b64157da2	604c905443e3191f
+member	dawn depression 16.1	9188	9830682d42305ec1	0d9828996a23aea6
+member	dawn depression 16.9	9188	20f3c9142f1c71b1	ccc558178a62f7d9
+member	dawn depression 18.0	9188	ad43c93eea21c190	4f2b9af0da8840bc
+member	dawn depression 19.0	9188	f13f2e5b8870208d	a76937c1d4777cc5
+member	dawn depression 19.8	9188	4de4340922c80be6	d81dbcd2805a5da7
+member	dawn depression 26.0	9188	1f8e1d738b03e916	b366e18da7bb107e
+member	dawn depression 3.65	9188	842681dcb5b01c98	9cb9fb210c40bd39
+member	dawn depression 3.676	9188	213f575739830ee2	c17473a189ca27fd
+member	dawn depression 3.7	9188	87893f4d7520126b	e28e23b5f2334fc6
+member	dawn depression 3.8	9188	bcef8601ba147fb6	dac465d17ed126cf
+member	dawn depression 4.37	9188	212db2b80717f9ae	23d85067b0235783
+member	dawn depression 4.61	9188	b2b7722dbb411908	5c49ddf55cfee5b5
+member	dawn depression 4.8	9188	bc47155f44c468ed	61d24e8152e4e60d
+member	dawn depression 45.0	9188	6e0b83c0ed245f23	dfb63cbca8bb1dab
+member	dawn depression 5.88	9188	a5531cdcc3ea0799	3f8d3177614ebf85
+member	dawn depression 5.95	9188	bc3ed95da0ed2b2a	7d0e33ef29c803ce
+member	dawn depression 6.0	9188	f02bad7af8e93d3d	6873830506a67aaf
+member	dawn depression 6.45	9188	8339c7c80a09b8ee	c95d87a49a4602f1
+member	dawn depression 7.083333333333333	9188	ab3561fd362df331	b4eef947db24f289
+member	dawn depression 7.65	9188	96878717b73b197b	d3fe149ebe1bb271
+member	dawn depression 7.67	9188	81c5b6d3faedb0bb	af3f44c36ef85bc5
+member	dawn depression 8.5	9188	73bb9d4af5e479db	ed8283029d61efd1
+member	dawn depression 89.0	9188	3921c5300a7eb1c7	6d8e65e16e9c48c0
+member	dawn depression 9.3	9188	8081d0570b24dde5	93a720661fad2047
+member	dawn depression 9.5	9188	f01f880607a104dc	7bccff00a9abfa9a
+member	dawn depression 9.75	9188	9f86a755ec5183c3	85f214f13a2d38c2
+member	dawn horizon	9188	13644cd55c53f37a	25a1c71f98b5fbd6
+member	dawn minutes -13.5	9188	d1d9f1e3d1fbd195	d2751b6b8fe9b616
+member	dawn minutes -16.875	9188	41a9b1b4c3e472da	0b7bb0a53806991f
+member	dawn minutes -18.0	9188	f48fd6acc6ba610e	8a1245d254efeee3
+member	dawn minutes 0.0	9188	875bce7c9b44e769	9ecd5e121ed12d54
+member	dawn minutes 120.0	9188	4825cafe4d1e689a	48a6a9859ff109de
+member	dawn minutes 50.0	9188	aa179bbc917f6757	d51c4938d77ec8de
+member	dawn minutes 58.5	9188	239ff0af6305eea9	577f4adfeb2770b7
+member	dawn minutes 60.0	9188	cbffb0a1d06e9d43	a51c665016a1ed9a
+member	dawn minutes 72.0	9188	26c2a2a50656eb02	de42fd7c00f0ad50
+member	dawn minutes 90.0	9188	7bf1ec41193aa767	b992a410f58cf78a
+member	dawn minutes 96.0	9188	ff07fb1717ff1aa4	004ae928ea4b252f
+member	dawn proportional -30.0	9188	3d7ebd83afd5280e	9a060924bc82b296
+member	dawn proportional 120.0	9188	c61d8b7bf3eaeff4	197dfac4e3e78ab8
+member	dawn proportional 72.0	9188	634fda2447957adf	af9e6fb18c533eb1
+member	dawn proportional 90.0	9188	786f66981d08a450	2dcce2825d163ee6
+member	dawn proportional 96.0	9188	357ca6f88c08688a	5bb874fdc1d09fc8
+member	dusk 13.5 minutes before 7.083	9188	d0614250619ae14e	d629d6eaefb4b804
+member	dusk 72 minutes shifted 10	9188	bc532b31e521890b	064ae664825148c0
+member	dusk dawn interval 19.8 x 5/18	9188	8716d85d1831d48d	f284696194b102f7
+member	dusk depression -2.1	9188	91e562f7d1279ee9	13ca4775d43f68f7
+member	dusk depression -2.8	9188	cef87add1a57157a	6a685452e5210e80
+member	dusk depression -3.05	9188	bcf7bbe057c8cb3e	572f783957d9f40b
+member	dusk depression 0.0	9188	ffe88bcd176a07bb	5ff8d6ed5d484a33
+member	dusk depression 1.583	9188	a931e63ef3811ec8	c818107825163fed
+member	dusk depression 10.2	9188	14262473b6f5663d	8047b9be0e1a55e6
+member	dusk depression 11.0	9188	346b26d7780af3d6	5f7286c95fc80d66
+member	dusk depression 11.5	9188	ebc762ce918e4ed2	bbf2317779799ddf
+member	dusk depression 13.24	9188	d4f4cb38bf134a65	77033b242b21dedf
+member	dusk depression 16.1	9188	6430b704e2efdedc	42e0b7cb252513d7
+member	dusk depression 16.9	9188	1108bc9d39048f88	2cd79073753f65d7
+member	dusk depression 18.0	9188	03126f4d86f7545a	0de0e15ce10d093b
+member	dusk depression 19.0	9188	d3b1aed0563cacd7	77109dec6b5313be
+member	dusk depression 19.8	9188	2d9252e765702078	451c7bcdd7c1caab
+member	dusk depression 26.0	9188	c660f34722e9a834	406b93cde96914ed
+member	dusk depression 3.65	9188	3e4fa27324c6ecc2	dd7f4bf9b31e7f26
+member	dusk depression 3.676	9188	fee8bff623f98c54	8f30268bf94ad465
+member	dusk depression 3.7	9188	a57e468762e2dd88	e990457fe708231a
+member	dusk depression 3.8	9188	2b91ac12a0b93fd8	25e48d522a848394
+member	dusk depression 4.37	9188	1fcbc24f91a5ec84	738cf33eee318b43
+member	dusk depression 4.61	9188	8913e9d5a98f950e	3485d22260b59176
+member	dusk depression 4.8	9188	a21d289435fbe1c2	55c590352edc8025
+member	dusk depression 45.0	9188	5e34ea6fc0070a4f	b868ce5dafe8658f
+member	dusk depression 5.88	9188	cebad11f99c146c8	a560ee3934c5a804
+member	dusk depression 5.95	9188	eb4ccdf46e445bde	c32f6c7bba445ea0
+member	dusk depression 6.0	9188	d9fb05b0ec080ff3	2ad7ac5765dfac41
+member	dusk depression 6.45	9188	4831d44c225237cc	32678b50885e43bf
+member	dusk depression 7.083333333333333	9188	6a1c9e2f8e82fd25	7183e2bb795a144d
+member	dusk depression 7.65	9188	bbd221aa51d510f7	d6daa91fbcf165ca
+member	dusk depression 7.67	9188	a48649994c97577a	6dfe02a788b1ea15
+member	dusk depression 8.5	9188	7ab6142bf794cd0f	77993088a780e904
+member	dusk depression 89.0	9188	a2681264f3ac3a83	501685d130166017
+member	dusk depression 9.3	9188	dff362462c6eb8fc	a4c4712dc0e916f9
+member	dusk depression 9.5	9188	a18dd7a9c082fda7	6bc423b7c2d7cedb
+member	dusk depression 9.75	9188	11782a12fe5f842e	e6faca3dc19d6363
+member	dusk horizon	9188	dde415ce9836794c	a8018a1ebc6cc6a8
+member	dusk minutes -13.5	9188	d7b66424335d2116	2d9924a40fa0c4a2
+member	dusk minutes -16.875	9188	3cf6f7dead93a2d4	0778dc980940701a
+member	dusk minutes -18.0	9188	57aea142785b14af	3fb9a6b95130bda0
+member	dusk minutes 0.0	9188	0b247199980a3dbf	b2c9f211695f44ca
+member	dusk minutes 120.0	9188	927827860f78ee1c	f1ab2cfaf933ba20
+member	dusk minutes 50.0	9188	6fa8733ed6029d9d	be8db9b2ac1b7b64
+member	dusk minutes 58.5	9188	ee589a8865f009e9	653e2bc78a55be6b
+member	dusk minutes 60.0	9188	a3f5fbe91092961a	2453a282d9dd69b7
+member	dusk minutes 72.0	9188	2a27ac7f2906273d	2f00d2a2eaea342f
+member	dusk minutes 90.0	9188	9a290ab0227dc523	230c77e98e1ed7ae
+member	dusk minutes 96.0	9188	0a10b9e5c343ed04	8f262a77127cf446
+member	dusk proportional -30.0	9188	84f6101f3731c22f	b4b41e1390400e44
+member	dusk proportional 120.0	9188	9e79933b8bbe9ef2	03e67709500d5712
+member	dusk proportional 72.0	9188	7dd0d1dc2792e819	39e05776e0b78a70
+member	dusk proportional 90.0	9188	0e0fa85ab231eec8	d7e2a4b3834254f5
+member	dusk proportional 96.0	9188	cc37d7ddd383b9c8	218d59701dfe3c0e
+member	minchaGedola 16.1 to 3.7	9188	6817319afb8dd3d0	544bf1876ab98f73
+member	minchaGedola 16.1 to 3.8	9188	8932d0451a17173b	3d58377632d3651d
+member	minchaGedola 16.1 to 7.083	9188	f7eb81bec21174e2	ca4dab76b51b2671
+member	minchaGedola 16.1 to sunset	9188	4a80cc325978e20b	41fa5cb2db4db6a7
+member	minchaGedola at least 30 16.1 to 3.7	9188	901827d2db6df41b	c3b3d660dbcd0a73
+member	minchaGedola at least 30 16.1 to 3.8	9188	e53bbda93939389a	5b1b78341a36847d
+member	minchaGedola at least 30 16.1 to 7.083	9188	a6cc822270f5ae57	730d882ccb7f50f0
+member	minchaGedola at least 30 16.1 to sunset	9188	3ffb58532e829dfd	87ccd83fd509869d
+member	minchaGedola at least 30 ateret torah 25	9188	c73a9f2f93ded6f3	ba16d63da33c09ec
+member	minchaGedola at least 30 ateret torah 40	9188	53283437abe6b0d5	b56e1f275e21e1f1
+member	minchaGedola at least 30 degrees 1.583	9188	ab83aa0f35784971	4da31463a228c8b7
+member	minchaGedola at least 30 degrees 16.1	9188	7069f78fba48d18e	9d7b3c9043b88e96
+member	minchaGedola at least 30 degrees 18.0	9188	9469a5e751b1f362	40365d5058ae8b3f
+member	minchaGedola at least 30 degrees 19.8	9188	06c2916b8806299e	d009298b73183bf2
+member	minchaGedola at least 30 degrees 26.0	9188	bb873e8d060c5411	098c7c95bb1e02d5
+member	minchaGedola at least 30 minutes 120.0	9188	372c6f8b3e5a5df8	6fbe88da0d2d20be
+member	minchaGedola at least 30 minutes 60.0	9188	1cf34b5ddbfb87d5	f5e4c164cfaf6aa0
+member	minchaGedola at least 30 minutes 72.0	9188	184f23c9778102a3	e175a0d4985fd9e4
+member	minchaGedola at least 30 minutes 90.0	9188	d5fde4b0182fb25d	2778f7f64e42909b
+member	minchaGedola at least 30 minutes 96.0	9188	56a36f46b71b7517	e9cf337338ef4064
+member	minchaGedola at least 30 proportional 120.0	9188	da77f8317762cbb7	9fdb0869004f7fd4
+member	minchaGedola at least 30 proportional 72.0	9188	48e906350e636463	78fa6f60545275e8
+member	minchaGedola at least 30 proportional 90.0	9188	eec2732f4b3b3673	eaf076604445f9ab
+member	minchaGedola at least 30 proportional 96.0	9188	4ef2a91b1fdef3a9	7e75518e11b1471a
+member	minchaGedola at least 30 sunrise to sunset	9188	684aad8d4d5b4fc1	459030abca0eb6e3
+member	minchaGedola ateret torah 25	9188	df6fefc4b54ceb98	fa7cab26e0552b14
+member	minchaGedola ateret torah 40	9188	f790d5a20c901df1	25df776e5081e2d8
+member	minchaGedola degrees 1.583	9188	6b352dce45a25f73	dacac65cbfa26b20
+member	minchaGedola degrees 16.1	9188	71f6ba9c5aecb841	0a18ffb80ed43079
+member	minchaGedola degrees 18.0	9188	1a7b0df9968f608a	2d96f022fd2fde25
+member	minchaGedola degrees 19.8	9188	c71d2d23a4931bf0	1a7458df526b6a41
+member	minchaGedola degrees 26.0	9188	3769b96c807ed06b	74b7624909f3ac1b
+member	minchaGedola minutes 120.0	9188	a44b35bc35ca2cc8	599d74f84f67b56e
+member	minchaGedola minutes 60.0	9188	0b71f942d1a08477	14da0a40ca70bf38
+member	minchaGedola minutes 72.0	9188	f939d83f7a3979b1	1e9d46e9b4ad1f0e
+member	minchaGedola minutes 90.0	9188	213438bd3403bd29	b1f051f9ba41acd8
+member	minchaGedola minutes 96.0	9188	ab3e7cb986bbf1e5	87bd145ffc1a267f
+member	minchaGedola proportional 120.0	9188	a7d94d02e83e86a7	84c03394c13e09e5
+member	minchaGedola proportional 72.0	9188	245c34de81578336	f9c3da9abe21cb3a
+member	minchaGedola proportional 90.0	9188	e9106d0ae7ef3b32	6c424e6aac40a0d9
+member	minchaGedola proportional 96.0	9188	74f8de54c4c5628a	27e760906c9b9ac3
+member	minchaGedola sunrise to sunset	9188	ab0c42b8380713d1	ee2861ec8937e224
+member	minchaGedolaFromChatzos 16.1 to 3.7	9188	d2b4b20cc9bf699e	b9b0c89e4f079f06
+member	minchaGedolaFromChatzos 16.1 to 3.8	9188	9bc038551faddaa8	92ba8297d5b89349
+member	minchaGedolaFromChatzos 16.1 to 7.083	9188	906a94104e0d79ad	e53622643f1895fe
+member	minchaGedolaFromChatzos 16.1 to sunset	9188	22f4b7547e3cd00a	234f747f8e7bd936
+member	minchaGedolaFromChatzos ateret torah 25	9188	99aca4333efc05de	201b31aa81c5cb91
+member	minchaGedolaFromChatzos ateret torah 40	9188	4e0dd15a274e29ff	77c10feac69dbb06
+member	minchaGedolaFromChatzos degrees 1.583	9188	938fc1acbdf8a332	e8bff26670e3bf25
+member	minchaGedolaFromChatzos degrees 16.1	9188	8f6fc3aaaa1e8155	cd9a2ae264fa4a58
+member	minchaGedolaFromChatzos degrees 18.0	9188	0f0848621df5c701	bb1968469acef9d6
+member	minchaGedolaFromChatzos degrees 19.8	9188	6cad8b4b9c7b3b82	8d2719a680f7f655
+member	minchaGedolaFromChatzos degrees 26.0	9188	a642f90a828dc91f	c4c1f2ae336a8b7e
+member	minchaGedolaFromChatzos minutes 120.0	9188	944a392369ce5d51	e8d900a4341a89e5
+member	minchaGedolaFromChatzos minutes 60.0	9188	bd6f876d9978a1fd	bf20018975780f4e
+member	minchaGedolaFromChatzos minutes 72.0	9188	1b224aba2f6a8543	8df35e858029d836
+member	minchaGedolaFromChatzos minutes 90.0	9188	61a5f02bb0c9799d	1880c7e0c0099403
+member	minchaGedolaFromChatzos minutes 96.0	9188	9e7280172d3544e3	2fa6edb1f1e41059
+member	minchaGedolaFromChatzos proportional 120.0	9188	8553c3f9644e55cd	00c200e570c1f5f4
+member	minchaGedolaFromChatzos proportional 72.0	9188	c71b9b784f237ace	29df364588edea2b
+member	minchaGedolaFromChatzos proportional 90.0	9188	7095e6080a909c21	eab9d40fc1a39408
+member	minchaGedolaFromChatzos proportional 96.0	9188	d8653e89e0d984b3	e896f53b2f53180b
+member	minchaGedolaFromChatzos sunrise to sunset	9188	1dfb92c1964b6d60	9ee295e003078d8c
+member	minchaKetana 16.1 to 3.7	9188	6338d214d379c6f9	6d66d0f9076a86ec
+member	minchaKetana 16.1 to 3.8	9188	d6cbe2060987aff5	d98e0dd5cd19102b
+member	minchaKetana 16.1 to 7.083	9188	9f20d7794504233d	f4abc2ce1e9ed26e
+member	minchaKetana 16.1 to sunset	9188	b8b223dac28c3ad2	9f2c4bd439688fef
+member	minchaKetana ateret torah 25	9188	4db19db64b4e91b4	ebfacab8db092df2
+member	minchaKetana ateret torah 40	9188	3e1bf9d23f781e7c	19aa95f3a459d836
+member	minchaKetana degrees 1.583	9188	76c5466785b6d2c4	06b6bf00d77cb3fe
+member	minchaKetana degrees 16.1	9188	eea147a355e08a8e	33cad80d3b018e39
+member	minchaKetana degrees 18.0	9188	762514779091ced0	465325f46cc86c86
+member	minchaKetana degrees 19.8	9188	8291460f05d3bb81	7016aeda361d3207
+member	minchaKetana degrees 26.0	9188	cea158c239346868	60b78bb7d1a12d67
+member	minchaKetana minutes 120.0	9188	d45df1817633d86f	900e1d6f90f10933
+member	minchaKetana minutes 60.0	9188	5262e106cb69e299	c88ed7a4f445d2a2
+member	minchaKetana minutes 72.0	9188	5cdd930df7c0bc17	db0ca03129d5d5b6
+member	minchaKetana minutes 90.0	9188	e407a5ddd3c505de	6253bbf10a3c8052
+member	minchaKetana minutes 96.0	9188	06a7ae3c3c7a1258	999e4a608ff350d4
+member	minchaKetana proportional 120.0	9188	90d5e8b03085f176	709421240a31f81c
+member	minchaKetana proportional 72.0	9188	ae0071392a115f80	ca3e350b29e443f6
+member	minchaKetana proportional 90.0	9188	291f89fb1a527952	ec4a80228db1c006
+member	minchaKetana proportional 96.0	9188	cf41201d6bb628db	c61bb0ff56eb98c1
+member	minchaKetana sunrise to sunset	9188	0495be0409b68cd2	fcba7974e48d653f
+member	plagHamincha 16.1 to 3.7	9188	f8ad8e96a7cce522	4344b99cf0fbcbe9
+member	plagHamincha 16.1 to 3.8	9188	e7fde4ccafc772d3	b8d3169cf842b17c
+member	plagHamincha 16.1 to 7.083	9188	207f2b142b549146	bee9edbe8c2b6d40
+member	plagHamincha 16.1 to sunset	9188	46426806dd63dc8a	5332bb0540a3add5
+member	plagHamincha ateret torah 25	9188	6a33ba6c599d872d	bfdc40dd9ed7b395
+member	plagHamincha ateret torah 40	9188	ef7ca624d7be0105	2fd1ece32dbdfea2
+member	plagHamincha degrees 1.583	9188	8ca1985ca483e14f	8d44be2f259be8f6
+member	plagHamincha degrees 16.1	9188	bfad2d4ba86be36e	dc677353e70099f7
+member	plagHamincha degrees 18.0	9188	db3993e513f11c34	52dcf3db134a2143
+member	plagHamincha degrees 19.8	9188	8b4d8c59dcb800d1	f11860b7604a66c0
+member	plagHamincha degrees 26.0	9188	6f6b8da46b4ca8cf	a5c5396f1b858484
+member	plagHamincha minutes 120.0	9188	e2440be44db959a7	5f00f8363cb2420a
+member	plagHamincha minutes 60.0	9188	cdcae217ec2e8695	ca0159baefc926e9
+member	plagHamincha minutes 72.0	9188	609413f049dcbe83	59634e3628c222d3
+member	plagHamincha minutes 90.0	9188	0e93541ebb217098	362f21bf5e068ff9
+member	plagHamincha minutes 96.0	9188	7647f16d8999088a	161c2c03ee8766ff
+member	plagHamincha proportional 120.0	9188	d7abc3874d4b768b	115262aa22185666
+member	plagHamincha proportional 72.0	9188	276de067ac67d976	a404ae4066b3c42a
+member	plagHamincha proportional 90.0	9188	24927f29b66aa91d	679faf23d777ec68
+member	plagHamincha proportional 96.0	9188	20d680afad217a99	5071af5f82d1d12b
+member	plagHamincha sunrise to sunset	9188	4b0053849d92f9fe	08f8816d4b99153d
+member	samuchLeMinchaKetana 16.1 to 3.7	9188	12fad474a7dccb23	1b9c74f49f76075f
+member	samuchLeMinchaKetana 16.1 to 3.8	9188	5fbe5477f04882f4	ed25f87bec475b31
+member	samuchLeMinchaKetana 16.1 to 7.083	9188	e8360e7fa4f0318b	b67b6eb9ac1b6da3
+member	samuchLeMinchaKetana 16.1 to sunset	9188	e95e67c1cd0c6434	6cf43c5c5b30119e
+member	samuchLeMinchaKetana ateret torah 25	9188	2589a5dcdec8a8c4	edca8bd7a1a99c17
+member	samuchLeMinchaKetana ateret torah 40	9188	fddfffa5adf8a8a2	b82c055c828ddbdc
+member	samuchLeMinchaKetana degrees 1.583	9188	4f3e6186dbcdd278	ea11eaa2b21e6714
+member	samuchLeMinchaKetana degrees 16.1	9188	53b79ecd294295d7	84a71f5dfe9b7137
+member	samuchLeMinchaKetana degrees 18.0	9188	5019759373517241	706cfe9af232a0de
+member	samuchLeMinchaKetana degrees 19.8	9188	9c3fd019b4bb2ff8	31ad8506ef1a2bda
+member	samuchLeMinchaKetana degrees 26.0	9188	e8224096dbc23894	bdaff4492f1a1536
+member	samuchLeMinchaKetana minutes 120.0	9188	9701db34bfd0329a	9eec7f4e5ea935f6
+member	samuchLeMinchaKetana minutes 60.0	9188	39a33e1df9f9b710	a320d00c4fe03ef5
+member	samuchLeMinchaKetana minutes 72.0	9188	ef2f347f92d2ea3d	feba1bb75d5933d4
+member	samuchLeMinchaKetana minutes 90.0	9188	a7e3b05cdae9e88c	2a073462352a46cd
+member	samuchLeMinchaKetana minutes 96.0	9188	a6afc0f16947059f	eff7bc61cb513f30
+member	samuchLeMinchaKetana proportional 120.0	9188	05367497e723ddc9	b437bb32c5901a26
+member	samuchLeMinchaKetana proportional 72.0	9188	0b1e191337cda4ca	82dc58b64de8bf13
+member	samuchLeMinchaKetana proportional 90.0	9188	e70729872ff0761c	fc5854a108277897
+member	samuchLeMinchaKetana proportional 96.0	9188	6ab923c571949958	15293990257883ee
+member	samuchLeMinchaKetana sunrise to sunset	9188	68b8c9cb633dee1f	10d2128377f39494
+member	sofZmanBiurChametz 16.1 to 3.7	9188	10c73ba5ba5f49f5	8a25d0a65a231427
+member	sofZmanBiurChametz 16.1 to 3.8	9188	c1b7051b070f237a	bb6842f95910a1d7
+member	sofZmanBiurChametz 16.1 to 7.083	9188	3a403843e49c9c0a	632610482b2fa323
+member	sofZmanBiurChametz 16.1 to sunset	9188	fffbfe0c5f2e667a	86543bba1ed66255
+member	sofZmanBiurChametz ateret torah 25	9188	92e2832305885a56	15633b6cd7829916
+member	sofZmanBiurChametz ateret torah 40	9188	7f8233d97fb6a225	39ec6d7ef0e35c21
+member	sofZmanBiurChametz degrees 1.583	9188	646b4a28c4829f4f	61ae85df22df2849
+member	sofZmanBiurChametz degrees 16.1	9188	6a09ec081a741e01	822d9ae3bc274d2f
+member	sofZmanBiurChametz degrees 18.0	9188	012311d44a7c9476	b12cc5b5f8e354c4
+member	sofZmanBiurChametz degrees 19.8	9188	6183b13b84ad5256	f5c25078bfca41ce
+member	sofZmanBiurChametz degrees 26.0	9188	fb2dc4654c7483ec	b6b344ec9a10e751
+member	sofZmanBiurChametz minutes 120.0	9188	d850fa224396d37f	501422903e7e0a01
+member	sofZmanBiurChametz minutes 60.0	9188	d071f2b9ba4e1189	b71e7252e4986638
+member	sofZmanBiurChametz minutes 72.0	9188	b1249316f9c5de53	671d07792ccda484
+member	sofZmanBiurChametz minutes 90.0	9188	69ca99791a0f63ae	42d3c82205aaacc2
+member	sofZmanBiurChametz minutes 96.0	9188	2b3362c09ebc3814	497d319f644ff19e
+member	sofZmanBiurChametz proportional 120.0	9188	8ec99597a1ec0b46	1182ba46ddbd8d53
+member	sofZmanBiurChametz proportional 72.0	9188	ac15801f37622a4e	7de77dc2368dacee
+member	sofZmanBiurChametz proportional 90.0	9188	c01fba86f507a1fc	2e1a1e988a438df0
+member	sofZmanBiurChametz proportional 96.0	9188	34a1605accf2cdb4	fe49d8e1ff36dbd8
+member	sofZmanBiurChametz sunrise to sunset	9188	5bf2896a071fe5b6	901611fa7f26fb21
+member	sofZmanShema 16.1 to 3.7	9188	952a7576ea641303	b40ddcd1645235b7
+member	sofZmanShema 16.1 to 3.8	9188	f45b8c1ee910e230	9d2c0ff3243a8dd2
+member	sofZmanShema 16.1 to 7.083	9188	309fdd37c07122f7	e25bc44878a19825
+member	sofZmanShema 16.1 to sunset	9188	09199b8ddd167abb	b35b837a41608d6f
+member	sofZmanShema ateret torah 25	9188	954ec496835d92ba	4fc54c04be837345
+member	sofZmanShema ateret torah 40	9188	ad58558188b12050	ed6fa9b2e06465ae
+member	sofZmanShema degrees 1.583	9188	1c393f7dd0e58255	948710b8babdee92
+member	sofZmanShema degrees 16.1	9188	bbb24dc74fc8ec40	500b7f06fc2d295d
+member	sofZmanShema degrees 18.0	9188	e99494a45231f817	b6200cd26e2a41f0
+member	sofZmanShema degrees 19.8	9188	1f2e33bbe5a4943c	b2cc7ae6906d1112
+member	sofZmanShema degrees 26.0	9188	e3023834f31374cd	10994c74751a2706
+member	sofZmanShema minutes 120.0	9188	4fec39696e35e57b	35912b00fce063e2
+member	sofZmanShema minutes 60.0	9188	e7d1ef6e104966e0	1482b9b2ec0cde80
+member	sofZmanShema minutes 72.0	9188	03b64a33bbf938f2	37bd7a5779709bb1
+member	sofZmanShema minutes 90.0	9188	6f8f3cb69e322b7a	9dabe34bf48672c9
+member	sofZmanShema minutes 96.0	9188	9b3b94f99c0de75e	d0b7f26c05e69a61
+member	sofZmanShema proportional 120.0	9188	456532606f816e3e	7eda409eb78f2964
+member	sofZmanShema proportional 72.0	9188	7eb396f605d31c0e	a35d8eb8ee5a5ebd
+member	sofZmanShema proportional 90.0	9188	63c20e8b575a9119	6fbe264539374783
+member	sofZmanShema proportional 96.0	9188	1f443f15d0194693	eeb4ed4c9b6ef967
+member	sofZmanShema sunrise to sunset	9188	b44d74ee6366e64d	e30ea418722d6624
+member	sofZmanTefillah 16.1 to 3.7	9188	d662829168528576	2da396e6c697f05a
+member	sofZmanTefillah 16.1 to 3.8	9188	0b3c771ddfe72bd8	d12caf40adfd2d3c
+member	sofZmanTefillah 16.1 to 7.083	9188	cab4c2a21072bcaa	31e94a24d8ede524
+member	sofZmanTefillah 16.1 to sunset	9188	70700947c0501875	c789912cd0cc149b
+member	sofZmanTefillah ateret torah 25	9188	8cc5638a65781e72	7c9d748cfef5a25f
+member	sofZmanTefillah ateret torah 40	9188	097ba56d31b8a48d	1587f81160cca572
+member	sofZmanTefillah degrees 1.583	9188	f1ec9c05f07e069e	7fc8585f221577dc
+member	sofZmanTefillah degrees 16.1	9188	e149d6cb20e9f99e	9ec47bf8a596e654
+member	sofZmanTefillah degrees 18.0	9188	91dce8dcdee7f496	354f5f51f77e8358
+member	sofZmanTefillah degrees 19.8	9188	6419efaef2e1ddbb	9a61c7a6ad405cf0
+member	sofZmanTefillah degrees 26.0	9188	c24666cd9fec1a77	513035bd946dded9
+member	sofZmanTefillah minutes 120.0	9188	a204af4bb1c3f389	d64ac66d11fb40fd
+member	sofZmanTefillah minutes 60.0	9188	0c024e09a93ae0c5	785a363b518c4c79
+member	sofZmanTefillah minutes 72.0	9188	781407a73a188512	b8e9119aa6cc3f06
+member	sofZmanTefillah minutes 90.0	9188	9721a40d32d1a207	092eee76bc8c3496
+member	sofZmanTefillah minutes 96.0	9188	2d7f1414ef82e1a9	3ca77292fa0412bc
+member	sofZmanTefillah proportional 120.0	9188	9cbd57a03c356048	6e0051701187023b
+member	sofZmanTefillah proportional 72.0	9188	7c58ff7386b1f002	1840864c2165deca
+member	sofZmanTefillah proportional 90.0	9188	3bdc8ef8703ef4d4	84dc9ed88c2f91e1
+member	sofZmanTefillah proportional 96.0	9188	97e6011d72d84b98	368dde35a3d936d6
+member	sofZmanTefillah sunrise to sunset	9188	2305206c4b55f49f	6fcde100647e2a61
+member	temporalHour 16.1 to 3.7	9188	aa8a17b2e1ab7d6a	aa8a17b2e1ab7d6a
+member	temporalHour 16.1 to 3.8	9188	1c5350066242eb23	1c5350066242eb23
+member	temporalHour 16.1 to 7.083	9188	91d5bc7b559716af	91d5bc7b559716af
+member	temporalHour 16.1 to sunset	9188	21f2be05361517ed	21f2be05361517ed
+member	temporalHour ateret torah 25	9188	4567af33b0b94b80	4567af33b0b94b80
+member	temporalHour ateret torah 40	9188	4a19f7d4e19dab47	4a19f7d4e19dab47
+member	temporalHour degrees 1.583	9188	7790e04ff27dfb6a	7790e04ff27dfb6a
+member	temporalHour degrees 16.1	9188	cdeb64a9f5919211	cdeb64a9f5919211
+member	temporalHour degrees 18.0	9188	a0e947e40b6312fe	a0e947e40b6312fe
+member	temporalHour degrees 19.8	9188	62f1ca740a85b5b8	62f1ca740a85b5b8
+member	temporalHour degrees 26.0	9188	049b9a04b78f1bd2	049b9a04b78f1bd2
+member	temporalHour minutes 120.0	9188	5c367f7625698136	5c367f7625698136
+member	temporalHour minutes 60.0	9188	a1d3d2fc5a9b1b74	a1d3d2fc5a9b1b74
+member	temporalHour minutes 72.0	9188	5dcea4a185b7899a	5dcea4a185b7899a
+member	temporalHour minutes 90.0	9188	bfddefe2cf81b72d	bfddefe2cf81b72d
+member	temporalHour minutes 96.0	9188	2fe35477bd062935	2fe35477bd062935
+member	temporalHour proportional 120.0	9188	955581e0e720f530	955581e0e720f530
+member	temporalHour proportional 72.0	9188	077beef8664393fe	077beef8664393fe
+member	temporalHour proportional 90.0	9188	6fc999ca1ca5e4d3	6fc999ca1ca5e4d3
+member	temporalHour proportional 96.0	9188	54db222655ec197c	54db222655ec197c
+member	temporalHour sunrise to sunset	9188	09b03e484a02a4a8	09b03e484a02a4a8
+group	Anadyr ALMANAC useElevation=false hadlakasNeiros=18.0	31360	fcdf5d99abef09e4	ada60f3b69dd0aa1
+group	Anadyr ALMANAC useElevation=true hadlakasNeiros=18.0	31360	c1b427ab32b57885	0315f8c8c46629a4
+group	Anadyr NOAA useElevation=false hadlakasNeiros=18.0	31360	a98989c71f60b3f8	ec917c2591cfdec4
+group	Anadyr NOAA useElevation=true hadlakasNeiros=18.0	31360	e49f6c927d105361	c00ab5fc032a0c3a
+group	Anchorage ALMANAC useElevation=false hadlakasNeiros=18.0	12480	f0a3745e76b57399	7ab97549f80dbc19
+group	Anchorage ALMANAC useElevation=true hadlakasNeiros=18.0	12480	81c6e25f36f13ecf	960dcf89e044c21f
+group	Anchorage NOAA useElevation=false hadlakasNeiros=18.0	12480	fabc049aa72e7275	f8b5f330ec9e3ee8
+group	Anchorage NOAA useElevation=true hadlakasNeiros=18.0	12480	f2b8599877a73dc6	80becb6774b19562
+group	Apia Samoa ALMANAC useElevation=false hadlakasNeiros=18.0	124160	71eccdd4ffcbea01	d61516a36c1d434c
+group	Apia Samoa ALMANAC useElevation=true hadlakasNeiros=18.0	124160	8ac24328745bd135	74920438d1e4fd1f
+group	Apia Samoa NOAA useElevation=false hadlakasNeiros=18.0	124160	249691546529a544	91ecfa465b48fb48
+group	Apia Samoa NOAA useElevation=true hadlakasNeiros=18.0	124160	b4f31bc068df8613	ea1a629765399d52
+group	Baker Island ALMANAC useElevation=false hadlakasNeiros=18.0	12480	a957bf46787ce3bd	6c0fd5d87388829a
+group	Baker Island ALMANAC useElevation=true hadlakasNeiros=18.0	12480	067b4bd3d67abdd3	59400c1d64fe0076
+group	Baker Island NOAA useElevation=false hadlakasNeiros=18.0	12480	da8d5babffe80e30	6668523ad22480a9
+group	Baker Island NOAA useElevation=true hadlakasNeiros=18.0	12480	11899365badfd39e	e83c4c87b0be25a4
+group	Chatham Islands ALMANAC useElevation=false hadlakasNeiros=18.0	12480	22839e94695b542b	860357104e7ec35a
+group	Chatham Islands ALMANAC useElevation=true hadlakasNeiros=18.0	12480	d9399115f42649b2	28dba0dc863a1cb5
+group	Chatham Islands NOAA useElevation=false hadlakasNeiros=18.0	12480	214cf52170ce31e1	15c1561b95e737b8
+group	Chatham Islands NOAA useElevation=true hadlakasNeiros=18.0	12480	f8c776d8c0f4fbab	0d55ca78796f51a2
+group	Denver ALMANAC useElevation=false hadlakasNeiros=18.0	12480	c31e63e1860d72eb	203ad590459efdca
+group	Denver ALMANAC useElevation=true hadlakasNeiros=18.0	12480	27a530cc8b0862ea	346dd7dc8ecb3a43
+group	Denver NOAA useElevation=false hadlakasNeiros=18.0	12480	5a1aee4e9f54e407	251d4c1de5f44b3c
+group	Denver NOAA useElevation=true hadlakasNeiros=18.0	12480	1c22ec87c31493a7	606a33080fffb9e5
+group	Honolulu ALMANAC useElevation=false hadlakasNeiros=18.0	12480	b7caf896458d1b38	2dd0a41170d276a3
+group	Honolulu ALMANAC useElevation=true hadlakasNeiros=18.0	12480	01eac5530c1fb702	495900de8af297a6
+group	Honolulu NOAA useElevation=false hadlakasNeiros=18.0	12480	478e28ec73e2d0ca	24da8c9175e8adb4
+group	Honolulu NOAA useElevation=true hadlakasNeiros=18.0	12480	d3fa4fcb13911694	e4cfcdf4e5a98832
+group	Jerusalem ALMANAC useElevation=false hadlakasNeiros=18.0	124160	02a3883a73fdcd30	09b03b258632b93d
+group	Jerusalem ALMANAC useElevation=true hadlakasNeiros=18.0	124160	df6cd6fdabd32451	58a441f25d85cd96
+group	Jerusalem NOAA useElevation=false hadlakasNeiros=18.0	124160	c69b6ccdb3428df4	c4500cc679db502e
+group	Jerusalem NOAA useElevation=true hadlakasNeiros=18.0	124160	316c063e41c0d73d	eea102383f28c385
+group	Kathmandu ALMANAC useElevation=false hadlakasNeiros=18.0	12480	b39cb07da352f709	4b89044f22915004
+group	Kathmandu ALMANAC useElevation=true hadlakasNeiros=18.0	12480	0c557f383569c1fe	42941d1fdaff9e09
+group	Kathmandu NOAA useElevation=false hadlakasNeiros=18.0	12480	b0d9068203594757	661c46e846ccc9a3
+group	Kathmandu NOAA useElevation=true hadlakasNeiros=18.0	12480	518fc8eb5c1a766c	cc4bb5c3729a4d54
+group	Kiritimati ALMANAC useElevation=false hadlakasNeiros=18.0	12480	174239a1a14c82ca	e45c6b224ce72c27
+group	Kiritimati ALMANAC useElevation=true hadlakasNeiros=18.0	12480	db8c7032d229adc7	b41fe022ee8e2d0f
+group	Kiritimati NOAA useElevation=false hadlakasNeiros=18.0	12480	8f620bb6ddad8fe3	c063896d826fdc2d
+group	Kiritimati NOAA useElevation=true hadlakasNeiros=18.0	12480	01a898aabfe20572	573024804fd15588
+group	Kolkata ALMANAC useElevation=false hadlakasNeiros=18.0	12480	dbefab09b7ef83d4	9d8c868268d72ffe
+group	Kolkata ALMANAC useElevation=true hadlakasNeiros=18.0	12480	e9d75a19628bd653	2fc73740848f0f75
+group	Kolkata NOAA useElevation=false hadlakasNeiros=18.0	12480	6cf113d15561ae66	9fdbf1bdd6cca34a
+group	Kolkata NOAA useElevation=true hadlakasNeiros=18.0	12480	d8b53f82cfd8a4c6	2bfc71bdb693ff2c
+group	Lakewood NJ ALMANAC useElevation=false hadlakasNeiros=18.0	124160	42cddd2518c81877	3095dfe303241eb2
+group	Lakewood NJ ALMANAC useElevation=true hadlakasNeiros=18.0	124160	a6eb879d6214cf3e	c333edbac45ee6a9
+group	Lakewood NJ NOAA useElevation=false hadlakasNeiros=18.0	124160	b61a401b4aeeedd2	e1ac6586463f3549
+group	Lakewood NJ NOAA useElevation=true hadlakasNeiros=18.0	124160	4abb1d5e703164b7	8b29ed0308ecdd10
+group	Lord Howe Island ALMANAC useElevation=false hadlakasNeiros=18.0	12480	9630d74d86793c9e	e11a8de74bb256e6
+group	Lord Howe Island ALMANAC useElevation=true hadlakasNeiros=18.0	12480	032893c538158768	cb995e6ff8ec1ac0
+group	Lord Howe Island NOAA useElevation=false hadlakasNeiros=18.0	12480	8d8f4dd15e078ffb	5f6eb6c0f8ffbdcb
+group	Lord Howe Island NOAA useElevation=true hadlakasNeiros=18.0	12480	6dea8a02d87084c4	b1c38ef94196cabd
+group	Los Angeles (GMT zone) ALMANAC useElevation=false hadlakasNeiros=18.0	12480	856e5676430ac81d	c4b7894093fce990
+group	Los Angeles (GMT zone) ALMANAC useElevation=true hadlakasNeiros=18.0	12480	0e6b820c2120dd67	80307b2ecdccd662
+group	Los Angeles (GMT zone) NOAA useElevation=false hadlakasNeiros=18.0	12480	26a43f49403ffbf5	62e71b8bcd0bd663
+group	Los Angeles (GMT zone) NOAA useElevation=true hadlakasNeiros=18.0	12480	9b7d3415b5ff8f31	72ac5d8001a25018
+group	McMurdo Station ALMANAC useElevation=false hadlakasNeiros=18.0	12480	6cb75aa08ad57a94	797174d7fb4236db
+group	McMurdo Station ALMANAC useElevation=true hadlakasNeiros=18.0	12480	163614cd769e35f5	658c3c024ecd4696
+group	McMurdo Station NOAA useElevation=false hadlakasNeiros=18.0	12480	e953201ecfd99b0a	4a644d375640ab90
+group	McMurdo Station NOAA useElevation=true hadlakasNeiros=18.0	12480	03cc266a64d2956f	d1368d8eebad0c6b
+group	Rapa Iti ALMANAC useElevation=false hadlakasNeiros=18.0	32320	dad7b02185941b60	5b2e4deb9e3e85a1
+group	Rapa Iti ALMANAC useElevation=true hadlakasNeiros=18.0	32320	d96cda443778fdd4	ddc491669d85338a
+group	Rapa Iti NOAA useElevation=false hadlakasNeiros=18.0	32320	86cf8552b3d6e171	58ed5830f8e877df
+group	Rapa Iti NOAA useElevation=true hadlakasNeiros=18.0	32320	339b505137638699	094d17bde813060d
+group	Santiago ALMANAC useElevation=false hadlakasNeiros=18.0	12480	26fc777072d10733	dd66ef00c98e7483
+group	Santiago ALMANAC useElevation=true hadlakasNeiros=18.0	12480	633d39c7c810b846	2bbd652fb1e3bbe9
+group	Santiago NOAA useElevation=false hadlakasNeiros=18.0	12480	e0268a53a8c37d6e	0d1445cedca09f3b
+group	Santiago NOAA useElevation=true hadlakasNeiros=18.0	12480	9ea1a67eeb3e94ba	f371d8628e82fede
+group	St. John's ALMANAC useElevation=false hadlakasNeiros=18.0	12480	27df432676ae1279	1ee3a958bc923606
+group	St. John's ALMANAC useElevation=true hadlakasNeiros=18.0	12480	5548ca7241899d82	680941847d1c6060
+group	St. John's NOAA useElevation=false hadlakasNeiros=18.0	12480	2262a96cb2f4f77e	806b7235014a03ad
+group	St. John's NOAA useElevation=true hadlakasNeiros=18.0	12480	5fa29d4456018468	db78088332e628f1
+group	Sydney ALMANAC useElevation=false hadlakasNeiros=18.0	12480	40b5840af4bc8d7f	f1de64559bd3207c
+group	Sydney ALMANAC useElevation=true hadlakasNeiros=18.0	12480	40fe9e2085eb886c	de9121495d513bc6
+group	Sydney NOAA useElevation=false hadlakasNeiros=18.0	12480	3fb80bda2e567116	024fddd26d22ae1c
+group	Sydney NOAA useElevation=true hadlakasNeiros=18.0	12480	5fd72f5bdefc2abf	80c9611c46330a16
+group	Tromso ALMANAC useElevation=false hadlakasNeiros=18.0	124160	fbd8c72a1640618d	3781c17368cbb14b
+group	Tromso ALMANAC useElevation=true hadlakasNeiros=18.0	124160	e50b0dd0d6514a3c	603a7db2cba45c62
+group	Tromso NOAA useElevation=false hadlakasNeiros=18.0	124160	00d1c48ce8d8f354	fd12c7cccb91685b
+group	Tromso NOAA useElevation=true hadlakasNeiros=18.0	124160	ab5cf997422fa383	c679197bd8a1d275

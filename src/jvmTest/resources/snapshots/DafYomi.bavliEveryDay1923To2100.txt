@@ -1,0 +1,25 @@
+# Snapshot "DafYomi.bavliEveryDay1923To2100" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	129522	a20bf77374c229f4	a20bf77374c229f4
+member	DafYomi.bavli	64761	cb24778b74d6b35c	cb24778b74d6b35c
+member	HebrewDay.bavliDaf	64761	d6e77fe7ffeb7698	d6e77fe7ffeb7698
+group	1920s	4608	3beaeb546e959e68	3beaeb546e959e68
+group	1930s	7304	6d8109f5e912c4ba	6d8109f5e912c4ba
+group	1940s	7306	a70a5cbbafbe64f1	a70a5cbbafbe64f1
+group	1950s	7304	58f744ceb3307c68	58f744ceb3307c68
+group	1960s	7306	bf32607c7a977a55	bf32607c7a977a55
+group	1970s	7304	28a54593551459a1	28a54593551459a1
+group	1980s	7306	94f4188e2db92754	94f4188e2db92754
+group	1990s	7304	f365362ea95d741a	f365362ea95d741a
+group	2000s	7306	d6fbce4d7f16581d	d6fbce4d7f16581d
+group	2010s	7304	e157c4a95a16335c	e157c4a95a16335c
+group	2020s	7306	35df28b6ceb82d73	35df28b6ceb82d73
+group	2030s	7304	66479ff322952517	66479ff322952517
+group	2040s	7306	a3699a1643d470c4	a3699a1643d470c4
+group	2050s	7304	bbc260943fa9210d	bbc260943fa9210d
+group	2060s	7306	30202930f317c934	30202930f317c934
+group	2070s	7304	28a513134bc9bf0c	28a513134bc9bf0c
+group	2080s	7306	f519f3505dfd5999	f519f3505dfd5999
+group	2090s	7304	85fbd151f0036b4d	85fbd151f0036b4d
+group	2100s	730	00ec14a0388eb91b	00ec14a0388eb91b

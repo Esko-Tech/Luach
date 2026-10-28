@@ -1,0 +1,11 @@
+# Snapshot "Zmanim.catalogue" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	6	cd3d30b41f104159	cd3d30b41f104159
+member	days	1	1a4d7cd70521888b	1a4d7cd70521888b
+member	edges	1	82df5f04beead72e	82df5f04beead72e
+member	named edges	1	37aba9334af68ab1	37aba9334af68ab1
+member	presets	1	3a6b2dab2ebb1ab5	3a6b2dab2ebb1ab5
+member	shitos	1	d88231d73526d7ab	d88231d73526d7ab
+member	zmanim	1	e5774c22ac2b648f	e5774c22ac2b648f
+group	all	6	cd3d30b41f104159	cd3d30b41f104159

@@ -1,0 +1,22 @@
+# Snapshot "Calendar.factoriesAndStatics" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	64880	dc65c7cb57e2b2c6	445f5f092d70f79e
+member	HebrewDay	5796	d70fc512b075c72b	d70fc512b075c72b
+member	compareTo	427	8154d4858523feb0	8154d4858523feb0
+member	daysUntil	427	e12f8fbbbc152988	e12f8fbbbc152988
+member	equals	427	a7e98032425427e3	a7e98032425427e3
+member	isMeuberes	9999	95b4ad820b1b1ac9	95b4ad820b1b1ac9
+member	kiddush levana	4000	9deb6d79385be57b	7766d5c13a8ea995
+member	molad	4000	40778473f9583e65	40778473f9583e65
+member	molad instant	4000	f4721d9cb25d8229	82f04c9285b902e7
+member	of	5796	6d136626afe63859	6d136626afe63859
+member	ofEpochDay	11	493b6a9f8ba9b6dd	493b6a9f8ba9b6dd
+member	roshHashanah	9999	fd196e3aea373873	fd196e3aea373873
+member	yearLength	9999	122e0003bee1bf5c	122e0003bee1bf5c
+member	yearType	9999	ccc822345009f3a9	ccc822345009f3a9
+group	epoch days	11	493b6a9f8ba9b6dd	493b6a9f8ba9b6dd
+group	molad	12000	d2d50f89e411a609	3acea6c7b99feae1
+group	of(year, month, day)	11592	44232b39605bff84	44232b39605bff84
+group	ordering	1281	0a6de473838d501b	0a6de473838d501b
+group	statics	39996	71c43df5043e0641	71c43df5043e0641

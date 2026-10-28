@@ -1,0 +1,6 @@
+# Snapshot "Formatter.yearSignatures" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	2739	65f196ffdf1a69fb	65f196ffdf1a69fb
+member	formatYearSignature	2739	65f196ffdf1a69fb	65f196ffdf1a69fb
+group	all	2739	65f196ffdf1a69fb	65f196ffdf1a69fb

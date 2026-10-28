@@ -1,0 +1,18 @@
+# Snapshot "Zmanim.isAsurBemelacha" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	323154	0aee0557da054e09	0aee0557da054e09
+member	isAsurBemelacha(false)	161577	afb893ea9fcd479d	afb893ea9fcd479d
+member	isAsurBemelacha(true)	161577	5b35716d3a38066c	5b35716d3a38066c
+group	Apia Samoa ALMANAC useElevation=false hadlakasNeiros=18.0	28548	d7a65c3f53f016a9	d7a65c3f53f016a9
+group	Apia Samoa NOAA useElevation=false hadlakasNeiros=18.0	28548	d18702c513e8cece	d18702c513e8cece
+group	Apia Samoa NOAA useElevation=true hadlakasNeiros=18.0	28548	c9abb91faeda3a90	c9abb91faeda3a90
+group	Jerusalem ALMANAC useElevation=false hadlakasNeiros=18.0	28548	00ba6667d93404a0	00ba6667d93404a0
+group	Jerusalem NOAA useElevation=false hadlakasNeiros=18.0	28548	6ad3b31e2c621744	6ad3b31e2c621744
+group	Jerusalem NOAA useElevation=true hadlakasNeiros=18.0	28548	1c5f0c06cbeb827a	1c5f0c06cbeb827a
+group	Lakewood NJ ALMANAC useElevation=false hadlakasNeiros=18.0	28548	2b4386161692ac7f	2b4386161692ac7f
+group	Lakewood NJ NOAA useElevation=false hadlakasNeiros=18.0	28548	40fe2786a164f188	40fe2786a164f188
+group	Lakewood NJ NOAA useElevation=true hadlakasNeiros=18.0	28548	7a7daf73e9a294d2	7a7daf73e9a294d2
+group	Tromso ALMANAC useElevation=false hadlakasNeiros=18.0	22086	1b9ad838d9c2be73	1b9ad838d9c2be73
+group	Tromso NOAA useElevation=false hadlakasNeiros=18.0	22068	3fce3683baf06c23	3fce3683baf06c23
+group	Tromso NOAA useElevation=true hadlakasNeiros=18.0	22068	cdff5bd9bb833235	cdff5bd9bb833235

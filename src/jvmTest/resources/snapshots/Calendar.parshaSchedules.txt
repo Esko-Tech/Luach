@@ -1,0 +1,11 @@
+# Snapshot "Calendar.parshaSchedules" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	805	e5f51b7d58442814	e5f51b7d58442814
+member	Parsha entries	1	a83b80ea391aeb48	a83b80ea391aeb48
+member	doubles	1	7de1a16dd55c9fcc	7de1a16dd55c9fcc
+member	weekly	1	bd751304c9b4cd7e	bd751304c9b4cd7e
+member	year	802	0262e6208017cf82	0262e6208017cf82
+group	Israel	401	b180aff048042a00	b180aff048042a00
+group	all	3	e392355cd82c5892	e392355cd82c5892
+group	diaspora	401	50e236303813a582	50e236303813a582

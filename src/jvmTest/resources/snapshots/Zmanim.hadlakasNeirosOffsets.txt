@@ -1,0 +1,55 @@
+# Snapshot "Zmanim.hadlakasNeirosOffsets" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	3150	67466bb5f7a0b4e5	6e15339a5d7a559c
+member	hadlakasNeiros	3150	67466bb5f7a0b4e5	6e15339a5d7a559c
+group	Denver NOAA useElevation=false hadlakasNeiros=-5.0	63	85d1403bbd632fdb	edc1558b41e7082f
+group	Denver NOAA useElevation=false hadlakasNeiros=0.0	63	6be9cbba5d1ecadd	1bca7a331953d43d
+group	Denver NOAA useElevation=false hadlakasNeiros=20.0	63	a348d4d1480d98d5	30d2fe1ffebcfe3b
+group	Denver NOAA useElevation=false hadlakasNeiros=22.5	63	507326cb2fab9417	2a9c2e611a4338c8
+group	Denver NOAA useElevation=false hadlakasNeiros=40.0	63	801315c9d815725b	c051f1a8ccb057d7
+group	Denver NOAA useElevation=true hadlakasNeiros=-5.0	63	7287e025d8db82e8	26c6708068836a9c
+group	Denver NOAA useElevation=true hadlakasNeiros=0.0	63	1be3797a6cba88f5	c998a01443081a11
+group	Denver NOAA useElevation=true hadlakasNeiros=20.0	63	94767f8a8bbac5bc	e6cb34defca2c481
+group	Denver NOAA useElevation=true hadlakasNeiros=22.5	63	fefe066f6897bb1d	6e4e7e052bc7b3ea
+group	Denver NOAA useElevation=true hadlakasNeiros=40.0	63	131dd2c644db18df	b1af8bb445eed523
+group	Jerusalem NOAA useElevation=false hadlakasNeiros=-5.0	63	3b5cd57b1cd3b796	783216ac361c2e71
+group	Jerusalem NOAA useElevation=false hadlakasNeiros=0.0	63	14eda2d81a67dcd8	716f89fed519dffc
+group	Jerusalem NOAA useElevation=false hadlakasNeiros=20.0	63	81fd74a5ac1eba3e	0d137f5fdfd85b06
+group	Jerusalem NOAA useElevation=false hadlakasNeiros=22.5	63	4d1136a8e53ab324	63b08921337c679a
+group	Jerusalem NOAA useElevation=false hadlakasNeiros=40.0	63	43eb5df079875f6f	e66cb5861a73ed05
+group	Jerusalem NOAA useElevation=true hadlakasNeiros=-5.0	63	a437f70a1fe1a41a	8f27a5a9d789f7c4
+group	Jerusalem NOAA useElevation=true hadlakasNeiros=0.0	63	d8a8117c820132c5	f1b6a45dfe3bb5c1
+group	Jerusalem NOAA useElevation=true hadlakasNeiros=20.0	63	8abd41cc02382990	d5792b7b9b323061
+group	Jerusalem NOAA useElevation=true hadlakasNeiros=22.5	63	8050985f16a9e848	a845aff3f3337884
+group	Jerusalem NOAA useElevation=true hadlakasNeiros=40.0	63	2010794cd86228dc	ef05b4052c6f27fa
+group	Kiritimati NOAA useElevation=false hadlakasNeiros=-5.0	63	99a1338f4c9155f3	71df34b61f6c81f7
+group	Kiritimati NOAA useElevation=false hadlakasNeiros=0.0	63	bde50b151dc9ac65	50a2947808abc71e
+group	Kiritimati NOAA useElevation=false hadlakasNeiros=20.0	63	579c60dfd65b2de5	847b84a8a71eed86
+group	Kiritimati NOAA useElevation=false hadlakasNeiros=22.5	63	e0d5fa0ee680f74c	8073a81d73cb82ee
+group	Kiritimati NOAA useElevation=false hadlakasNeiros=40.0	63	fc9f88fe829c96c8	c174b01609e0cb61
+group	Kiritimati NOAA useElevation=true hadlakasNeiros=-5.0	63	d9d5325ac72d9f9e	61291d4fa0dfbc51
+group	Kiritimati NOAA useElevation=true hadlakasNeiros=0.0	63	78a622e49f8628eb	67fca68c8c6c1004
+group	Kiritimati NOAA useElevation=true hadlakasNeiros=20.0	63	7460f7d19d46efc0	39e61f1ba5a6c3bf
+group	Kiritimati NOAA useElevation=true hadlakasNeiros=22.5	63	128e09d494533d40	227c2a3c8d86d32d
+group	Kiritimati NOAA useElevation=true hadlakasNeiros=40.0	63	67a41d5892d863d2	07970558af0f60ae
+group	Lakewood NJ NOAA useElevation=false hadlakasNeiros=-5.0	63	aef9dcb09a4a8c1c	f2b1b4208b38b02b
+group	Lakewood NJ NOAA useElevation=false hadlakasNeiros=0.0	63	c9c4afd9f0a74b0b	d12ea29ea1cd7d90
+group	Lakewood NJ NOAA useElevation=false hadlakasNeiros=20.0	63	ad406b28e624e182	ebcf4f883bd4c359
+group	Lakewood NJ NOAA useElevation=false hadlakasNeiros=22.5	63	bfdc3b2eafb30272	75d932fda3ebf65f
+group	Lakewood NJ NOAA useElevation=false hadlakasNeiros=40.0	63	997e5ff69339b265	d9b1783da27e0a65
+group	Lakewood NJ NOAA useElevation=true hadlakasNeiros=-5.0	63	191d7b05389710d8	141f72748acb54dc
+group	Lakewood NJ NOAA useElevation=true hadlakasNeiros=0.0	63	9807003f5913bc1c	f8d0f9a55a3be15a
+group	Lakewood NJ NOAA useElevation=true hadlakasNeiros=20.0	63	9c048a2f8037e73d	5fe36f378df224f2
+group	Lakewood NJ NOAA useElevation=true hadlakasNeiros=22.5	63	6496c5958ef9f480	babe508c91cc84fb
+group	Lakewood NJ NOAA useElevation=true hadlakasNeiros=40.0	63	7d3817ba17af9c5f	a02ddcdfeb1a6501
+group	Tromso NOAA useElevation=false hadlakasNeiros=-5.0	63	104080126701ed05	a8875393bcbc695f
+group	Tromso NOAA useElevation=false hadlakasNeiros=0.0	63	cd6d56deb4c24b6a	e3ccf9aafff0730f
+group	Tromso NOAA useElevation=false hadlakasNeiros=20.0	63	5a2bf4df732d4896	95c8aa760e2b380b
+group	Tromso NOAA useElevation=false hadlakasNeiros=22.5	63	e2edbadbfb7982b5	f3ad945bee4ffe1b
+group	Tromso NOAA useElevation=false hadlakasNeiros=40.0	63	1b04b940d552b63c	c610e0472e69d597
+group	Tromso NOAA useElevation=true hadlakasNeiros=-5.0	63	2bf2bb978a633ecd	2523658b3cc3c1a3
+group	Tromso NOAA useElevation=true hadlakasNeiros=0.0	63	d663041357bcdf98	2dbc8ab201b3354a
+group	Tromso NOAA useElevation=true hadlakasNeiros=20.0	63	7324a4d74e741255	957b94fe9745d032
+group	Tromso NOAA useElevation=true hadlakasNeiros=22.5	63	d20c651b014dcf6c	747a3ff048e198c8
+group	Tromso NOAA useElevation=true hadlakasNeiros=40.0	63	c830a871661f7e27	6d7a79fa374f13be

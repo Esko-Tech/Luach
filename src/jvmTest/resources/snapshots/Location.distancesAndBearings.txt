@@ -1,0 +1,36 @@
+# Snapshot "Location.distancesAndBearings" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	1800	3cad59f08ebb1841	806b9a55c13d6bed
+member	geodesic	900	2fd1e707953d005e	949f101fc0ffdd74
+member	rhumbLine	900	0cdb72e8f97e17e3	ebcc8a36003d8e79
+group	Anadyr	60	ea7897a74036363a	09eac36bee4ba19e
+group	Anchorage	60	9b0c6cd33e930d3d	68133391c4d7111d
+group	Antipode of Lakewood	60	09d983ab55b46c90	2aea60137274c1d2
+group	Apia Samoa	60	877d3a7252606d77	cf33d61fc42b06d9
+group	Baker Island	60	3278f3acdbe06999	28564617103c1ddc
+group	Chatham Islands	60	c07387fbd9da9019	e343075d47b67839
+group	Denver	60	05cd5ab81aa5a679	fd3eb252d8111daf
+group	Equator -180	60	a139e74a83e74ab3	b714981a5855d6ac
+group	Equator 179.5	60	5b0af7e2051fea72	82e33c433479ed25
+group	Equator 180	60	3362aebda81a45ff	65de4d79b8f8a802
+group	Equator 90E	60	ded0d35e4623968a	3d4b5326498b0aec
+group	Honolulu	60	5165967e3d395e6c	9a921c980c191766
+group	Jerusalem	60	91d0387058c59c9d	bd4c0500bdf8cfae
+group	Kathmandu	60	e5627994146e9aca	b17eda26c7b59d62
+group	Kiritimati	60	bc9b6ae78220ce36	4c70b15eab7c0800
+group	Kolkata	60	53f422533e142dc4	978730e8e1c2e3ef
+group	Lakewood NJ	60	11dab69e05feafc7	2dc2f7d306c49818
+group	Lakewood again	60	206ba807e99ac939	9199bcdfbad430e8
+group	Lord Howe Island	60	ceb34062ab3bf7f0	5d19bde80b5211dc
+group	Los Angeles (GMT zone)	60	f03145e1a7c5f678	5562aab7dc3d380a
+group	McMurdo Station	60	addf5eb6ab0dd2b2	3134b7e45d0181d1
+group	Near antipode of Null Island	60	3c40282daaf4a089	4d52bc773ab706b8
+group	North Pole	60	39cd370940daeea4	39ae17d8df3650ff
+group	Null Island	60	80452c85a62f4202	85b8a30928be042b
+group	Rapa Iti	60	a22fc2924842bbe3	2b5f3e815cf1d9a0
+group	Santiago	60	ec1f64a677854a79	488ae5f32320b6fa
+group	South Pole	60	3120951d9c9d7949	4e7ba6b018672180
+group	St. John's	60	d25fc8e24c2672a2	93d233f0aa987f44
+group	Sydney	60	a17f8e9ace887ae6	db734d8385496e5c
+group	Tromso	60	7ccba6c0bed83ea7	5f8e812fe7ecc54c

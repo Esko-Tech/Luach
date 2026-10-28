@@ -1,0 +1,75 @@
+# Snapshot "Zmanim.standardList" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	64260	a6ebc5b7b71dfc9a	7fd12f3f9133d6fe
+member	ALOS baal hatanya	1260	5f58e0524d11986b	b7831b8b3d3c19ff
+member	ALOS gra	1260	97e298744cbbf3f8	78c13d4af9b722d1
+member	ALOS magen avraham	1260	aef446336f3e4f15	e04063e680badf09
+member	CHATZOS baal hatanya	1260	03137a5643993130	c44124403c97be39
+member	CHATZOS gra	1260	7b9dc75b9371fefb	3397af35f04b13c2
+member	CHATZOS magen avraham	1260	f0f32e995b96719e	ef35def6494aa85b
+member	CHATZOS_HALAYLAH baal hatanya	1260	7adac4e635ec81cf	a338dc971778d41a
+member	CHATZOS_HALAYLAH gra	1260	524a0b3fe22c485e	37b84db6e8c42247
+member	CHATZOS_HALAYLAH magen avraham	1260	3a2a2f2340db34ed	91a7a27672c7d84e
+member	HADLAKAS_NEIROS baal hatanya	1260	6e13bb8cdbe9718b	fbfd7512f16c672d
+member	HADLAKAS_NEIROS gra	1260	94c821fa87863acd	f76c20e50c9ce3d8
+member	HADLAKAS_NEIROS magen avraham	1260	c82efe43b492bfad	15bf32212bfb3b02
+member	HANETZ baal hatanya	1260	fb2fae05b16068ce	f5534ac3cc3a576a
+member	HANETZ gra	1260	12fd2109d406a913	2c9de0af78cbb55f
+member	HANETZ magen avraham	1260	0227258f3da8f8b3	6d45aeadcb340293
+member	MINCHA_GEDOLA baal hatanya	1260	5789e4ef48e3dd33	c7daac6d7cf54223
+member	MINCHA_GEDOLA gra	1260	2d51ff2b810a4010	cd4457d75958e4a4
+member	MINCHA_GEDOLA magen avraham	1260	7eb4d2236d1b17f7	5aedbda95e79150b
+member	MINCHA_KETANA baal hatanya	1260	d930fc508c77bef3	59044263c2f18691
+member	MINCHA_KETANA gra	1260	fe5c3e30fe61fe3e	546eb9b1246d2ece
+member	MINCHA_KETANA magen avraham	1260	0ab1f3c64bd6c9dd	7f4227efe4fc132d
+member	MISHEYAKIR baal hatanya	1260	4cd8b4e2b7d8331d	f3ad0ae910986687
+member	MISHEYAKIR gra	1260	fef10d7d3862a2eb	bb308d121c5d74e5
+member	MISHEYAKIR magen avraham	1260	5ae371a41d0708fc	0378627bd5387617
+member	PLAG_HAMINCHA baal hatanya	1260	be1d5737435f64be	fc2b933107dbc7b6
+member	PLAG_HAMINCHA gra	1260	5b1e981a9a19680e	02347c931239d66f
+member	PLAG_HAMINCHA magen avraham	1260	543832da660c741e	3e897f7ff999e43d
+member	SAMUCH_LEMINCHA_KETANA baal hatanya	1260	7e1c6f14bb8bb899	ccf6aa6712dad16e
+member	SAMUCH_LEMINCHA_KETANA gra	1260	1fc0ce4d33a759cc	1e8b250508fcabc5
+member	SAMUCH_LEMINCHA_KETANA magen avraham	1260	d52b82fbb500d079	03b93bf382f4ec8f
+member	SHKIAH baal hatanya	1260	e2930c08bd48afd2	5b9a0e2a7fea5643
+member	SHKIAH gra	1260	1465d27365233d26	8e82b80010a3442e
+member	SHKIAH magen avraham	1260	21b75bf9e39a2a31	d01766b842c39b28
+member	SOF_ZMAN_ACHILAS_CHAMETZ baal hatanya	1260	6d4f0f93456973ee	b9818b59776c608d
+member	SOF_ZMAN_ACHILAS_CHAMETZ gra	1260	577bf0a43b9e3ff4	d6f81e46ac30d840
+member	SOF_ZMAN_ACHILAS_CHAMETZ magen avraham	1260	10f0e92eea0cf218	03d9cb73a5909b42
+member	SOF_ZMAN_BIUR_CHAMETZ baal hatanya	1260	9e0b1cf67e6c0bae	f58f6a1328f4aba8
+member	SOF_ZMAN_BIUR_CHAMETZ gra	1260	d1c061e068f4ef19	2a7caf8b8cf20311
+member	SOF_ZMAN_BIUR_CHAMETZ magen avraham	1260	5c01d17e4ff369b5	e2c8f25ed3cd6a3f
+member	SOF_ZMAN_SHEMA baal hatanya	1260	7913657820dcdff2	1297b0416d54733f
+member	SOF_ZMAN_SHEMA gra	1260	fe490c27a0e89792	66711c7b5553a2a0
+member	SOF_ZMAN_SHEMA magen avraham	1260	ff8dd828d5686895	508d4d10c063b896
+member	SOF_ZMAN_TEFILLAH baal hatanya	1260	6aec4d7b5f9b7bdc	2a0dc8951cee5da8
+member	SOF_ZMAN_TEFILLAH gra	1260	1968c575650af2ce	6c9bad341d43f4ac
+member	SOF_ZMAN_TEFILLAH magen avraham	1260	6445f1f8dbe88924	2b32b2566fb1fd5d
+member	TZAIS baal hatanya	1260	15734c068106f474	98b916cd0f02a0ea
+member	TZAIS gra	1260	3ad3253f6c4bd51c	814c0f0ab5cf733c
+member	TZAIS magen avraham	1260	80efc127bd014ea4	50dc71b5aa56eab9
+member	all baal hatanya	1260	c17919e8f9364408	680b1777eed0a269
+member	all gra	1260	6e4e86795c27a0b2	fa423a2b04540a7e
+member	all magen avraham	1260	26b335f764d7541e	de0afcf84ad7ae2c
+group	Denver ALMANAC useElevation=false hadlakasNeiros=18.0	3213	22b9448a9bf1b59f	cc98716b762418cc
+group	Denver ALMANAC useElevation=true hadlakasNeiros=18.0	3213	51990df8376add06	76ccfe3f65b72f2e
+group	Denver NOAA useElevation=false hadlakasNeiros=18.0	3213	17b8f60af842d65d	bc918aba16147864
+group	Denver NOAA useElevation=true hadlakasNeiros=18.0	3213	e570d44d2fe3d4bd	36e655f30f0357fb
+group	Jerusalem ALMANAC useElevation=false hadlakasNeiros=18.0	3213	7d6d08d3c304807d	de4a23c1d33d21b7
+group	Jerusalem ALMANAC useElevation=true hadlakasNeiros=18.0	3213	aba643794f2418b3	0040e5ff0e81b4aa
+group	Jerusalem NOAA useElevation=false hadlakasNeiros=18.0	3213	e063bf436a563369	be235823e4180778
+group	Jerusalem NOAA useElevation=true hadlakasNeiros=18.0	3213	92040144b3512eca	3025c599766cefe3
+group	Kiritimati ALMANAC useElevation=false hadlakasNeiros=18.0	3213	c873bfae1d087af6	3df3ea1f14a28720
+group	Kiritimati ALMANAC useElevation=true hadlakasNeiros=18.0	3213	4a34e8ab51af696b	94f4bf98d05f4c90
+group	Kiritimati NOAA useElevation=false hadlakasNeiros=18.0	3213	4cc68a2e8842564f	cb4efa442ff786dd
+group	Kiritimati NOAA useElevation=true hadlakasNeiros=18.0	3213	bdeab28e5d68d591	e44b0396eb2e9411
+group	Lakewood NJ ALMANAC useElevation=false hadlakasNeiros=18.0	3213	62e42722728acf4d	8417c56b47951f1e
+group	Lakewood NJ ALMANAC useElevation=true hadlakasNeiros=18.0	3213	37effa67b176730f	9feeab77797f4fca
+group	Lakewood NJ NOAA useElevation=false hadlakasNeiros=18.0	3213	b16d47d0a4fdd222	67f308486ae77ddb
+group	Lakewood NJ NOAA useElevation=true hadlakasNeiros=18.0	3213	cadd0d71fb4d56b9	af2c61c518030207
+group	Tromso ALMANAC useElevation=false hadlakasNeiros=18.0	3213	4af49d74f75ad55f	99c4c97db6218818
+group	Tromso ALMANAC useElevation=true hadlakasNeiros=18.0	3213	c0bf491e6dda9f0f	50aacf98f3f951bc
+group	Tromso NOAA useElevation=false hadlakasNeiros=18.0	3213	d054c6301884b6fc	a794c62178414f55
+group	Tromso NOAA useElevation=true hadlakasNeiros=18.0	3213	89739360f5611c96	2c72d5aded79ea58

@@ -1,0 +1,19 @@
+# Snapshot "SolarModel.horizonVariants" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	84963	24de8accf1792974	a9795d622d0fec90
+member	dip	14160	161e39e68fe6c78b	b399453d83c96423
+member	horizon	1	456408be0d47412e	465f83b4d7d58624
+member	name	2	97207e98bae6f369	97207e98bae6f369
+member	seaLevelSunrise	14160	6b728137278dc68e	7bcb742d60e78c13
+member	seaLevelSunset	14160	08428ca74fdea860	26d2c30b34d10a19
+member	solarNoon	14160	5637dfe2b4a955bc	a0a139a5fd8681a3
+member	sunrise	14160	c45040363bf715a9	de571b08058e58e5
+member	sunset	14160	a3fe9b98315752ff	f6c989f07dbc9e2c
+group	ALMANAC ApparentHorizon(refraction=0.0, solarRadius=0.0, earthRadius=6378.137)	14160	b1e1c72f5021afc6	f4035cf1289cd719
+group	ALMANAC ApparentHorizon(refraction=0.5, solarRadius=0.26666666666666666, earthRadius=6356.9)	14160	f877a7e75a45e797	36e0900d2a361f4b
+group	ALMANAC ApparentHorizon(refraction=0.5746480877314716, solarRadius=0.27, earthRadius=6371.0)	14160	3b13e588198c4424	d6676f7fe9f7e543
+group	NOAA ApparentHorizon(refraction=0.0, solarRadius=0.0, earthRadius=6378.137)	14160	c73c0e6f77694b50	7386bed2617bff4d
+group	NOAA ApparentHorizon(refraction=0.5, solarRadius=0.26666666666666666, earthRadius=6356.9)	14160	f565ec7441010b5e	0035c8cda36dee2f
+group	NOAA ApparentHorizon(refraction=0.5746480877314716, solarRadius=0.27, earthRadius=6371.0)	14160	a64ab3f3acecc2ae	56f176f6589ea9e0
+group	defaults	3	dc848756c82e3497	dd80024d92bc798d

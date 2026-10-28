@@ -1,0 +1,7 @@
+# Snapshot "SolarModel.elevationAndAzimuth" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	181440	2387bab77e570aac	b2d38633c7159f4c
+member	azimuth	90720	f93ea27dfadac499	0812e84edf401650
+member	elevation	90720	2a491839837c4613	aac09de4e7d588fc
+group	all	181440	2387bab77e570aac	b2d38633c7159f4c

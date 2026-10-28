@@ -1,0 +1,40 @@
+# Snapshot "Calendar.mukefChomaEveryDay1990To2060" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	1452248	15a373be318e3f98	15a373be318e3f98
+member	getDayOfChanukah	51866	f8203b713deaf6b3	f8203b713deaf6b3
+member	getHasHadlakasNeiros	51866	5390b4dc711fd2f5	5390b4dc711fd2f5
+member	getHoliday	51866	fdcd7fb07dd27150	fdcd7fb07dd27150
+member	getParsha	51866	f581e6d1caafe8ad	f581e6d1caafe8ad
+member	getSefirasHaomer	51866	fb9a4a41dfc7de1b	fb9a4a41dfc7de1b
+member	getSpecialShabbos	51866	f7352d5271f5bd6e	f7352d5271f5bd6e
+member	getUpcomingParsha	51866	c4a37a20e2085e4b	c4a37a20e2085e4b
+member	isAsurBemelacha	51866	a49bca8807813a76	a49bca8807813a76
+member	isChanukah	51866	df4ac9fa2109dc9c	df4ac9fa2109dc9c
+member	isCholHamoed	51866	71d4654ef710def4	71d4654ef710def4
+member	isCholHamoedPesach	51866	78319a98d2ebd692	78319a98d2ebd692
+member	isCholHamoedSukkos	51866	256549a010b45514	256549a010b45514
+member	isErevYomTov	51866	19c1868a0be0120f	19c1868a0be0120f
+member	isErevYomTovSheni	51866	588d934d5c7cff46	588d934d5c7cff46
+member	isHoshanaRabbah	51866	bcfae3336b0a1054	bcfae3336b0a1054
+member	isIsruChag	51866	b7456eb0d37af046	b7456eb0d37af046
+member	isPesach	51866	06f6d49c99330485	06f6d49c99330485
+member	isPurim	51866	443592879ff8cba3	443592879ff8cba3
+member	isRoshHashanah	51866	00fae18ebaf30f47	00fae18ebaf30f47
+member	isShavuos	51866	61ae64367cd271f8	61ae64367cd271f8
+member	isShminiAtzeres	51866	97f35639a36b499b	97f35639a36b499b
+member	isSimchasTorah	51866	d732d2dd854dcb63	d732d2dd854dcb63
+member	isSukkos	51866	c36572d772c6bd1d	c36572d772c6bd1d
+member	isTaanis	51866	dad57cf30c7238ed	dad57cf30c7238ed
+member	isTishaBeav	51866	0cb4809f61a21aad	0cb4809f61a21aad
+member	isYomKippur	51866	cc4224a8732234b0	cc4224a8732234b0
+member	isYomTov	51866	21e496a571b5fca7	21e496a571b5fca7
+member	isYomTovAsurBemelacha	51866	ef3cdfbafcbf4611	ef3cdfbafcbf4611
+group	1990s	204512	05652cc3faf4a7c7	05652cc3faf4a7c7
+group	2000s	204568	9e2a72fefa30f199	9e2a72fefa30f199
+group	2010s	204512	e314573711672563	e314573711672563
+group	2020s	204568	661938fdafc02810	661938fdafc02810
+group	2030s	204512	4e3378cfbaba8b2e	4e3378cfbaba8b2e
+group	2040s	204568	e059b98cf48ed85b	e059b98cf48ed85b
+group	2050s	204512	e278ce6f32d93847	e278ce6f32d93847
+group	2060s	20496	17e042fa991ebcf5	17e042fa991ebcf5

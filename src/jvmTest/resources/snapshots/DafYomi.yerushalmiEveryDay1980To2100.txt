@@ -1,0 +1,19 @@
+# Snapshot "DafYomi.yerushalmiEveryDay1980To2100" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	50472	2feabc5ccc2620fb	2feabc5ccc2620fb
+member	DafYomi.yerushalmi	44163	d468904669013aa0	d468904669013aa0
+member	HebrewDay.yerushalmiDaf	6309	5b822c166324e65b	5b822c166324e65b
+group	1980s	4138	6b05424ea776f41f	6b05424ea776f41f
+group	1990s	4174	51f3a327b3340cdc	51f3a327b3340cdc
+group	2000s	4175	847a205a7f7e2fae	847a205a7f7e2fae
+group	2010s	4173	851b17501d98f208	851b17501d98f208
+group	2020s	4175	8576da1069d8d5ae	8576da1069d8d5ae
+group	2030s	4174	b5622bbfa1eb030d	b5622bbfa1eb030d
+group	2040s	4175	4a55380da0004ca9	4a55380da0004ca9
+group	2050s	4173	5f8d59a59fa83601	5f8d59a59fa83601
+group	2060s	4175	adc9b7152b0bd6a9	adc9b7152b0bd6a9
+group	2070s	4174	caf41e9653564e66	caf41e9653564e66
+group	2080s	4175	9ede57450906b83a	9ede57450906b83a
+group	2090s	4174	edc01dbe533008eb	edc01dbe533008eb
+group	2100s	417	7f44bd09ae5ebcb1	7f44bd09ae5ebcb1

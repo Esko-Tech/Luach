@@ -1,0 +1,306 @@
+# Snapshot "Zmanim.hoursOfTheDay" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	1069740	153f1743e4d5c7c1	d52cee68bfc8b6c0
+member	halfDayHour(0.0)	80640	31e39dd9bba550bc	ebfeeec34c40c324
+member	halfDayHour(1.0)	80640	f8a496203ec627ce	a34992080b9c1774
+member	halfDayHour(2.5)	80640	59126e9a61d11fc4	efb9dcf0cb2d4db5
+member	halfDayHour(3.0)	80640	774d2d4761bcc139	fcd72669fa7fb5de
+member	halfDayHour(3.5)	80640	cb54e12548042143	bbdf40860575e773
+member	halfDayHour(4.0)	80640	84638060c36a2f4b	0ca8d95534b9a5b0
+member	halfDayHour(4.75)	80640	055de58bb45378e5	49f554d2176c68d7
+member	halfDayHour(6.0)	80640	f7756f068aeb8f2d	52fc2f556c0a37ac
+member	halfDayHour(7.25)	80640	86f842615ce05de5	d336ae4adbf45130
+member	hourOfDay(-1.25, 16.1 to 3.7)	1260	00ff2b6bc8d96b41	683ba47fc9bbe5e9
+member	hourOfDay(-1.25, 16.1 to 3.8)	1260	d5f96f12b1190d0c	04609d0a7b4fa873
+member	hourOfDay(-1.25, 16.1 to 7.083)	1260	ab5203c2a798e8a4	229999e18da0d8f5
+member	hourOfDay(-1.25, 16.1 to sunset)	1260	589b3262a55ecff5	ff3886f19bbe7534
+member	hourOfDay(-1.25, ateret torah 25)	1260	0807fd9449d42f0a	14c8d53d63dac034
+member	hourOfDay(-1.25, ateret torah 40)	1260	2b062c456ef813db	422b1682c1d03d05
+member	hourOfDay(-1.25, degrees 1.583)	1260	8fed934f558bc2b5	142d63b8a0bdf6e4
+member	hourOfDay(-1.25, degrees 16.1)	1260	511e24bb27bd3d25	a954fc1b4e25a276
+member	hourOfDay(-1.25, degrees 18.0)	1260	dfdd82b4e8f43e5b	dff47d864eb08637
+member	hourOfDay(-1.25, degrees 19.8)	1260	1a0972e3d8bf17e8	08e003fec971bd5d
+member	hourOfDay(-1.25, degrees 26.0)	1260	f614dd94bb3a6fa6	ffc401b03541d80e
+member	hourOfDay(-1.25, minutes 120.0)	1260	e692e798e688d1a3	c6c453ddc007962f
+member	hourOfDay(-1.25, minutes 60.0)	1260	ee6fbb1957ea781f	ef01e85825c2101f
+member	hourOfDay(-1.25, minutes 72.0)	1260	90f5310597681a84	7ee809d49cd88c54
+member	hourOfDay(-1.25, minutes 90.0)	1260	387ff4fceb266064	0ce8d762b8262fd8
+member	hourOfDay(-1.25, minutes 96.0)	1260	4958241c7e3f0174	87b5f1cc166a4948
+member	hourOfDay(-1.25, proportional 120.0)	1260	5523ebf646230f4e	be8c5f74c703cd39
+member	hourOfDay(-1.25, proportional 72.0)	1260	7e60019c95a667b2	73ef1d905fec671c
+member	hourOfDay(-1.25, proportional 90.0)	1260	df0dc27574e734c3	149c99e0952dbbc2
+member	hourOfDay(-1.25, proportional 96.0)	1260	25a551597b3343cc	2b4093611ed69d01
+member	hourOfDay(-1.25, sunrise to sunset)	1260	d241b6fe693035e2	148a7a85f48b08e1
+member	hourOfDay(0.0, 16.1 to 3.7)	1260	1b99b703532d963c	5f1dd160986f59e4
+member	hourOfDay(0.0, 16.1 to 3.8)	1260	58df1a743ed76a8d	24adc13ce7f582bf
+member	hourOfDay(0.0, 16.1 to 7.083)	1260	e11888545a98668a	8c000df7861bab07
+member	hourOfDay(0.0, 16.1 to sunset)	1260	4acdabd9ae3fee98	6b95aba3b3ed5307
+member	hourOfDay(0.0, ateret torah 25)	1260	672139adc7f8730d	e61cba0ca25b06f6
+member	hourOfDay(0.0, ateret torah 40)	1260	4639968b0fdd2381	b3e467ffd4a12f09
+member	hourOfDay(0.0, degrees 1.583)	1260	b0647fa425bf0ffa	b776d592e9b05037
+member	hourOfDay(0.0, degrees 16.1)	1260	fa29d77392527cad	dda0b6dc9c65ee32
+member	hourOfDay(0.0, degrees 18.0)	1260	d022f67038c6ee97	61bba73bbc774172
+member	hourOfDay(0.0, degrees 19.8)	1260	dca867733c38dcad	f5d035c4d3e048cf
+member	hourOfDay(0.0, degrees 26.0)	1260	2b419823352a9edd	f66b780d36df67c3
+member	hourOfDay(0.0, minutes 120.0)	1260	9fe0ab510bbb22ba	a5fe533eb73d31d7
+member	hourOfDay(0.0, minutes 60.0)	1260	27e149b1f8e956bd	4ab06d8adfe7b38e
+member	hourOfDay(0.0, minutes 72.0)	1260	4c590daf1e4de5f3	db7a4c741cd74af5
+member	hourOfDay(0.0, minutes 90.0)	1260	2d204b5afc15b38c	db144d803cd69354
+member	hourOfDay(0.0, minutes 96.0)	1260	dd4cadeca8b619ce	860d16ea60ae5024
+member	hourOfDay(0.0, proportional 120.0)	1260	d6feca520442e5fe	0a015f0bc8da45c5
+member	hourOfDay(0.0, proportional 72.0)	1260	10b01822d066fee7	29522da29ffc7a5a
+member	hourOfDay(0.0, proportional 90.0)	1260	bfc837f342e7de36	0e9646cb4609fd00
+member	hourOfDay(0.0, proportional 96.0)	1260	a023f927c736f690	78ef83061b5887af
+member	hourOfDay(0.0, sunrise to sunset)	1260	69c89ec0d6cc3bca	75b8a46025457bb3
+member	hourOfDay(0.5, 16.1 to 3.7)	1260	ecbe94e02c0f6d78	1a40c49f180f96e1
+member	hourOfDay(0.5, 16.1 to 3.8)	1260	9131cb486fd4fccd	b353ee5ab402a01e
+member	hourOfDay(0.5, 16.1 to 7.083)	1260	497cf487f1a78617	8bf1784467ecf74c
+member	hourOfDay(0.5, 16.1 to sunset)	1260	cd38a0ac808b1fbb	8df3ddb5d75d6a13
+member	hourOfDay(0.5, ateret torah 25)	1260	ab8f5c53bb1ce033	d06c8d65720dc4d9
+member	hourOfDay(0.5, ateret torah 40)	1260	4c2e374ef8e48634	2f6e7f578c7151b0
+member	hourOfDay(0.5, degrees 1.583)	1260	99eaf55cea3163ec	578a0de6dfbdd74f
+member	hourOfDay(0.5, degrees 16.1)	1260	23078d458c65200e	1ed7f19776e0fc7f
+member	hourOfDay(0.5, degrees 18.0)	1260	fc464eab4bcceb91	7d60c2210157d047
+member	hourOfDay(0.5, degrees 19.8)	1260	9be8e6f2cf3b4fe9	a9d2b0367718db69
+member	hourOfDay(0.5, degrees 26.0)	1260	c9d5a7e70432a38d	c3808d7b0ea7ef55
+member	hourOfDay(0.5, minutes 120.0)	1260	e2355491971f0678	6b6020329a1e70be
+member	hourOfDay(0.5, minutes 60.0)	1260	ebb64970c2d40602	3cb2ee51f640f221
+member	hourOfDay(0.5, minutes 72.0)	1260	e3ad76fd6c6ae9f4	aed0b7198957b8e0
+member	hourOfDay(0.5, minutes 90.0)	1260	7b53368faa122223	8cb6842682e4ffd5
+member	hourOfDay(0.5, minutes 96.0)	1260	8b082bdd864a9d2d	a482e8e87ac9f55a
+member	hourOfDay(0.5, proportional 120.0)	1260	d751f1b24c937ff0	e00410e517f528ca
+member	hourOfDay(0.5, proportional 72.0)	1260	d208b54030080a99	7224c03edab023ac
+member	hourOfDay(0.5, proportional 90.0)	1260	4709700fe6195d46	f86c322560263415
+member	hourOfDay(0.5, proportional 96.0)	1260	6589228174c55499	6ea6a94a43ea6843
+member	hourOfDay(0.5, sunrise to sunset)	1260	fb8a40896ac6c592	317cc5c1d08634bc
+member	hourOfDay(10.75, 16.1 to 3.7)	1260	9398edfd1f04582a	750861190ef8d742
+member	hourOfDay(10.75, 16.1 to 3.8)	1260	4e27b7508bd1c3d5	cc26ba4fb4db7d9f
+member	hourOfDay(10.75, 16.1 to 7.083)	1260	6618c867a1366b26	ebbf0513bead1624
+member	hourOfDay(10.75, 16.1 to sunset)	1260	8552c211a7242b85	9542a353e901bb76
+member	hourOfDay(10.75, ateret torah 25)	1260	025cadc9e3de9ca9	b85df373d52c3efe
+member	hourOfDay(10.75, ateret torah 40)	1260	9a6d78ecb359619d	58609e6d109a7149
+member	hourOfDay(10.75, degrees 1.583)	1260	9deec331ce0b6f07	1bbe432994e2adff
+member	hourOfDay(10.75, degrees 16.1)	1260	ae170e4e5e8d053b	57bc00804afd64bf
+member	hourOfDay(10.75, degrees 18.0)	1260	b7ce6cdc57820f2e	7522d2235a9d6439
+member	hourOfDay(10.75, degrees 19.8)	1260	b3f0f1cef120b4cd	111d0d60a7ef522d
+member	hourOfDay(10.75, degrees 26.0)	1260	5f582fb3befbb879	b14034be87cadb92
+member	hourOfDay(10.75, minutes 120.0)	1260	bb88938252c9b867	8ce47a14d30e2a65
+member	hourOfDay(10.75, minutes 60.0)	1260	668ea8ad9a2da9ff	ff826686013bb7e8
+member	hourOfDay(10.75, minutes 72.0)	1260	0d57f431e19cd376	993590daa29ecdb4
+member	hourOfDay(10.75, minutes 90.0)	1260	22103456a83e1031	a66224a19598bddc
+member	hourOfDay(10.75, minutes 96.0)	1260	4850d8b6740dd636	a5dfe4fb3aa4b33b
+member	hourOfDay(10.75, proportional 120.0)	1260	e55a897a15343b6c	29cec63909cbda6e
+member	hourOfDay(10.75, proportional 72.0)	1260	f3e06b80db899c29	0c89933802f20f5e
+member	hourOfDay(10.75, proportional 90.0)	1260	701f9b66a9f98b9c	74880277fb2bf30d
+member	hourOfDay(10.75, proportional 96.0)	1260	a72a4604d294967c	00f39ed6f275d676
+member	hourOfDay(10.75, sunrise to sunset)	1260	d95e073c3228274f	ef5c8cc49c5d9318
+member	hourOfDay(12.0, 16.1 to 3.7)	1260	010315edcd2b6e70	14697601cca567a3
+member	hourOfDay(12.0, 16.1 to 3.8)	1260	d64c83ca282f2143	fad7f8e707f4d8da
+member	hourOfDay(12.0, 16.1 to 7.083)	1260	6d574a096c2691e1	f4cbcec5fdcceb86
+member	hourOfDay(12.0, 16.1 to sunset)	1260	ad0000e5ad15ab15	2a29fff84495c71d
+member	hourOfDay(12.0, ateret torah 25)	1260	1d965f1e0ea81172	d5b3204dac1caed7
+member	hourOfDay(12.0, ateret torah 40)	1260	619977d0b3c0df56	612fc0c4ae6023db
+member	hourOfDay(12.0, degrees 1.583)	1260	ee084e60878dc3a6	4f61e9b07774fac1
+member	hourOfDay(12.0, degrees 16.1)	1260	f1c773963ae22718	6e5099188c553421
+member	hourOfDay(12.0, degrees 18.0)	1260	156e61568547813d	9c409a6d891c7f89
+member	hourOfDay(12.0, degrees 19.8)	1260	60373afcfa17ea1a	1ee76aa26dc6a958
+member	hourOfDay(12.0, degrees 26.0)	1260	0d3f29777933b10f	75b0feb2fec991a6
+member	hourOfDay(12.0, minutes 120.0)	1260	76e49e9fb9fcae9f	879de8db292a04c1
+member	hourOfDay(12.0, minutes 60.0)	1260	9f8d1925b87aab1d	fbd87a4dc407f8f6
+member	hourOfDay(12.0, minutes 72.0)	1260	84e3a73c9ccb6b16	cf1429c25c87e13a
+member	hourOfDay(12.0, minutes 90.0)	1260	8dd3f799d4bacf79	a4508a1091b5f3ec
+member	hourOfDay(12.0, minutes 96.0)	1260	9d0c861a80941a76	13591693f4aef71b
+member	hourOfDay(12.0, proportional 120.0)	1260	854e6f47a616d078	1b19642562aecaf3
+member	hourOfDay(12.0, proportional 72.0)	1260	c6ce4df8f9120002	afe487b8dc9d0dea
+member	hourOfDay(12.0, proportional 90.0)	1260	082f52f04914df0a	6a1ff40809906a65
+member	hourOfDay(12.0, proportional 96.0)	1260	d172fac1c747d63a	f38f5e00bbeede1c
+member	hourOfDay(12.0, sunrise to sunset)	1260	dac6b547aedb3929	0fee6b80496458fc
+member	hourOfDay(13.5, 16.1 to 3.7)	1260	d90c5e9501c6cb0d	3799394978466eb2
+member	hourOfDay(13.5, 16.1 to 3.8)	1260	fa328638489ed69f	b775ec72c330df18
+member	hourOfDay(13.5, 16.1 to 7.083)	1260	0b4e6a79e308775e	4b0c37342ad77469
+member	hourOfDay(13.5, 16.1 to sunset)	1260	732aa2fd765e54cd	518e2f4751e1a46c
+member	hourOfDay(13.5, ateret torah 25)	1260	b85cd2715596bfa1	393297aeac8d2534
+member	hourOfDay(13.5, ateret torah 40)	1260	bfc4e9994bceab50	d1432757f576882b
+member	hourOfDay(13.5, degrees 1.583)	1260	db540fddb1d0e546	b21ffa0b599bd919
+member	hourOfDay(13.5, degrees 16.1)	1260	55f217684408e8ad	a6669d3eed200cf0
+member	hourOfDay(13.5, degrees 18.0)	1260	d85f663ed04cfe6b	b87284a42fe022b6
+member	hourOfDay(13.5, degrees 19.8)	1260	2f2beffbba031560	c0f5c18141956dc9
+member	hourOfDay(13.5, degrees 26.0)	1260	c3dcbb2884bcee40	40bffdb776d2ba74
+member	hourOfDay(13.5, minutes 120.0)	1260	92d5175018e9edfc	6f4ca2f6c8092301
+member	hourOfDay(13.5, minutes 60.0)	1260	8cf425a7e9531adb	1af53edf0bebca14
+member	hourOfDay(13.5, minutes 72.0)	1260	321352c142a688ed	9611bf25cfb98c46
+member	hourOfDay(13.5, minutes 90.0)	1260	5152762d9d1c55f7	d4b9db55895bcfff
+member	hourOfDay(13.5, minutes 96.0)	1260	17f99146d927c161	0c5b675d670f3248
+member	hourOfDay(13.5, proportional 120.0)	1260	753fa7f718142cf6	2c6a4d64998ec20e
+member	hourOfDay(13.5, proportional 72.0)	1260	416fc1b2331f90a0	2ebf467a0cccc7f9
+member	hourOfDay(13.5, proportional 90.0)	1260	ec773e58fdd245de	730286a2552d717e
+member	hourOfDay(13.5, proportional 96.0)	1260	f4bb9dcdd4c3c167	c5803c87a7be5616
+member	hourOfDay(13.5, sunrise to sunset)	1260	9a7bca1839ac8c77	601d9cf4bddfc9a2
+member	hourOfDay(3.0, 16.1 to 3.7)	1260	53764597dc20e604	1241d92b45bd485c
+member	hourOfDay(3.0, 16.1 to 3.8)	1260	779e66b7fead60a2	8431628ed61eec76
+member	hourOfDay(3.0, 16.1 to 7.083)	1260	a74a97179ebf542d	3f5fb432de01bb51
+member	hourOfDay(3.0, 16.1 to sunset)	1260	c7b72b02f01ead66	91756194a14f9d33
+member	hourOfDay(3.0, ateret torah 25)	1260	0561b7e18b83db47	5a357b74f2d77073
+member	hourOfDay(3.0, ateret torah 40)	1260	f412d8d77ba1946c	b8431e15878fce11
+member	hourOfDay(3.0, degrees 1.583)	1260	76a5833b3034e644	febd560ccda772f1
+member	hourOfDay(3.0, degrees 16.1)	1260	72cb4e55936349cb	35038ef18f945017
+member	hourOfDay(3.0, degrees 18.0)	1260	b0d5b71d47a3b00b	1a684300c1462daf
+member	hourOfDay(3.0, degrees 19.8)	1260	c2f75f5c4a939112	48511e7f303a428a
+member	hourOfDay(3.0, degrees 26.0)	1260	bf5d7b3f0f1868a8	5bda7f4ba0ab7d6f
+member	hourOfDay(3.0, minutes 120.0)	1260	9aa5a31ae1e4f899	22cb609303753881
+member	hourOfDay(3.0, minutes 60.0)	1260	ffe5a94e38200d4d	0fcfa850ff15392c
+member	hourOfDay(3.0, minutes 72.0)	1260	6e63b9045d4d721a	a066b6312c79d26c
+member	hourOfDay(3.0, minutes 90.0)	1260	8be36d727b4d33ca	81b4fdef9b9774a0
+member	hourOfDay(3.0, minutes 96.0)	1260	936a359c54d3c3a9	bee8b56626a5852a
+member	hourOfDay(3.0, proportional 120.0)	1260	bd60ac6ec20253f8	f2c75f6f82bf4447
+member	hourOfDay(3.0, proportional 72.0)	1260	9a4b5c14c52153ce	7504a32c3ec60903
+member	hourOfDay(3.0, proportional 90.0)	1260	80391af810009b35	0489d98911c43f01
+member	hourOfDay(3.0, proportional 96.0)	1260	ec3516786820d7fe	1862ef744c9a05af
+member	hourOfDay(3.0, sunrise to sunset)	1260	d93093d66f830786	fe667fcf16de2e06
+member	hourOfDay(4.0, 16.1 to 3.7)	1260	3da0d96b6af05fc9	993d4b661a50f252
+member	hourOfDay(4.0, 16.1 to 3.8)	1260	e71fa5908ac334ae	2bc45bc43a3e9769
+member	hourOfDay(4.0, 16.1 to 7.083)	1260	9f85b33028fa61e2	25c2e049cf653a20
+member	hourOfDay(4.0, 16.1 to sunset)	1260	2330aa45270498aa	7d57a2773cb3353f
+member	hourOfDay(4.0, ateret torah 25)	1260	60471c6bf6395acd	10788e8a6f57dc51
+member	hourOfDay(4.0, ateret torah 40)	1260	f3bde674fdaa94a6	11d5cd9f8ce43e6a
+member	hourOfDay(4.0, degrees 1.583)	1260	9c5ac6636c7f5691	1577a4eca481e61a
+member	hourOfDay(4.0, degrees 16.1)	1260	39c5ea10ec7a238a	1062565529b4134a
+member	hourOfDay(4.0, degrees 18.0)	1260	a1282ac72717b740	f3c3b1cfb4678662
+member	hourOfDay(4.0, degrees 19.8)	1260	088f1fefc80910bd	eb1026497eba0b8d
+member	hourOfDay(4.0, degrees 26.0)	1260	63b25aa45b5f840a	fa92293108f15050
+member	hourOfDay(4.0, minutes 120.0)	1260	511dd9ee2cd19f23	02b3bef3cc0e2076
+member	hourOfDay(4.0, minutes 60.0)	1260	632101a8abf29440	2586aaaf360bd557
+member	hourOfDay(4.0, minutes 72.0)	1260	b3b787f44fccb624	d35b6b2ae3059bf1
+member	hourOfDay(4.0, minutes 90.0)	1260	b856025cbba156ac	c9eaf8640502fac5
+member	hourOfDay(4.0, minutes 96.0)	1260	0cde76da1eb9b2ae	f148e82f8281af2f
+member	hourOfDay(4.0, proportional 120.0)	1260	efe7037237c61de6	b56de142973c4e0a
+member	hourOfDay(4.0, proportional 72.0)	1260	0db4702f72829b9e	9bc2070d24de2a2f
+member	hourOfDay(4.0, proportional 90.0)	1260	86b7c3a726ebd061	5d4b994d3abb2a1b
+member	hourOfDay(4.0, proportional 96.0)	1260	2d804cec0827b019	f1a2a8f89855c13f
+member	hourOfDay(4.0, sunrise to sunset)	1260	42f8f0429292dcb0	602ce241627f9220
+member	hourOfDay(5.0, 16.1 to 3.7)	1260	88dd6895a8b50f9c	6dd6b6920eb8ad1d
+member	hourOfDay(5.0, 16.1 to 3.8)	1260	c8f07d7a1da406a9	ebc7c083a7e7534d
+member	hourOfDay(5.0, 16.1 to 7.083)	1260	6f698efec43d934f	29abb7c2315ec182
+member	hourOfDay(5.0, 16.1 to sunset)	1260	f1fa351329609b42	b3b7c60c66e3b209
+member	hourOfDay(5.0, ateret torah 25)	1260	e666ea3254b0b91e	0089709e83517694
+member	hourOfDay(5.0, ateret torah 40)	1260	e7cfe906443a01f4	9ee205728166cfe8
+member	hourOfDay(5.0, degrees 1.583)	1260	c4c5ae1e95828530	b4d2615258a7c649
+member	hourOfDay(5.0, degrees 16.1)	1260	7aa9ba7ba619962e	ec2d1ad23801dad3
+member	hourOfDay(5.0, degrees 18.0)	1260	aad6b5c404911ed5	a693d52d9fb5cbfb
+member	hourOfDay(5.0, degrees 19.8)	1260	9c7732b0e3eee151	21183d48e7c3cc46
+member	hourOfDay(5.0, degrees 26.0)	1260	14cf83fe7d674fab	84f4fa1c9cd58d66
+member	hourOfDay(5.0, minutes 120.0)	1260	843528026c586a2b	f3ef48ed004c4b98
+member	hourOfDay(5.0, minutes 60.0)	1260	4bfc8bf85830885a	2bab85600cff46a6
+member	hourOfDay(5.0, minutes 72.0)	1260	03e0fa59b1268568	c267da428e3d1812
+member	hourOfDay(5.0, minutes 90.0)	1260	44350397f883a66f	ba98405d9536e669
+member	hourOfDay(5.0, minutes 96.0)	1260	6eba17e96e94e4f8	e8940e7c0daf1f9c
+member	hourOfDay(5.0, proportional 120.0)	1260	4f54afedf8458de1	ed39a853077a61d7
+member	hourOfDay(5.0, proportional 72.0)	1260	6751436e3a94de6c	093c28f003ffbe37
+member	hourOfDay(5.0, proportional 90.0)	1260	5291e1ab25e65ac0	26efa18b24f80a6a
+member	hourOfDay(5.0, proportional 96.0)	1260	c235a7028a453f14	99fa6a03ae13748a
+member	hourOfDay(5.0, sunrise to sunset)	1260	3a361ce975e0c243	c92a4dbe01000658
+member	hourOfDay(6.0, 16.1 to 3.7)	1260	f25e059b6619f943	0ce5695fb9548153
+member	hourOfDay(6.0, 16.1 to 3.8)	1260	f14e879d36560d84	9e578a30be4f0aa8
+member	hourOfDay(6.0, 16.1 to 7.083)	1260	d5940cef6b17e55b	941389f2417eed5b
+member	hourOfDay(6.0, 16.1 to sunset)	1260	39f3305bc37df116	3513681f8edf1c93
+member	hourOfDay(6.0, ateret torah 25)	1260	dbda976153978355	83650dbc772e826c
+member	hourOfDay(6.0, ateret torah 40)	1260	caf5257c50a11438	6f2ef2bbacf55f6f
+member	hourOfDay(6.0, degrees 1.583)	1260	0c1e6b86771f8a90	c23aec6da87a0b7f
+member	hourOfDay(6.0, degrees 16.1)	1260	543a4733139ebb36	ebcb69f622aa6c68
+member	hourOfDay(6.0, degrees 18.0)	1260	e1aadf03b46242f0	9be76f76a5dad160
+member	hourOfDay(6.0, degrees 19.8)	1260	41bae9b22cddf5c1	48a57df4d41ace46
+member	hourOfDay(6.0, degrees 26.0)	1260	f58bfe5cefb18f8f	b2253260c75d68a4
+member	hourOfDay(6.0, minutes 120.0)	1260	342153b421927f12	847518af4652d4b1
+member	hourOfDay(6.0, minutes 60.0)	1260	7a2036abf4e45fca	83e9cfc15006ed8d
+member	hourOfDay(6.0, minutes 72.0)	1260	e8533e1648058184	9d1e522d115f0681
+member	hourOfDay(6.0, minutes 90.0)	1260	0963ea82de43aee5	f2d103633e98f4f3
+member	hourOfDay(6.0, minutes 96.0)	1260	60112073279b675f	340ed0da38615b4e
+member	hourOfDay(6.0, proportional 120.0)	1260	f2da68bd2d3d0e86	3d3917912e412644
+member	hourOfDay(6.0, proportional 72.0)	1260	30899a3a97fdec48	ebe0cb8698c3a95f
+member	hourOfDay(6.0, proportional 90.0)	1260	bfc1b7cfaebafc8f	abaa98ff81acedd4
+member	hourOfDay(6.0, proportional 96.0)	1260	973ec3b2b5c4679a	a06a64662997e0f7
+member	hourOfDay(6.0, sunrise to sunset)	1260	d5c09d35b3cf2dfe	c3fb26888a322df4
+member	hourOfDay(6.5, 16.1 to 3.7)	1260	6c1662b97c8a757c	ca47cf50630a0d56
+member	hourOfDay(6.5, 16.1 to 3.8)	1260	ea9a161bedc740e8	40b0fb5b735d23f1
+member	hourOfDay(6.5, 16.1 to 7.083)	1260	3b1d45384d24d8ea	74c6131f1ae7e6c1
+member	hourOfDay(6.5, 16.1 to sunset)	1260	ddf2da8f01574872	89034651b5232d81
+member	hourOfDay(6.5, ateret torah 25)	1260	b3ac4a9d5affecff	1b587a886f28c723
+member	hourOfDay(6.5, ateret torah 40)	1260	6c9d4dd06fb3ad02	858bb7dbebf66910
+member	hourOfDay(6.5, degrees 1.583)	1260	01004b425d736eaf	463d0d541e102844
+member	hourOfDay(6.5, degrees 16.1)	1260	0f3db7386bd06ac8	dae8c947fb6ef71d
+member	hourOfDay(6.5, degrees 18.0)	1260	06f1b2207152a2b2	eefcf5694a0fefa0
+member	hourOfDay(6.5, degrees 19.8)	1260	a7b6414dc31ba260	6aebaf3b3e368b9b
+member	hourOfDay(6.5, degrees 26.0)	1260	67cf0859774387da	7f89e17fa11f3bb7
+member	hourOfDay(6.5, minutes 120.0)	1260	107b17042364db01	b88b0a10662c78b0
+member	hourOfDay(6.5, minutes 60.0)	1260	9af634587eac128f	336b933b105addf9
+member	hourOfDay(6.5, minutes 72.0)	1260	71cdbc03dbf5d9d4	067a45af39c0227a
+member	hourOfDay(6.5, minutes 90.0)	1260	ed1ed33eb8d53990	af3f9b8707f497f3
+member	hourOfDay(6.5, minutes 96.0)	1260	81ea58657cca82aa	a7ce0827ec78dd53
+member	hourOfDay(6.5, proportional 120.0)	1260	b15a855c7bcf8d19	73751b04a8443b25
+member	hourOfDay(6.5, proportional 72.0)	1260	ce64ebeb657611d5	638d32c69c670a0d
+member	hourOfDay(6.5, proportional 90.0)	1260	b41f55c64154531a	a34c253b681e1ad8
+member	hourOfDay(6.5, proportional 96.0)	1260	5da5c4f422f05fbe	b0bc0673b37ff58f
+member	hourOfDay(6.5, sunrise to sunset)	1260	14c4f23d245f6755	bec55b558548020f
+member	hourOfDay(9.0, 16.1 to 3.7)	1260	666b2499e4d76f94	c2dbefb4686a9e55
+member	hourOfDay(9.0, 16.1 to 3.8)	1260	7e36c25bd6162586	725ce73683b2a3df
+member	hourOfDay(9.0, 16.1 to 7.083)	1260	0c72033da80cc3fb	deb44f282739ace2
+member	hourOfDay(9.0, 16.1 to sunset)	1260	5c12ba92dc8b5e7a	ca6ebf2c138a8c82
+member	hourOfDay(9.0, ateret torah 25)	1260	c0be7615d368d7fe	1e2c8639336e3208
+member	hourOfDay(9.0, ateret torah 40)	1260	0d77da447ca4d848	fe7c7f95cb123fd5
+member	hourOfDay(9.0, degrees 1.583)	1260	7cd929bae86c2a24	8c38362276702847
+member	hourOfDay(9.0, degrees 16.1)	1260	3d9984fa301646bb	5d411e2fae1b1126
+member	hourOfDay(9.0, degrees 18.0)	1260	a1882bb19d590162	39fd88b993dea935
+member	hourOfDay(9.0, degrees 19.8)	1260	e79317a6989324fc	d001768700804209
+member	hourOfDay(9.0, degrees 26.0)	1260	e4044f0e6a587968	5ccf45ce776c5867
+member	hourOfDay(9.0, minutes 120.0)	1260	0402109b856496e7	b5db6ed9088e549e
+member	hourOfDay(9.0, minutes 60.0)	1260	9ca7a431dc75c3ce	3599576056641850
+member	hourOfDay(9.0, minutes 72.0)	1260	00f53402d3022f52	c9fdb317924d0068
+member	hourOfDay(9.0, minutes 90.0)	1260	c1e9d5f925612ac5	a1f00849fd8beca0
+member	hourOfDay(9.0, minutes 96.0)	1260	e099c83d540a6ede	7e63b22d16d59074
+member	hourOfDay(9.0, proportional 120.0)	1260	a6773d6634ebbfac	809aa5924c7b68ea
+member	hourOfDay(9.0, proportional 72.0)	1260	93722789baf314c5	51498e9b57651dda
+member	hourOfDay(9.0, proportional 90.0)	1260	51ef3f1c4f90d3c8	6483584bbeb334f8
+member	hourOfDay(9.0, proportional 96.0)	1260	203d5ba3f703160c	e0ec0baead540bbc
+member	hourOfDay(9.0, sunrise to sunset)	1260	2b3edbae109fab60	edec985fed648ff5
+member	hourOfDay(9.5, 16.1 to 3.7)	1260	02dfff7f85a64173	03747fac4e0f9619
+member	hourOfDay(9.5, 16.1 to 3.8)	1260	6b0e1b661c9bd6c2	747201e41a3e2bd0
+member	hourOfDay(9.5, 16.1 to 7.083)	1260	44ccf6cbc672e056	4cf677edc0d894bf
+member	hourOfDay(9.5, 16.1 to sunset)	1260	9e25e258922d53cf	bfaceee8ca6f1582
+member	hourOfDay(9.5, ateret torah 25)	1260	568a3f42d85f54a9	7ce7fe15aaac835f
+member	hourOfDay(9.5, ateret torah 40)	1260	395951f8a13f80f9	9e3464871312027c
+member	hourOfDay(9.5, degrees 1.583)	1260	18fdf491162dfe57	02b36b2172fdf9ab
+member	hourOfDay(9.5, degrees 16.1)	1260	ba669c91b585af51	d54a3a91459c305c
+member	hourOfDay(9.5, degrees 18.0)	1260	8d7e3f1392b57d3a	03379253d9ba2ade
+member	hourOfDay(9.5, degrees 19.8)	1260	80ed42a6384d46be	318ef33b5bb410f3
+member	hourOfDay(9.5, degrees 26.0)	1260	52ba6be984546ed7	58c8516bce9a0bd8
+member	hourOfDay(9.5, minutes 120.0)	1260	5d846ebb545f6f5f	76d8d91ebf777997
+member	hourOfDay(9.5, minutes 60.0)	1260	9c5949b0c9ff3280	fe1d23c128bf0e33
+member	hourOfDay(9.5, minutes 72.0)	1260	fd8641a57f051bfc	1e381cc945c7fc71
+member	hourOfDay(9.5, minutes 90.0)	1260	de04a1f37504518b	efdf4a22d4b20928
+member	hourOfDay(9.5, minutes 96.0)	1260	9f277a3861fb84ea	821b83426f4d9358
+member	hourOfDay(9.5, proportional 120.0)	1260	4cecb8f1beabcb6d	4c778332e387788e
+member	hourOfDay(9.5, proportional 72.0)	1260	a96a4ccd2cb74a52	265a58055f268fb6
+member	hourOfDay(9.5, proportional 90.0)	1260	e0f21d246d8819a6	12d4683730493310
+member	hourOfDay(9.5, proportional 96.0)	1260	d76c53254e951949	19592ffa26175f77
+member	hourOfDay(9.5, sunrise to sunset)	1260	695c2a4bb150de6e	0e2ac2fe0356c80e
+group	Denver ALMANAC useElevation=false hadlakasNeiros=18.0	53487	b75b197c66104ff2	299e0223c0168808
+group	Denver ALMANAC useElevation=true hadlakasNeiros=18.0	53487	6b16c14c8a1e0553	24df20d285029443
+group	Denver NOAA useElevation=false hadlakasNeiros=18.0	53487	69d6891b76d35a43	bebe21792520ff4b
+group	Denver NOAA useElevation=true hadlakasNeiros=18.0	53487	c7b43e5d43667cc7	0bd45d3f8efff0de
+group	Jerusalem ALMANAC useElevation=false hadlakasNeiros=18.0	53487	4c49e3d9904dde3b	61e45bc1c889b4ec
+group	Jerusalem ALMANAC useElevation=true hadlakasNeiros=18.0	53487	ed06719fa37688c8	cbccdeb3ced63e5c
+group	Jerusalem NOAA useElevation=false hadlakasNeiros=18.0	53487	67cc7af85a9c9a35	a9a811092527fd90
+group	Jerusalem NOAA useElevation=true hadlakasNeiros=18.0	53487	0efa792b2b7106e8	6a326b955e769508
+group	Kiritimati ALMANAC useElevation=false hadlakasNeiros=18.0	53487	cdcb11d7de9f44a7	c82adbfd3e112497
+group	Kiritimati ALMANAC useElevation=true hadlakasNeiros=18.0	53487	592e95f208c98e55	d3a2e82f72df3dff
+group	Kiritimati NOAA useElevation=false hadlakasNeiros=18.0	53487	1adae2c36c02dbe5	af7ff166800cc026
+group	Kiritimati NOAA useElevation=true hadlakasNeiros=18.0	53487	4f9ed1a31461a25e	526b7a5b9764d145
+group	Lakewood NJ ALMANAC useElevation=false hadlakasNeiros=18.0	53487	a4e61bb4b86b40b0	b049f187e4cc881c
+group	Lakewood NJ ALMANAC useElevation=true hadlakasNeiros=18.0	53487	099434c3a4bd52cc	5cbef26206c3398b
+group	Lakewood NJ NOAA useElevation=false hadlakasNeiros=18.0	53487	602181c19f292fbb	5ec1413e06e5306c
+group	Lakewood NJ NOAA useElevation=true hadlakasNeiros=18.0	53487	4576954af2d5d57c	0720d0d9f7c5d6fb
+group	Tromso ALMANAC useElevation=false hadlakasNeiros=18.0	53487	63cea7130365a410	4db6849aeec9a702
+group	Tromso ALMANAC useElevation=true hadlakasNeiros=18.0	53487	cc308d7faece2585	2d68ae065dd74669
+group	Tromso NOAA useElevation=false hadlakasNeiros=18.0	53487	bb238728a7687ede	1896f6b8a30a6183
+group	Tromso NOAA useElevation=true hadlakasNeiros=18.0	53487	4082abf4d00a60ed	d637465b0948186f

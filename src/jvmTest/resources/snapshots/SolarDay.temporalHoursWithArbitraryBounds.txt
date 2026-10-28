@@ -1,0 +1,45 @@
+# Snapshot "SolarDay.temporalHoursWithArbitraryBounds" of the Luach JVM tests (see Snapshot.kt).
+# kind, key, number of values, exact fingerprint, coarse fingerprint. Regenerate with ./gradlew jvmTest -PupdateSnapshots
+environment	amd64 / Java 21 / OpenJDK 64-Bit Server VM
+total	294016	609ede4442d19e56	609ede4442d19e56
+member	temporalHour	294016	609ede4442d19e56	609ede4442d19e56
+group	Anadyr ALMANAC	6272	b65f4b476defe6e5	b65f4b476defe6e5
+group	Anadyr NOAA	6272	4f31dc1e689d0e5f	4f31dc1e689d0e5f
+group	Anchorage ALMANAC	2496	d750848850a88f25	d750848850a88f25
+group	Anchorage NOAA	2496	c68f3d8c7319fba8	c68f3d8c7319fba8
+group	Apia Samoa ALMANAC	24832	6749a3bba29fec76	6749a3bba29fec76
+group	Apia Samoa NOAA	24832	2ba853725a6dc6fc	2ba853725a6dc6fc
+group	Baker Island ALMANAC	2496	670096991804c849	670096991804c849
+group	Baker Island NOAA	2496	cd6bdd7f8598d9b4	cd6bdd7f8598d9b4
+group	Chatham Islands ALMANAC	2496	7b7d6aa91b5c7b10	7b7d6aa91b5c7b10
+group	Chatham Islands NOAA	2496	d6978abd9834dce1	d6978abd9834dce1
+group	Denver ALMANAC	2496	636c2e1148f408fe	636c2e1148f408fe
+group	Denver NOAA	2496	1d8845be02079989	1d8845be02079989
+group	Honolulu ALMANAC	2496	cbd8831833fff79e	cbd8831833fff79e
+group	Honolulu NOAA	2496	73162285ccda57d8	73162285ccda57d8
+group	Jerusalem ALMANAC	24832	86c4fb81cdafd1ce	86c4fb81cdafd1ce
+group	Jerusalem NOAA	24832	d39a7573fb7ce29b	d39a7573fb7ce29b
+group	Kathmandu ALMANAC	2496	702eb6e0c94a057b	702eb6e0c94a057b
+group	Kathmandu NOAA	2496	9884aa25a840d863	9884aa25a840d863
+group	Kiritimati ALMANAC	2496	99073275ce4d8959	99073275ce4d8959
+group	Kiritimati NOAA	2496	fe606a1de424abf2	fe606a1de424abf2
+group	Kolkata ALMANAC	2496	a6ec5c1e62f54b02	a6ec5c1e62f54b02
+group	Kolkata NOAA	2496	9b5949f121feefc5	9b5949f121feefc5
+group	Lakewood NJ ALMANAC	24832	d2610e3c8f7a8706	d2610e3c8f7a8706
+group	Lakewood NJ NOAA	24832	3484cc8c1741b88a	3484cc8c1741b88a
+group	Lord Howe Island ALMANAC	2496	5b8bb5b59f870432	5b8bb5b59f870432
+group	Lord Howe Island NOAA	2496	4094c0fe2b87cda7	4094c0fe2b87cda7
+group	Los Angeles (GMT zone) ALMANAC	2496	104f6904bfa0c382	104f6904bfa0c382
+group	Los Angeles (GMT zone) NOAA	2496	dbdab1d76d184d59	dbdab1d76d184d59
+group	McMurdo Station ALMANAC	2496	522690284610327b	522690284610327b
+group	McMurdo Station NOAA	2496	97430f55debc0c9d	97430f55debc0c9d
+group	Rapa Iti ALMANAC	6464	16975c48593285fd	16975c48593285fd
+group	Rapa Iti NOAA	6464	bbe8292ff198b8e8	bbe8292ff198b8e8
+group	Santiago ALMANAC	2496	09fe838e4245dcbb	09fe838e4245dcbb
+group	Santiago NOAA	2496	9ef27fd3668e3de1	9ef27fd3668e3de1
+group	St. John's ALMANAC	2496	2c6751dd2040f399	2c6751dd2040f399
+group	St. John's NOAA	2496	24a41e460d4f622f	24a41e460d4f622f
+group	Sydney ALMANAC	2496	e95b5f3f55ab4889	e95b5f3f55ab4889
+group	Sydney NOAA	2496	8b72bb527251e8d7	8b72bb527251e8d7
+group	Tromso ALMANAC	24832	f0a098b9603e801d	f0a098b9603e801d
+group	Tromso NOAA	24832	fc92adf08f95ba6d	fc92adf08f95ba6d
