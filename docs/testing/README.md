@@ -1,10 +1,10 @@
 # Testing
 
-Two layers, both run by `./gradlew jvmTest`; the first also runs on every native target. Hand-authored; the inventories are generated.
+Two layers, both run by `./gradlew jvmTest`; the first also runs on the native targets CI can run. Hand-authored; the inventories are generated.
 
 | Layer | Where | What it proves | Runs on |
 | --- | --- | --- | --- |
-| **Oracle and unit tests** | `src/commonTest` | The library returns the *right* value: every feature is checked against expected values independent of the library. | Every target (`jvmTest`, `linuxX64Test`, `linuxArm64Test`, `macosArm64Test`, `iosSimulatorArm64Test`, `mingwX64Test`), see `.github/workflows/ci.yml`. |
+| **Oracle and unit tests** | `src/commonTest` | The library returns the *right* value: every feature is checked against expected values independent of the library. | `jvmTest`, `linuxX64Test`, `macosArm64Test`, `iosSimulatorArm64Test` and `mingwX64Test`, see `.github/workflows/ci.yml`. |
 | **Snapshot tests** | `src/jvmTest` + `src/jvmTest/resources/snapshots` | Every result is unchanged: about 57 million values are recomputed and their fingerprints compared with the stored files. | JVM only (they use reflection, a thread pool and files). |
 
 ## Commands

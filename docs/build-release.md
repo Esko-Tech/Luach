@@ -7,7 +7,7 @@
 | File | Hard facts visible in file |
 | --- | --- |
 | `settings.gradle.kts` | Root project `luach`; settings plugins: `org.gradle.toolchains.foojay-resolver-convention` `1.0.0`; plugin repositories: `mavenCentral`, `gradlePluginPortal`; dependency repositories: `mavenCentral` (`FAIL_ON_PROJECT_REPOS`) |
-| `build.gradle.kts` | Plugins: `kotlinMultiplatform`, `mavenPublish`, `binaryCompatibilityValidator`; group `com.eskotech`; version `0.1.0`; JVM toolchain `21`; JVM bytecode target `JVM_17`; targets: `jvm`, `iosArm64`, `iosSimulatorArm64`, `iosX64`, `macosArm64`, `macosX64`, `linuxX64`, `linuxArm64`, `mingwX64`; default hierarchy template applied; tasks configured: `jvmTest` |
+| `build.gradle.kts` | Plugins: `kotlinMultiplatform`, `mavenPublish`, `binaryCompatibilityValidator`; group `com.eskotech`; version `0.1.0`; JVM toolchain `21`; JVM bytecode target `JVM_17`; targets: `jvm`, `iosArm64`, `iosSimulatorArm64`, `iosX64`, `macosArm64`, `linuxX64`, `linuxArm64`, `mingwX64`; default hierarchy template applied; tasks configured: `jvmTest` |
 | `gradle.properties` | `kotlin.code.style`=`official`; `org.gradle.jvmargs`=`-Xmx3g -Dfile.encoding=UTF-8`; `org.gradle.caching`=`true`; `kotlin.native.ignoreDisabledTargets`=`true` |
 | `gradle/wrapper/gradle-wrapper.properties` | Gradle `9.8.1` (`https://services.gradle.org/distributions/gradle-9.8.1-bin.zip`) |
 | `gradle/gradle-daemon-jvm.properties` | daemon toolchain version `21`; 10 toolchain download URLs |
@@ -76,7 +76,6 @@ Matrix:
 | name | os | tasks |
 | --- | --- | --- |
 | `JVM and Linux x64 tests` | `ubuntu-latest` | `jvmTest linuxX64Test apiCheck` |
-| `Linux arm64 tests` | `ubuntu-24.04-arm` | `linuxArm64Test` |
 | `macOS and iOS simulator tests` | `macos-latest` | `macosArm64Test iosSimulatorArm64Test` |
 | `Windows tests` | `windows-latest` | `mingwX64Test` |
 

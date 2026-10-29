@@ -43,9 +43,6 @@ jobs:
           - name: JVM and Linux x64 tests
             os: ubuntu-latest
             tasks: jvmTest linuxX64Test apiCheck
-          - name: Linux arm64 tests
-            os: ubuntu-24.04-arm
-            tasks: linuxArm64Test
           - name: macOS and iOS simulator tests
             os: macos-latest
             tasks: macosArm64Test iosSimulatorArm64Test

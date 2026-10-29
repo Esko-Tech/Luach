@@ -9,7 +9,7 @@ Every tracked file other than Kotlin sources, with its size and file-type-specif
 | Path | Size | Kind | Metadata |
 | --- | ---: | --- | --- |
 | `.github/pull_request_template.md` | 10 lines | `.md` | 2 headings; title ``; hand-maintained |
-| `.github/workflows/ci.yml` | 102 lines | `.yml` | workflow `CI`; triggers: `push`, `pull_request`, `workflow_dispatch`; jobs: `test`, `compile-all-targets` |
+| `.github/workflows/ci.yml` | 99 lines | `.yml` | workflow `CI`; triggers: `push`, `pull_request`, `workflow_dispatch`; jobs: `test`, `compile-all-targets` |
 | `.github/workflows/docs-regenerate.yml` | 65 lines | `.yml` | workflow `Regenerate docs`; triggers: `workflow_dispatch`, `push`; jobs: `regenerate` |
 | `.github/workflows/release.yml` | 59 lines | `.yml` | workflow `Release`; triggers: `push`, `workflow_dispatch`; jobs: `publish` |
 | `.gitignore` | 99 lines | `[none]` | 92 ignore patterns |
@@ -20,9 +20,9 @@ Every tracked file other than Kotlin sources, with its size and file-type-specif
 | `LICENSE` | 674 lines | `[none]` |  |
 | `README.md` | 195 lines | `.md` | 12 headings; title `Luach`; hand-maintained |
 | `api/luach.api` | 1074 lines | `.api` |  |
-| `build.gradle.kts` | 108 lines | `.kts` | plugins: `kotlinMultiplatform`, `mavenPublish`, `binaryCompatibilityValidator`; top-level blocks: `plugins`, `kotlin`, `apiValidation`, `mavenPublishing` |
+| `build.gradle.kts` | 107 lines | `.kts` | plugins: `kotlinMultiplatform`, `mavenPublish`, `binaryCompatibilityValidator`; top-level blocks: `plugins`, `kotlin`, `apiValidation`, `mavenPublishing` |
 | `docs/README.md` | 29 lines | `.md` | 2 headings; title `Luach repository documentation`; hand-maintained |
-| `docs/build-release.md` | 158 lines | `.md` | 13 headings; title `Build, CI and release documentation`; generated |
+| `docs/build-release.md` | 157 lines | `.md` | 13 headings; title `Build, CI and release documentation`; generated |
 | `docs/calendar/README.md` | 244 lines | `.md` | 12 headings; title `The Hebrew calendar`; hand-maintained; 3 generated region(s) |
 | `docs/daf_yomi/README.md` | 113 lines | `.md` | 6 headings; title `Daf Yomi`; hand-maintained; 1 generated region(s) |
 | `docs/formatting/README.md` | 66 lines | `.md` | 4 headings; title `Hebrew date formatting`; hand-maintained; 1 generated region(s) |

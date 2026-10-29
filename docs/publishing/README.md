@@ -5,7 +5,7 @@ How the library gets from this repository to a consumer's build. The hard facts 
 ## Coordinates and artifacts
 
 - Maven coordinates `com.eskotech:luach:<version>`. The version is set once in `build.gradle.kts` (`version = "..."`) and mirrored by `Luach.VERSION` in `src/commonMain/kotlin/com/eskotech/luach/Luach.kt`; `VersionTest` (run by `jvmTest`) fails when they differ, so bump both.
-- The root artifact `luach` carries Gradle module metadata that points at one artifact per target: `luach-jvm`, `luach-iosarm64`, `luach-iossimulatorarm64`, `luach-iosx64`, `luach-macosarm64`, `luach-macosx64`, `luach-linuxx64`, `luach-linuxarm64`, `luach-mingwx64`. A consumer declares only the root coordinate; Gradle resolves the variant.
+- The root artifact `luach` carries Gradle module metadata that points at one artifact per target: `luach-jvm`, `luach-iosarm64`, `luach-iossimulatorarm64`, `luach-iosx64`, `luach-macosarm64`, `luach-linuxx64`, `luach-linuxarm64`, `luach-mingwx64`. A consumer declares only the root coordinate; Gradle resolves the variant.
 - Each publication has a sources jar and an empty javadoc jar (`JavadocJar.Empty()`, since the sources are pure code), as Maven Central requires both.
 - Publishing is configured by the `com.vanniktech.maven.publish` plugin; the POM name, description, license (GPL 3.0 only, with the App Store permission in `ADDITIONAL-PERMISSIONS.md`), developer and SCM blocks are in `build.gradle.kts`. The project and SCM URLs point at `https://github.com/Esko-Tech/Luach`.
 

@@ -21,14 +21,14 @@ Luach is a Kotlin Multiplatform library for the Hebrew calendar and the times of
 ## Engineering rules
 
 - **Every behavioral change ships with a test whose expected values are independent of the library:** a published table, a first-principles recomputation (the way `ReferenceCalendar`, `TefillahRulesTest` and `DafYomiTest` re-derive their answers), a golden time from an independent implementation, or a literal string. The snapshot tests prove that nothing changed unintentionally; the oracle tests prove the value is right.
-- **`src/commonMain` and `src/commonTest` are common Kotlin over `kotlinx-datetime` and `kotlin-test`**, free of platform APIs, reflection, I/O, caches and global state. `commonTest` runs on Linux x64 and arm64, macOS, the iOS simulator and Windows in CI; anything that needs the JDK (reflection, files, thread pools) belongs in `src/jvmTest`.
+- **`src/commonMain` and `src/commonTest` are common Kotlin over `kotlinx-datetime` and `kotlin-test`**, free of platform APIs, reflection, I/O, caches and global state. `commonTest` runs on Linux x64, macOS, the iOS simulator and Windows in CI; anything that needs the JDK (reflection, files, thread pools) belongs in `src/jvmTest`.
 - **The API has one style:** opinions are values (`DayEdge`, `HalachicDay`, `Shitos`), closed sets are enums (`Holiday`, `Parsha`, `Zman`, the tractates), settings are data classes changed with `copy`, and a missing event is `null` (`Instant?`, `Duration?`) that propagates. Times are `kotlin.time.Instant` and `kotlin.time.Duration` (import `kotlin.time.Instant`); dates, weekdays and zones are `kotlinx.datetime` types.
 - **Public API changes are deliberate.** `./gradlew apiCheck` compares the compiled JVM API with `api/luach.api`; after an intended change run `./gradlew apiDump`, commit the dump with the code and say in the pull request what changed. A binary-incompatible change (a removed or re-typed member, a changed default) is a major-version event for the owner to decide.
 - Small single-purpose members: a new rule becomes its own named member with its own test.
 
 ## Build & run
 
-- Toolchain: JDK 21 (resolved through the Foojay convention plugin and `gradle/gradle-daemon-jvm.properties`, so `JAVA_HOME` is optional), JVM 17 bytecode, the Gradle 9.8.1 wrapper, Kotlin 2.4.21, kotlinx-datetime 0.8.0 (`gradle/libs.versions.toml`). Targets: `jvm`, `iosArm64`, `iosSimulatorArm64`, `iosX64`, `macosArm64`, `macosX64`, `linuxX64`, `linuxArm64`, `mingwX64`. A Linux or Windows host configures the Apple targets and a macOS host builds them (`kotlin.native.ignoreDisabledTargets=true`).
+- Toolchain: JDK 21 (resolved through the Foojay convention plugin and `gradle/gradle-daemon-jvm.properties`, so `JAVA_HOME` is optional), JVM 17 bytecode, the Gradle 9.8.1 wrapper, Kotlin 2.4.21, kotlinx-datetime 0.8.0 (`gradle/libs.versions.toml`). Targets: `jvm`, `iosArm64`, `iosSimulatorArm64`, `iosX64`, `macosArm64`, `linuxX64`, `linuxArm64`, `mingwX64`. A Linux or Windows host configures the Apple targets and a macOS host builds them (`kotlin.native.ignoreDisabledTargets=true`).
 - `./gradlew jvmTest` - the common tests plus the snapshot tests on the JVM: the everyday command. The snapshot sweeps recompute tens of millions of values; allow a few minutes the first time.
 - `./gradlew linuxX64Test` (or any `<target>Test`) - the common tests on Kotlin/Native. `./gradlew allTests` - every target the host can run.
 - `./gradlew apiCheck` / `./gradlew apiDump` - the public API dump (§Engineering rules).
@@ -36,7 +36,7 @@ Luach is a Kotlin Multiplatform library for the Hebrew calendar and the times of
 - `./gradlew :sample:run` (Lakewood) or `./gradlew :sample:run --args="31.7784 35.2066 Asia/Jerusalem 754 israel mukefchoma"` - the command-line sample, the one consumer in the repository; it keeps compiling and is excluded from `apiCheck`.
 - `./gradlew publishToMavenLocal` - a local publication under `~/.m2/repository/com/eskotech/luach/`, unsigned.
 - `python3 docs/generate.py` - regenerate the generated docs; it needs PyYAML (`pip install pyyaml`) for the workflow tables of `docs/build-release.md`.
-- CI (`.github/workflows/ci.yml`): `jvmTest linuxX64Test apiCheck` on Ubuntu, `linuxArm64Test` on Ubuntu arm64, `macosArm64Test iosSimulatorArm64Test` on macOS, `mingwX64Test` on Windows, plus `./gradlew assemble` of every target on macOS. Release (`release.yml`): on a `v*` tag, `allTests` then `publishAndReleaseToMavenCentral` on a macOS runner, the host that compiles the Apple targets. Docs (`docs-regenerate.yml`): on every push to `main`, runs the generator and commits any change with `[skip ci]`.
+- CI (`.github/workflows/ci.yml`): `jvmTest linuxX64Test apiCheck` on Ubuntu, `macosArm64Test iosSimulatorArm64Test` on macOS, `mingwX64Test` on Windows, plus `./gradlew assemble` of every target on macOS. Release (`release.yml`): on a `v*` tag, `allTests` then `publishAndReleaseToMavenCentral` on a macOS runner, the host that compiles the Apple targets. Docs (`docs-regenerate.yml`): on every push to `main`, runs the generator and commits any change with `[skip ci]`.
 
 ## Architecture & the danger zones
 
@@ -135,7 +135,7 @@ Dependencies point one way: `format` → `calendar` + `zmanim` → `solar` → `
 ## Verifying your changes
 
 - **Minimum before a pull request:** `./gradlew jvmTest apiCheck`, then `python3 docs/generate.py` and commit whatever it regenerated.
-- **`src/commonMain` or `src/commonTest` changed:** also `./gradlew linuxX64Test` (Kotlin/Native compiles and rounds differently; CI adds arm64, macOS, the iOS simulator and Windows).
+- **`src/commonMain` or `src/commonTest` changed:** also `./gradlew linuxX64Test` (Kotlin/Native compiles and rounds differently; CI adds macOS, the iOS simulator and Windows).
 - **A result changed on purpose:** regenerate the snapshots with `./gradlew jvmTest -PupdateSnapshots`, read the diff, and explain it in the pull request together with the halachic or astronomical source.
 - **The public API changed on purpose:** `./gradlew apiDump`, commit `api/luach.api`, state the change.
 - **A new file:** the license header at the top, pure code below it, names per §Project rules, and the `docs/` page that describes it.

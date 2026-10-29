@@ -35,7 +35,7 @@ an Israeli day. Every time is a `kotlin.time.Instant?`, null on a date without t
 |----------|--------------------------------------------|
 | JVM, Android | `jvm`                                  |
 | iOS      | `iosArm64`, `iosSimulatorArm64`, `iosX64`  |
-| macOS    | `macosArm64`, `macosX64`                   |
+| macOS    | `macosArm64`                               |
 | Linux    | `linuxX64`, `linuxArm64`                   |
 | Windows  | `mingwX64`                                 |
 

@@ -5,7 +5,7 @@
 - The Gradle root project is `luach`: one Kotlin Multiplatform module, published as `com.eskotech:luach` (group `com.eskotech`, artifact `luach`; the version is set once in `build.gradle.kts` and mirrored by the constant `Luach.VERSION`; `VersionTest` compares the two on every `jvmTest` run).
 - Every type lives under `com.eskotech.luach`, in the subpackages `calendar` (the Hebrew calendar, Daf Yomi, tefillah rules), `zmanim` (the halachic day), `solar` (sunrise, sunset and the solar position models), `geo` (locations and distances) and `format` (Hebrew and transliterated text).
 - The only library dependency is `kotlinx-datetime`, exposed as `api` because `LocalDate`, `DayOfWeek` and `TimeZone` are part of the public API (`Instant` and `Duration` are `kotlin.time` types from the standard library). Tests use `kotlin-test`.
-- Targets: `jvm` (JVM 17 bytecode, JDK 21 toolchain), `iosArm64`, `iosSimulatorArm64`, `iosX64`, `macosArm64`, `macosX64`, `linuxX64`, `linuxArm64`, `mingwX64`. `kotlin.native.ignoreDisabledTargets=true` lets a Linux or Windows host configure the Apple targets; a macOS host builds them.
+- Targets: `jvm` (JVM 17 bytecode, JDK 21 toolchain), `iosArm64`, `iosSimulatorArm64`, `iosX64`, `macosArm64`, `linuxX64`, `linuxArm64`, `mingwX64`. `kotlin.native.ignoreDisabledTargets=true` lets a Linux or Windows host configure the Apple targets; a macOS host builds them.
 - `src/commonMain` is the whole library, in common Kotlin. The exact Gradle facts are in the generated [`build-release.md`](build-release.md).
 
 ## Source sets
@@ -49,7 +49,7 @@ format:   LuachFormatter ─ Transliterations
 | `README.md` | User-facing introduction: targets, installation, usage, documentation, testing. |
 | `AGENTS.md` | The working rules for AI agents and contributors: project rules, the danger zones of every package, the test layers, the docs and the release flow. |
 | `build.gradle.kts`, `settings.gradle.kts`, `gradle.properties`, `gradle/libs.versions.toml` | The build. Facts are generated into [`build-release.md`](build-release.md). |
-| `.github/workflows/ci.yml` | Tests on every push and pull request on Linux x64, Linux arm64, macOS (plus the iOS simulator) and Windows, and compiles every target on macOS. |
+| `.github/workflows/ci.yml` | Tests on every push and pull request on Linux x64, macOS (plus the iOS simulator) and Windows, and compiles every target on macOS. |
 | `.github/workflows/release.yml` | On a `v*` tag: runs every test the macOS host can run, then publishes to Maven Central. |
 | `.github/workflows/docs-regenerate.yml` | On every push to the default branch: runs `docs/generate.py` and commits any change. |
 | `LICENSE`, `ADDITIONAL-PERMISSIONS.md` | The GNU General Public License version 3, and the license notice with the App Store additional permission. |
@@ -87,7 +87,7 @@ By extension:
 | Path | Size | Kind |
 | --- | ---: | --- |
 | `.github/pull_request_template.md` | 10 lines | `.md` |
-| `.github/workflows/ci.yml` | 102 lines | `.yml` |
+| `.github/workflows/ci.yml` | 99 lines | `.yml` |
 | `.github/workflows/docs-regenerate.yml` | 65 lines | `.yml` |
 | `.github/workflows/release.yml` | 59 lines | `.yml` |
 | `.gitignore` | 99 lines | `[none]` |
@@ -98,9 +98,9 @@ By extension:
 | `LICENSE` | 674 lines | `[none]` |
 | `README.md` | 195 lines | `.md` |
 | `api/luach.api` | 1074 lines | `.api` |
-| `build.gradle.kts` | 108 lines | `.kts` |
+| `build.gradle.kts` | 107 lines | `.kts` |
 | `docs/README.md` | 29 lines | `.md` |
-| `docs/build-release.md` | 158 lines | `.md` |
+| `docs/build-release.md` | 157 lines | `.md` |
 | `docs/calendar/README.md` | 244 lines | `.md` |
 | `docs/daf_yomi/README.md` | 113 lines | `.md` |
 | `docs/formatting/README.md` | 66 lines | `.md` |
